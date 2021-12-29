@@ -11,7 +11,7 @@ What to expect from the course? You will cover a number of chapters from the beg
 - Finally we have `Reference` which are information orientated.  Reference materials
 
 ## Chapters and Modules
-- Welcome to the course 
+- [[Welcome to the course ]]
 - Chapter 1  - What is Versio Graphics and how they are used?
 - Chapter 2 - Introduction to the Versio Creation Station 
 - Chapter 3 - Graphics used on air, automation schedule and master control operations.
@@ -23,4 +23,5 @@ What to expect from the course? You will cover a number of chapters from the beg
 - Chapter 9 - Create Clocks and Timers Graphics
 - Chapter 10 - Advanced graphics
 
+## Welcome to the course
 
