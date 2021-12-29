@@ -13,6 +13,8 @@ Title : 2082386875_versio_graphics_overview_explanation
 # Overview of Versio Graphics
 A good starting point on this course is to take that 25000ft view of what the Versio Graphics deployment looks like.  
 
+> Suggest a white board session is used in parallel with this list to outline the system.  Also show and review the customer system and talk about the differing user interfaces, applications and workflows. Demystify the terminology surrounding the product. 
+
 - Playout Server 
 	- Hosted IconStation - 10 layers
 	- Versio Automation uses layers 6 - 10 automatically
@@ -45,7 +47,7 @@ A good starting point on this course is to take that 25000ft view of what the Ve
 	- Import data from other data sources to update real time tags
 
 
-Suggest a white board session is used in parallel with this list to outline the system.  Also show and review the customer system and talk about the differing user interfaces, applications and workflows. Demystify the terminology surrounding the product. 
+
 
 
 

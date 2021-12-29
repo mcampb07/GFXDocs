@@ -26,7 +26,10 @@ Throughout this course there are many hands on sessions. When we need to use the
 
 
 ## Chapters and Modules
-- Chapter 1  - What is Versio Graphics and how they are used?
+- Chapter 1  - What is Versio Graphics and how they are used? 
+	- [2082386875_versio_graphics_overview_explanation](chapters/chapter01_what_is_versio_graphics_and_how_they_are_used/2082386875_versio_graphics_overview_explanation.md)
+	- [2082457183_what_is_creation_station_explanation](chapters/chapter01_what_is_versio_graphics_and_how_they_are_used/2082457183_what_is_creation_station_explanation.md)
+	- 
 - Chapter 2 - Introduction to the Versio Creation Station 
 - Chapter 3 - Graphics used on air, automation schedule and master control operations.
 - Chapter 4 - Getting started with Adobe After Effects
