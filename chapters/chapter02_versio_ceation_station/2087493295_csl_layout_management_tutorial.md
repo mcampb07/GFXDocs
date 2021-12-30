@@ -85,3 +85,53 @@ To expire a layout:
 
  
  ![](attachments/2021-12-30%2016.55.54.gif)
+
+## Create a new Layout
+To create a new layout, find an empty layer and enter a unique layout name.  You can now add objects to this layout.  As you add graphics objects to the workspace, layout changes are saved automatically.
+
+If you are working on a Versio Platform based system you will see a content tab. 
+
+The Content tab allows you to access content available in Versio Content Portal when you are working in the Versio Automation and Versio Graphics components. Use the Content tab to preview content, or to drag content from the content list into a playlist or graphics layout.
+
+-   Drag and drop items from the content list into a playlist or graphics layout.
+-   Search/filter the content list for specific items.
+-   Preview a low-res proxy of content in the content list.
+-   Only valid, registered items are available via the Content tab.
+
+![](attachments/Pasted%20image%2020211230170830.png)
+
+![](attachments/Pasted%20image%2020211230170914.png)
+![](attachments/Pasted%20image%2020211230170923.png)
+
+If you are working on a non Versio Platform based system, you can simply  add graphics objects from a system folder, open the folder in Windows Explorer and drag the file onto the workspace.
+
+Once you have added your objects, either via the content tab or the system folder,  objects will appear in the workspace, and will also be added to the Objects list.
+
+> Note  If your layout already contains an object with the same name, then you are prompted whether you want to replace the existing object or add a new copy of it. This will happen even if the objects are different versions of an asset, allowing you to update objects in a layout with new versions without needing to re-create the layout.
+ 
+Use your mouse to position the object where you want it displayed in the workspace.
+
+> Note Audio objects are not positioned in the workspace. They only appear in the Objects list.
+ 
+ For exact placement, select the object and use the Info tab's Properties > X-Coordinate and Y- Coordinate fields. 
+  
+Drag the layout object up or down in the Objects list to set the z-order. The list determines the top- to-bottom display of overlapping layout objects
+
+![](attachments/Pasted%20image%2020211230171345.png)
+
+ ### Publish Layouts
+ If you are using a CSL as part of a Versio Platform system you can follow these steps:
+ 
+1.  Switch to the Layouts tab.
+2. Locate the layout that you want to publish in the list. Use the Search field at the top of the Layouts tab to filter the layout names by letter and number.
+3. Click the dotted menu icon on the layout line.
+4. Select Publish from the popup menu.
+5. The layout is published to the layouts watch folder specified during your Versio Platform system configuration and is available to the online system for output.
+
+If you are using an ADC based system and want to publish the layouts to specified Versio Servers then you need to use the Versio Console, layout management pages. 
+
+> Before  you  can  publish to  another Versio  system  you  must  first  share  its  D:\publish folder.  See Creation  Station  for  Versio™  3.0 
+
+![](attachments/Pasted%20image%2020211230170319.png)
+
+Also remember that you may have a workflow manager that will move layouts to versio servers for you automatically based upon pre defined workflows and triggers. 
