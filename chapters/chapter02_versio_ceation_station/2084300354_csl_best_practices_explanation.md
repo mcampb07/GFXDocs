@@ -6,6 +6,7 @@ Title : 2084300354_csl_best_practices_explanation
 - Author : James Rivers
 - Written against (version):
 - Sources :
+	- Versio Graphics Layout Creation Guidelines_4.2
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
@@ -80,3 +81,6 @@ When using  the Setup  All  command,  performance  can  decline  if  layout  ite
   - For layouts  with  many  elements  that  are controlled  individually,  use  'on'  and  'off+kill'  salvos (Example:  ProgSalvo)  to  control  the  elements—rather  than  salvos  that  kill  elements  after  a  period of time.  Otherwise,  leaving  items  in  an off-air  yet  hidden state  (not  killed)  will still  utilize  graphics resources. 
   - When using an automation  playlist,  a  ProgSalvo  or  LoadFire  salvo  in  the secondary  event  cannot  play longer  than  the primary  event.  ProgSalvo  will play  the  Done  state  and  LoadFire  will  Kill at  end  of primary. 
   - However,  the  FireSalvo  command  does  not  have any  dependence  on  the length  of  the primary. 
+
+
+
