@@ -30,9 +30,12 @@ Operators  can  use  the  online  Versio  Graphics  component  to  add  layouts 
 
 To access the Versio Graphics - HTML5 UI enter the follwing url replacing the IP address / hostname to fit your system. `http://a.b.c.d:10442/Graphics`
 
-To access the Versio Console - SilverLight UI enter the follwing url replacing the IP address / hostname to fit your system.
+To access the Versio Console - SilverLight UI enter the follwing url replacing the IP address / hostname to fit your system. `http://localhost:8895/Versio/VersioConsole.html#GraphicsControl`
 
-To access the IconStation 
+> Full screen preview http://localhost:8895/Versio/PreviewDebug.html  Port 4502 - see Creation Station System and port for details on ports
+
+
+To access the IconStation Login into the hosting server there you should see the IconStation Desktop application. 
 
 
 ## Versio Graphics UI Review 
@@ -49,3 +52,9 @@ Versio  Graphics Overview Use  the  Versio  Graphics component  to  create  and 
 7. Control tab Includes manual output options that override the automation control of Versio Platform and send the graphics layouts directly to air. 
 
 This user interface is the same user interface that can be found on the actual Versio playout server. 
+
+### Versio Console 
+![](attachments/Pasted%20image%2020211230162251.png)
+
+The Versio Console is broken into 2 key areas - layout management and graphics control.
+
