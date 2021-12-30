@@ -64,3 +64,24 @@ Ok so what?  We can upload that layout to another CSL or Versio Server if requir
 4. In the window that displays, enter a new name for the layout and click the Duplicate button. The duplicated layout displays in the Layouts list.
 
 ![](attachments/2021-12-30%2016.51.39.gif)
+
+
+### Expire Layouts
+> Versio Platform only.
+ 
+ When you expire a layout the layout is deleted from the system on the specified date at 12:00 AM.
+
+To expire a layout:
+1.  Switch to the Layouts tab on the right pane.
+2.  Locate the layout that you want to expire in the list.
+3.  Click the dotted menu icon on the layout line.
+
+
+### Delete Layout
+1.  Switch to the Layouts tab on the right pane.
+2.  Locate the layout that you want to delete in the list.
+3.  Click the dotted menu icon on the layout line.
+4.  Select Delete Layout from the popup menu.
+
+ 
+ ![](attachments/2021-12-30%2016.55.54.gif)
