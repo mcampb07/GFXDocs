@@ -37,7 +37,7 @@ To export a layout:
 
 We have just exported a .lyt of the layout, ok so what?  We can upload that layout to another CSL or Versio Server if required. 
 <!-- VIDEO HERE-->
-
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/661166181?h=f5c48784d3&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 
 
 
