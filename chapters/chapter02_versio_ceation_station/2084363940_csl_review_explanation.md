@@ -53,8 +53,18 @@ Versio  Graphics Overview Use  the  Versio  Graphics component  to  create  and 
 
 This user interface is the same user interface that can be found on the actual Versio playout server. 
 
-### Versio Console 
+### Versio Console  UI Review 
 ![](attachments/Pasted%20image%2020211230162251.png)
 
-The Versio Console is broken into 2 key areas - layout management and graphics control.
+The Versio Console is broken into 2 key areas - layout management and graphics control. You will cover these in class, however a lot of the functionality found here is listed on the Versio Graphics HTML pages. 
 
+However there are a few items that are useful on this Versio Console. 
+1. Preview window - http://localhost:8895/Versio/PreviewDebug.html  Enabling you to preview the layouts on the CSL.
+2. Publish to Versio - enabling you to push the layouts to the Versio IconStation. 
+3. Command lookup - on the Layout Manager, you can obtain the commands required to trigger the layout 
+
+![](attachments/Pasted%20image%2020211231095405.png)
+
+### IconStation Desktop Review
+The desktop application - IconStation remains and the functions used in legacy is still partly there, although like the Versio Console view this is becoming a deprecated user interface as the years go on. 
+![](attachments/Pasted%20image%2020211231095553.png)
