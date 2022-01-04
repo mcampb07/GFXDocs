@@ -135,6 +135,8 @@ Click the Add Action button to add an action to the command:
 - Show/Hide Video Source: This action allows you to show or hide a specific source in the blueprint that is configured for control.
 - Timer Control: This action allows you to select one of the timers in your layout and either start it, stop it, or reset it back to its offset time. This will not work if counting to a specific date and time.
 - Fire Random Trigger: Provide a list of triggers separated by commas. When the command is run, one of the triggers will be randomly chosen and fired. 
+	- If you wish to fire a random trigger from within a set of triggers, use the firerandomtrigger XMP command and provide a list of the triggers separated by commas. Only one of the triggers in the list will be randomly chosen to be fired.
+	- For example, firerandomtrigger = loop1,loop2,loop3 will fire either loop1, loop2, or loop3 each time the command is fired.
 
 
 You can add multiple actions to a single commands.
