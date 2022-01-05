@@ -40,6 +40,17 @@ Walkthrough some of the RT object behaviours and setups.
 
 > Note this is a static item, no RT. 
 
+## Real Time Setup
+- All graphics are set up prior to going to air. 
+- We cache some frames, a quantity,  before going to air, we playback and throttle later  for a smooth playback. 
+- Setup is just as intensive and playing out the graphics 
+- We are generating the first frames of object prior to render.
+- The same can be said for the data capture - http request is issued in setup
+	- So if we setup the layout
+	- Refreshed the external data 
+	- Took the layout to air we will show stale data
+- If we had a loop - we are not requesting new data updates from the external data source.  We will loop the same data collected on setup. 
+
 ## Real Time Text
 - Back to the composition. 
 - Add a new text layer
@@ -87,6 +98,7 @@ Scrolls consist of various scroll items that will either roll vertically or craw
 	- Set the Parent property of all scroll items to be your leading rectangle layer. 
 ![](attachments/Pasted%20image%2020220104153830.png)
 - The distance between the scroll items and the rectangle edge will determine how the scroll items are spaced during output.
+- We are interested in the distance from the top left corner of the rectangle and the top left corner of the text layer. 
 
 ![](attachments/Pasted%20image%2020220104153935.png)
  
@@ -102,12 +114,13 @@ When the scroll is played within Versio Platform, the scroll items will be space
 ![](attachments/Pasted%20image%2020220104154051.png)
 > Note: The above examples show a roll that moves from bottom to top and a crawl that moves from right to left. Rolls and crawls can move in the opposite directions if desired.
 
-##### Direction 
+### Direction 
 Animate the leading rectangle to set the direction and speed of the scroll.
 
 If the leading rectangle is animated to move vertically faster than it moves horizontally, then the scroll will be treated as a roll. Otherwise, it will be a crawl. 
 
 - Scroll items will move in the same direction that the leading rectangle moves.
+- The first frame in the position animation is the important element and dictates which direction the crawl or roll is going. To be clear the difference between frame 1 and frame 2 cannot be zero on position. 
 
 ![](attachments/2022-01-04%2018.16.50.gif)
 - The speed of the rectangle's animation will determine the speed of the scroll items.
@@ -120,6 +133,7 @@ If the leading rectangle is animated to move vertically faster than it moves hor
 hold = true
 - If you do not do this the crawl will freeze on the at the end of the comp time on air - not what you want. 
 - This is also known as a `hybrid pause`
+- Or known as stateful.
 ![](attachments/Pasted%20image%2020220104165118.png)
 
 - Run the RealTime Scripts
@@ -136,7 +150,7 @@ If we want to loop forever in a crawl then we need to add those attributes.  In 
 
 ![](attachments/2022-01-04%2017.49.20.gif)
 
-#### Adding External Data to the Crawl
+### Adding External Data to the Crawl
 Instead of us adding static text to the real time field in Versio Graphic. Lets link the real time field to an external data source. In this example I am pulling a news rss feed into data sourcerer, then selecting the data that I want to populate in the RT field. 
 
 ![](attachments/2022-01-04%2018.19.18.gif)
@@ -148,24 +162,70 @@ IconStaion is talking to Data Sourcerer to fetch all that external data. What is
 
 > Note a loop will just play out the same data that has already been captured from Data Sourcerer and displayed. If we want new data, then we will have to add in a `pull` into the comp as another xmp marker to pull new data from the data sourcerer. 
 
-## Real Time Setup
-- All graphics are set up prior to going to air. 
-- We cache some frames, a quantity,  before going to air, we playback and throttle later  for a smooth playback. 
-- Setup is just as intensive and playing out the graphics 
-- We are generating the first frames of object prior to render.
-- The same can be said for the data capture - http request is issued in setup
-	- So if we setup the layout
-	- Refreshed the external data 
-	- Took the layout to air we will show stale data
-- If we had a loop - we are not requesting new data updates from the external data source.  We will loop the same data collected on setup. 
+> Wireshark capture string - host 172.16.1.120  && port 6474 on the ethernet adapter used.
+
+### Multiple Crawls
+It is possible to have multiple crawls in the same composition.  Plus have them linked to differing data sources.  
+![](attachments/2022-01-05%2014.10.27.gif)
+We always scale to the length of the longer text. 
+
+### Geometry 
+Geometry items such as rotation and scale are supported.
 
 ## Real Time GetData 
 `getdata` is another xmp marker that we can use in the comp of AE project. So lets have an RT field grab another data source set on every loop. Before we do that lets see the non loop, non getdata example. 
 
 
+Here we have a layout with our frame counter and the realtime text field that is mapped to an external source, a simple text file with a number of lines, hello being the first.  This layout has a loop xmp marker and is continuing to loop. 
+
+![](attachments/2022-01-05%2012.44.08.gif)
+
+Now lets add in a new XMP marker `getdata` the name of the text layer that you want to update on each loop needs to be the target, the example below you can see the text layer is RealTimeText, the getdata target is the same. 
+
+![](attachments/Pasted%20image%2020220105124858.png)
+Run the script and render. Add to a layout, link to an external source and test.  Here is the example output. 
+
+Now on every loop at frame 100 the realtime field is going to update and render the next record from the external data set. 
+
+![](attachments/2022-01-05%2013.06.03.gif)
+
+But you need to understand that we are not sending an http request to the data source to get new data, what was already loaded in the cache when we went to air is being used. If we want to get new data updates from the data source then we need to use a new xmp marker - requery. 
+
+## Real Time Requery
+I have moved the data update to frame 20 and added another update at frame 50. So we will display 2 records in the field before we loop.  
+
+Plus I have added a new xmp marker to time at frame 140 as shown below:
+![](attachments/Pasted%20image%2020220105131609.png)
+This will send an http request to the data source for an update set of data. You can see this is in the live pcap.
+
+![](attachments/2022-01-05%2013.22.28.gif)
+
+If that data source changes then the data requery will capture that new data.  Lets see that, we have a text file that is being polled by data sourcerer, in turn we have a realtime field linked to that data source and we are setting an xmp marker to requery that data source. 
+
+![](attachments/2022-01-05%2013.36.29.gif)
 
 
-## Real Time Re-Query
+## Realtime Timers / Clocks
+Realtime timers also adopt this hybrid pause approach.  
+- On the composition add a new text layer, add the text hh:mm:ss
+	- Other options are available and will be covered later.
+![](attachments/Pasted%20image%2020220105134624.png)
+- Set the  label for the text layer to be `Time`
+![](attachments/Pasted%20image%2020220105134704.png)
+- Run the realtime script
+- Add a pause xmp comp marker
+- Render the composition
+
+> Option add a triggerresume to the pause xmp marker that can be fired when the timer gets to its destination. 
+- Add the mov to a layout and review the output. 
+- Note we have a hybrid pause and we are repeating that frame 55, in this example. 
+- Scroll and Time are stateful. 
+![](attachments/2022-01-05%2013.52.24.gif)
+
+Time is collected from the OS system clock time. 
+
+
+
 
 > 
 ![](attachments/Pasted%20image%2020220104162701.png)
