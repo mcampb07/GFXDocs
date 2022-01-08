@@ -49,7 +49,14 @@ If your Real Time content includes a network path to an image or clip file, edit
 ![](attachments/2022-01-03%2010.58.37.gif)
 
 ## Realtime Dynamic Variables
-When the layouts with dynamic variables are played within a playlist, the text that appears on your output depends on the metadata of the current and upcoming events in the playlist. 
+When the layouts with dynamic variables are played within a playlist, the text that appears on your output depends on the metadata of the current and upcoming events in the playlist.  
+
+In the ADC realm this is known as `dynamic branding`.  ADC dynamic branding monitors the list services and sets variables as the list changes. 
+
+This allows graphics to bind directly to {{Now.Title}}, {{Next.Title}} as a example. 
+
+ADC Dynamic Branding will set these variables for the 1st segment of Primary events that are of type Program. All other types will be ignored. This means all commercials and promos need to be tagged property int he ADC database.
+
 
 Dynamic variables consist of
 - A "variable" such as title, date, or time. This determines which piece of event metadata is used during playback

@@ -1,0 +1,6 @@
+- Learning plans good 
+- Virtual machines good
+- Motion deck good
+- MCP deck good
+- Not use ADC materials
+- review regards the web pages produced. 

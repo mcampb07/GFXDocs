@@ -56,6 +56,14 @@ Or
 
 ![](attachments/2021-12-31%2012.53.23.gif)
 
+## Replace Object
+Replace the object in the workspace, you will be prompted if you want to replace the object of the same name in the layout.  
+
+![](attachments/2022-01-07%2017.25.48.gif)
+
+> Note the macro, properties and other items you have already set will remain... Phew!
+
+
 ## Resize Object
 Select an object, navigate to the info tab and click on resize to review the options. 
 - off - no resize params applied 
