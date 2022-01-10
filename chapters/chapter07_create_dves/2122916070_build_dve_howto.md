@@ -34,7 +34,7 @@ The DVE script does not use a label, insteaad the layer is going to be called ei
 - `DVE B`
 
 You must use that to name the layers. 
-![](attachments/Pasted%20image%2020220108205145.png)
+![](attachments/Pasted%20image%2020220108213258.png)
 
 ## Build - Single DVE
 Enough waffle - lets build.  In the comp add 2 new solids, give them differing colors, this will help later.  Name 1 sold `DVE A` and the other `DVE B`
@@ -45,10 +45,8 @@ Enough waffle - lets build.  In the comp add 2 new solids, give them differing c
 
 In your composition make sure A is over B - that is default state on the Versio.
 
-![](attachments/Pasted%20image%2020220108205742.png)
 As we are doing a single DVE on `DVE A` make the `DVE B` solid a 100% opacity at the beginning of the comp, just case something is loaded in the preset on the Versio we don't need to see it in the DVE.
-
-![](attachments/Pasted%20image%2020220108210017.png)
+![](attachments/Pasted%20image%2020220108213407.png)
 
 Next we want to move onto creating the animation. 
 
@@ -61,9 +59,74 @@ Next we want to move onto creating the animation.
 - Add a pause comp marker a few frames after the animation
 - After the pause comp start build your aniimation back out
 
-![](attachments/2022-01-08%2021.08.12.gif)
+![](attachments/2022-01-08%2021.39.05.gif)
 
 - **Remember** once you have finished the animation, you must leave `DVE B` in a good state, so put back the opacity. 
 - lastly add an end comp marker - `kill = this`  at the end of your timeline to eject this item. 
 
 ### Adding Graphics to this simple single DVE 
+The above is a simple single dve, but we are going to expand on this and add graphics underneath dve A and B. 
+
+We are going to use an image now you would think that this layering is ok.
+
+![](attachments/Pasted%20image%2020220110113246.png)
+
+But then I have to manage the Z-Order and that is always going to be complicated.  A and B are over G, complicated that I need to change that order etc.. 
+
+![](attachments/Pasted%20image%2020220110113332.png)
+
+Instead we are going to use an image with a mask.  So we are going to place the graphic on top of the DVE. 
+
+> Note it is best practice to keep the graphics on top if you can, like bugs etc, it really does help. 
+
+So we are going to have this layering, graphics on top of the dve a and b. 
+![](attachments/Pasted%20image%2020220110113552.png)
+
+To make this work we are going to add a shape layer, rectangle. 
+
+![](attachments/Pasted%20image%2020220110113728.png)
+Make the rectangle the same size as your output, in this example it is 1920 * 1080.  Rename the shape layer to something useful - 'addmask' as an example. 
+
+![](attachments/Pasted%20image%2020220110114517.png)
+
+> Tip have snapping on
+
+Then we want to take the keyframes from `dve a` and copy then to the new shape layer. 
+
+![](attachments/Pasted%20image%2020220110120753.png)
+
+Next we want to set the track matte on the image to be an alpha inverted track mask. 
+
+![](attachments/Pasted%20image%2020220110120955.png)
+
+So now we have a mask reveal of the squeeze.  
+
+![](attachments/2022-01-10%2012.10.16.gif)
+
+Ok so we have the `dve a` and `dve b` plus the mask and image/mov of the promo / advertising.  Moving on, add some real time text fields labels. 
+
+- make the image a RT layer - we can change this for another image/mov later. 
+- make the shape layer an RT layer.
+
+![](attachments/Pasted%20image%2020220110121717.png)
+
+- run both the dve and realtime scripts.
+- render
+- create new layout
+- link the realtime image
+- edit the done salvo 
+	- remove the kill 
+	- add new command - fire trigger whatever the trigger resume was on the unpause of the squeeze out.  
+
+Preview is not possible on the CSL. You will need a zenium based system to review the dve on out put. 
+
+ 
+
+
+
+
+
+
+
+
+
