@@ -27,17 +27,17 @@ Throughout this course there are many hands on sessions. When we need to use the
 
 ## Chapters and Modules
 - Chapter 1  - What is Versio Graphics and how they are used? 
-	- [2082386875_versio_graphics_overview_explanation](chapters/chapter01_what_is_versio_graphics_and_how_they_are_used/2082386875_versio_graphics_overview_explanation.md)
-	- [2082457183_what_is_creation_station_explanation](chapters/chapter01_what_is_versio_graphics_and_how_they_are_used/2082457183_what_is_creation_station_explanation.md)
-	- [2083088310_what_is_quickporter_explanation](chapters/chapter01_what_is_versio_graphics_and_how_they_are_used/2083088310_what_is_quickporter_explanation.md)
-	- [2083402020_what_is_data_sourcerer_explanation](chapters/chapter01_what_is_versio_graphics_and_how_they_are_used/2083402020_what_is_data_sourcerer_explanation.md)
-	- [2083736539_what_is_eas_explanation](chapters/chapter01_what_is_versio_graphics_and_how_they_are_used/2083736539_what_is_eas_explanation.md)
-	- [2086642523_basic_graphics_creation_tutorial](chapters/chapter01_what_is_versio_graphics_and_how_they_are_used/2086642523_basic_graphics_creation_tutorial.md)
-	- [2082416395_versio_graphics_terminology_reference](chapters/chapter01_what_is_versio_graphics_and_how_they_are_used/2082416395_versio_graphics_terminology_reference.md)
+	- [2082386875_versio_graphics_overview_explanation](docs/chapter01_what_is_versio_graphics_and_how_they_are_used/2082386875_versio_graphics_overview_explanation.md)
+	- [2082457183_what_is_creation_station_explanation](docs/chapter01_what_is_versio_graphics_and_how_they_are_used/2082457183_what_is_creation_station_explanation.md)
+	- [2083088310_what_is_quickporter_explanation](docs/chapter01_what_is_versio_graphics_and_how_they_are_used/2083088310_what_is_quickporter_explanation.md)
+	- [2083402020_what_is_data_sourcerer_explanation](docs/chapter01_what_is_versio_graphics_and_how_they_are_used/2083402020_what_is_data_sourcerer_explanation.md)
+	- [2083736539_what_is_eas_explanation](docs/chapter01_what_is_versio_graphics_and_how_they_are_used/2083736539_what_is_eas_explanation.md)
+	- [2086642523_basic_graphics_creation_tutorial](docs/chapter01_what_is_versio_graphics_and_how_they_are_used/2086642523_basic_graphics_creation_tutorial.md)
+	- [2082416395_versio_graphics_terminology_reference](docs/chapter01_what_is_versio_graphics_and_how_they_are_used/2082416395_versio_graphics_terminology_reference.md)
 - Chapter 2 - Introduction to the Versio Creation Station 
-	- [2084363940_csl_review_explanation](chapters/chapter02_versio_ceation_station/2084363940_csl_review_explanation.md)
-	- [2084300354_csl_best_practices_explanation](chapters/chapter02_versio_ceation_station/2084300354_csl_best_practices_explanation.md)
-	- [2087262817_csl_supported_standards_formats_reference](chapters/chapter02_versio_ceation_station/2087262817_csl_supported_standards_formats_reference.md)
+	- [2084363940_csl_review_explanation](docs/chapter02_versio_ceation_station/2084363940_csl_review_explanation.md)
+	- [2084300354_csl_best_practices_explanation](docs/chapter02_versio_ceation_station/2084300354_csl_best_practices_explanation.md)
+	- [2087262817_csl_supported_standards_formats_reference](docs/chapter02_versio_ceation_station/2087262817_csl_supported_standards_formats_reference.md)
 - Chapter 3 - Graphics used on air, automation schedule and master control operations.
 - Chapter 4 - Getting started with Adobe After Effects
 - Chapter 5 - Create CTC based graphics
