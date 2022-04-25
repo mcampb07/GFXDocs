@@ -1,0 +1,30 @@
+site_name: MyImagine Academy - Versio Graphics
+site_url: https://jamesrivers.github.io/imagine_versio_grpahics
+nav:
+ - Home: index.md
+ - About: about_james_rivers.md
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+
+plugins:
+    - search: {}
+    - encryptcontent:
+        global_password: 'imagine'
+        remember_password: True
+        default_expire_dalay: 12  
+        password_button: True
+        password_button_text: 'login'
+        
