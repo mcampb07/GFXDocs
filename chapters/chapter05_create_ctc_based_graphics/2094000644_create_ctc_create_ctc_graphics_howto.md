@@ -30,6 +30,10 @@ The Following are a list of supported commands and there behaviours.
 - Triggers are global - if anything fires FOO, everything set to react on FOO that is currently playing will respond.
 - Play once in IconStation does not work with CTC triggers as it uses the clips duration which is invalid. A kill command will need to be setup in a Salvo to kill CTC animations.
 
+
+
+
+
 ### Create CTC  Pause and Resume
 - Add composition (comp) marker to your timeline.
 

@@ -9,7 +9,7 @@ Title : 2093924623_setup_after_effects_tutorial
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
-
+![](attachments/Pasted%20image%2020220414173440.png)
 # Set up Adobe After Effects
 - Watch this quick 10 minute video, taking you through the requirements. [Setup Adobe After Effects](https://vimeo.com/661166181/f5c48784d3) 
 
