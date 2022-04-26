@@ -4,7 +4,7 @@ nav:
  - Home: index.md
  - About: about_james_rivers.md
  - Downloads: 
-	- "Course Syllabus" downloads/211230-VER-GFX-AE.pdf
+	- "Course Syllabus": downloads/211230-VER-GFX-AE.pdf
 
 theme:
   name: material
