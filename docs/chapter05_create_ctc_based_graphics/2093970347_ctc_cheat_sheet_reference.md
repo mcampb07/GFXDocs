@@ -18,29 +18,30 @@ Pauses are great to animate something in, hold, then animation something out. yo
 
 #### Pause on a frame: hold
 To hold on a specific frame you need to use the hold command. Hold will pause indefinitely without a trigger or hold time. The default value is false. This command can be used to hold on last frame, first frame or anywhere you want. You can have multiple holds in a single animation.
+
 ```
 Hold Command
 PauseHere  
 hold = true
 ```
 
+
 #### Pause for a specific duration: holdtime
 To hold for a specific duration, use holdtime command. The following will hold for 1 minute.
 
-```
 Holdtime Command
 
+```
 PauseHere  
 hold = true  
 holdtime = 1:00 
-
+```
 Accepts standard time format
 holdtime = 0 is the default  
 0:00.5 = 1/2 second  
 1:00 = 60 seconds
 
 15:00 = 15 minutes
-```
 
 > Note   By default, all CTC animations hold on the final frame and there is no extra work required.  If you do not want the animation to hold on the final frame, add a composition marker to the last frame, enter a label for the marker, and then enter the line kill = this.
 
