@@ -15,7 +15,16 @@ nav:
    - "Versio EAS" : chapter01_what_is_versio_graphics_and_how_they_are_used/2083736539_what_is_eas_explanation.md
    - "Versio Basic Grpahics Creation" : chapter01_what_is_versio_graphics_and_how_they_are_used/2086642523_basic_graphics_creation_tutorial.md
    - "Imagine Communications Tech Guide" : downloads/Versio Platform 4.6 System Operations_20211215.pdf
-
+ - Chapter 2 - Veriso Creation Station :
+   - "What is CSL" : chapter02_versio_ceation_station/2084363940_csl_review_explanation.md
+   - "Best Practices" : chapter02_versio_ceation_station/2084300354_csl_best_practices_explanation.md
+   - "CSL Support Formats" : chapter02_versio_ceation_station/2087262817_csl_supported_standards_formats_reference.md
+   - "CSL Layout Management" : chapter02_versio_ceation_station/2087493295_csl_layout_management_tutorial.md
+   - "CSL Create a new Layout" : chapter02_versio_ceation_station/2089219277_create_new_layout_howto.md
+   - "CSL Add an object to a Layout" : chapter02_versio_ceation_station/2089386115_add_obects_to_layout_howto.md
+   - "CSL Macros" : chapter02_versio_ceation_station/2092827666_csl_macros_tutorial.md
+   - "CSL Realtime Content" : chapter02_versio_ceation_station/2093313703_csl_realtime_content_tutorial.md
+   - "CSL Branded ++" : chapter02_versio_ceation_station/2100987628_csl_branded++_explanation.md
 
 theme:
   name: material
