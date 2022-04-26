@@ -46,7 +46,7 @@ nav:
  - Chapter 7 - Create DVEs :
    - "Versio DVEs" : chapter07_create_dves/2122905693_dve_explanation.md
    - "DVE Creation Tutorial" : chapter07_create_dves/2122915384_dve_creation_understanding_tutorial.md
-   - "DVE Creation How To : chapter07_create_dves/2122916070_build_dve_howto.md
+   - "DVE Creation How To" : chapter07_create_dves/2122916070_build_dve_howto.md
 #- Chapter 8 - Postional Graphics with expressions
 #- Chapter 9 - Creation Clocks and Timers
 #- Chapter 10 - Advanced Graphics
