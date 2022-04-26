@@ -30,9 +30,19 @@ nav:
    - "After Effects Set Up" : chapter04_getting_started_with_adobe_after_effects/2093924623_setup_after_effects_tutorial.md
  - Chapter 5 - CTC Based Graphics :
    - "What is CTC?" : chapter05_create_ctc_based_graphics/2093968193_what_is_ctc_explanation.md
-   - "CTC Cheat Sheet" : chapter05_create_ctc_based_graphics/2093970347_ctc_cheat_sheet_reference.md*
+   - "CTC Cheat Sheet" : chapter05_create_ctc_based_graphics/2093970347_ctc_cheat_sheet_reference.md
    - "Create CTC Graphics" : chapter05_create_ctc_based_graphics/2094000644_create_ctc_create_ctc_graphics_howto.md
    - "CTC BUG Promo AEP" : downloads/CTC_BUG_PROMO_2201.aep
+ - Chapter 6 - RTO Based Graphics :
+   - "What is RTO?" : chapter06_create_rto_based_graphics/2101008531_what_is_a_real_time_object_explanation.md
+   - "Understanding RTO" : chapter06_create_rto_based_graphics/2101068464_rt_graphic_understanding_tutorial.md
+   - "How to create RTO" : chapter06_create_rto_based_graphics/2101012022_creation_real_time_text_howto.md
+   - "RTO in action" : chapter06_create_rto_based_graphics/2101011551_rto_in_action_tutorial.md
+   - "Real Time Scrolls Crawls" : chapter06_create_rto_based_graphics/2114433994_creation_real_time_scrolls_crawls_howto.md
+   - "Real Time Get Data" : chapter06_create_rto_based_graphics/2114450932_realtime_getdata_tutorial.md
+   - "Real Time Re-Query" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
+   - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/2114465112_creation_real_time_clocks_timers_howto.md
+   - "RTO AEP" : downloads/Real Time Graphics Examples.aep
 
 theme:
   name: material
