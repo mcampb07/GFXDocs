@@ -4,7 +4,13 @@ nav:
  - Home: index.md
  - About: about_james_rivers.md
  - Downloads: 
-   - "Course Syllabus": downloads/211230-VER-GFX-AE.pdf
+   - "Course Syllabus" : downloads/211230-VER-GFX-AE.pdf
+   - "AE Script DVE" : downloads/DVE.jsx
+   - "AE Script RTO" : downloads/RealTimeObject.jsx
+ - Chapter 1:
+   - "Versio Graphics Overview" : chapter01_what_is_versio_graphics_and_how_they_are_used/2082386875_versio_graphics_overview_explanation.md
+   - "Versio Creation Station" : chapter01_what_is_versio_graphics_and_how_they_are_used/2082457183_what_is_creation_station_explanation.md
+
 
 theme:
   name: material
