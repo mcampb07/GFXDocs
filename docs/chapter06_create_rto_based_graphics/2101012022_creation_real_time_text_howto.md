@@ -17,6 +17,7 @@ You can use the promo and rt text examples folder in this module.
 - Using the RT text example from RealTimeGraphicsExamples.aep. 
 - Add a new text layer
 - Label it as RealTime
+
 ![](attachments/Pasted%20image%2020220104121607.png)
 
 - Run the RT Script
@@ -30,12 +31,16 @@ You can use the promo and rt text examples folder in this module.
 - Note the new Real Time Tags added to the info area in CSL 
 
 ![](attachments/Pasted%20image%2020220104121945.png)
+
+
 - This can be edited
 	- This can be edited whilst playing out on air.
 	- This will stop rendering frames once the last frame is hit.
 	- This same behaviour will be exhibited if a pause XMP marker is hit
 
+
 ![](attachments/2022-01-04%2015.18.57.gif)
+
 
 What if you wanted to update the RT whilst on air? Add in a loop.
 
