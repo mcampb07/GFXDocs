@@ -1,4 +1,4 @@
-name: versio_grpahics_mkdocs_publish
+name: versio_graphics_mkdocs_publish
 on:
   push:
     branches:
