@@ -86,14 +86,15 @@ A trigger can be fired from within an animation or a salvo. Salvos can also be s
 
 #### Fire a trigger: firetrigger
 Fires a named trigger across all layers of IconStation.  You can specify multiple firetriggers per marker and they will all be fired at the same time.
-```
-Hold Command
 
+Hold Command
+```
 EndAnimation  
 firetrigger = uppause
+```
 
 **firetrigger = triggername**
-```
+
 
 ### Loops and Timeline Controls
 Using CTC commands you can create N point loops in your animations. You can control loops by triggers and loop count. You can fire gototriggers to jump and exit out of loops.
@@ -102,35 +103,37 @@ Using CTC commands you can create N point loops in your animations. You can cont
 
 To build a loop you can use a goto command. The goto command will jump the playback to the defined frame/label. When building a loop, you want to make sure the last frame of the loop and the first frame are the same so there is no visible pause/jitter in your animation. You can have as many loops in your animation as you like. You can even nest, loops within loops. This can come in handy if you have a logo that has different states based on what is happening throughout the segment. You can specify a loop to exit using a loop count or trigger. Read below for triggerexit commands.
 
-```
-Go To Command
+**Go To Command**
 
+```
 LoopEnd  
 goto = LoopStart
+```
 
 **Options**
 
 goto = framenumber  
 goto = framelabel  
 count = N (if used, will ignore the goto command after the designated number of loops)
-```
+
 
 #### Exit a Loop (Linear): triggerexit
 
 Defines a trigger that will cause the animation, when in a loop, to ignore the specified goto label or frame when fired (it will ignore all gotos until it reaches the label or frame). If a label or frame is not specified it will play through the label the command is on. This type of trigger can be fired more than once.
 
-```
-Trigger Exit Command
+**Trigger Exit Command**
 
+```
 ExitLoop  
 triggerexit = exitloop:exit
+```
 
 **Options**
 
 triggerexit = triggername (plays through marker this command lives in)  
 triggerexit = triggername:labelname (Only plays through the specified marker)  
 triggerexit = triggername:framenumber (only plays through the specified frame number)
-```
+
 
 > Note: The CTC Target triggerexit works well for exiting shorter loops. It would not work well if you had a longer loop and needed to time the exit with other objects.
 
@@ -138,33 +141,48 @@ triggerexit = triggername:framenumber (only plays through the specified frame nu
 
 Defines a trigger that will immediately skip to the specified label or frame when fired. This is great if you have a loop that you may need to jump out of at any time. Each trigger of this type can only be fired once.  Playing over this frame again in a loop will not work.
 
-```
-Trigger Go To Command
+**Trigger Go To Command**
 
+```
 ExitLoop  
 triggergoto = exitloop:exit
+```
 
 **Options**
 
 triggergoto = triggername  
 triggergoto = triggername:labelname  
 triggergoto = triggername:framenumber
-```
+
 
 #### Kill Triggers
 
 A point on the timeline that instructions the graphics engine to kill the item. This will allow housekeeping of on air graphics to be handled in After Effects instead of building separate salvos to kill an item. Essentially the suicide trigger.
 
+**Kill Command**
 ```
-Kill Command
-
 Reset  
 kill = this 
+```
 
 **Options/Future Support  
-**
 
 kill = this  
 kill = all  
 kill = ItemName
+
+#### Duck Audio Commands
+
+On a specific frame you can set the ducking levels of your A and B sources. You can set the specific dB level and the duration in seconds it takes to change this.    
+
+**Duck Audio**
 ```
+Duck  
+Audio A = -60:0.5  
+Audio B = 0:0.5
+```
+
+**Options/Future Support**
+
+you can set the value of A and/or B  
+Duration is in seconds

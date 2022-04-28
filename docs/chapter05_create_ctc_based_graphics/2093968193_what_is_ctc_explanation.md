@@ -38,3 +38,18 @@ Markers must only be on the main composition timeline of the element that is to 
 Triggers can be fired using a Salvo. The command can be added to your switcher command timeline where you can fire one to many named triggers. 
 
 ![](attachments/Pasted%20image%2020220103131355.png)
+
+## CTC Best Practices/Things to Know
+- All markers must have a label.
+	- This is the first line in the marker.
+	- Labels should not have spaces.
+- DO NOT use “=” or “:” in your label or trigger names as they are used in the commands.
+- Triggers are lower case only
+- Triggers are global - if anything fires FOO, ANY AND ALL objects set to react on FOO that is currently on air will respond.
+- Play once does not work with CTC triggers as it uses the clips duration which is invalid. you will have to kill your own events with salvos.
+- CTC Tips
+- Keep trigger names simple and implicit
+
+Because triggers are global, if you want a particular animation to exit or similar on the trigger "exit" ensure that it can be fired regardless of the state of other on-air objects. If you have many objects that should exit at the same time "exit" can be used and will work great. If you only need one object to exit, you should name that trigger uniquely for that object.
+
+Managing many trigger names can get complicated. Keep it simple and have a strategy if possible.
