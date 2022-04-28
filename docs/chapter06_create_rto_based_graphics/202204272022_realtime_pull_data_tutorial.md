@@ -6,7 +6,7 @@ Title :202204272022_realtime_pull_data
 - Written against (version): Versio Graphics 2.0.0.426
 - Sources :
 - Author Notes :
-- Tags : 
+- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
 # Versio Graphics Real Time Data - Pulls and Loops
 In this article we are going to walk through the process of linking an RTO text item to a Data Source, and for that data to loop and show differing items on each. 

@@ -7,7 +7,7 @@ Title : 2086642523_basic_graphics_creation_tutorial
 - Written against (version):
 - Sources :
 - Author Notes :
-- Tags : 
+- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
 
 # Tutorial - Basic Graphics Creation

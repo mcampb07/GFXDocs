@@ -7,7 +7,7 @@ Title : 2082386875_versio_graphics_overview_explanation
 - Written against (version):
 - Sources :
 - Author Notes :
-- Tags : [!versio_graphics_moc](!versio_graphics_moc.md)
+- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
 
 # Overview of Versio Graphics

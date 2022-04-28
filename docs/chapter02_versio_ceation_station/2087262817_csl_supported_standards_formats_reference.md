@@ -7,7 +7,7 @@ Title : 2087262817_csl_supported_standards_formats_reference
 - Written against (version):
 - Sources :Versio Graphics Layout Creation Guidelines_4.2
 - Author Notes :
-- Tags : 
+- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
 
 # Supported Standards & Formats 

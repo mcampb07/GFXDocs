@@ -7,7 +7,7 @@ Title : 2122905693_dve_explanation
 - Written against (version):
 - Sources :
 - Author Notes :
-- Tags :  [!versio_graphics_moc](../../imagine_versio_graphics/!versio_graphics_moc.md)
+- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
 # What is a DVE?
 DVE = Digital Video Effect, generally this is a squezze of the video frame to display another video frame in what is known as a dual squezee. Or just a single squezzer of the main video frame to reveal other graphics. 
