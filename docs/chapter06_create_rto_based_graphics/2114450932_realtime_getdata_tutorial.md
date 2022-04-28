@@ -1,4 +1,4 @@
-<!--
+x<!--
 Title : 2114450932_realtime_getdata_tutorial
 
 - Created : 2022-01-06 14:33
@@ -28,4 +28,6 @@ Now on every loop at frame 100 the realtime field is going to update and render 
 ![](attachments/2022-01-05%2013.06.03.gif)
 
 But you need to understand that we are not sending an http request to the data source to get new data, what was already loaded in the cache when we went to air is being used. If we want to get new data updates from the data source then we need to use a new xmp marker - requery. 
+
+Please review the [202204272022_realtime_pull_data_tutorial](202204272022_realtime_pull_data_tutorial.md) pages also that covers a similar subject regards getting new data.
 

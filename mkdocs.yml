@@ -39,8 +39,10 @@ nav:
    - "How to create RTO" : chapter06_create_rto_based_graphics/2101012022_creation_real_time_text_howto.md
    - "RTO in action" : chapter06_create_rto_based_graphics/2101011551_rto_in_action_tutorial.md
    - "Real Time Scrolls Crawls" : chapter06_create_rto_based_graphics/2114433994_creation_real_time_scrolls_crawls_howto.md
-   - "Real Time Get Data" : chapter06_create_rto_based_graphics/2114450932_realtime_getdata_tutorial.md
-   - "Real Time Re-Query" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
+   - "Real Time GetData" : chapter06_create_rto_based_graphics/2114450932_realtime_getdata_tutorial.md
+   - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
+   - "Real Time Pull" : chapter06_create_rto_based_graphics/202204272022_realtime_pull_data_tutorial.md
+   - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
    - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/2114465112_creation_real_time_clocks_timers_howto.md
    - "RTO AEP" : downloads/Real Time Graphics Examples.aep
  - Chapter 7 - Create DVEs :

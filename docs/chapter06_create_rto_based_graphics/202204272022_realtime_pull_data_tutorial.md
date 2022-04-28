@@ -172,4 +172,4 @@ pull = city2
 
 ![](attachments/2022-04-28%2011.41.50.gif)
 
-That concludes this article on pulls and loops with static text and data sources. 
+That concludes this article on pulls and loops with static text and data sources.  You can also review the article [2114450932_realtime_getdata_tutorial](2114450932_realtime_getdata_tutorial.md) which also covers data collection. 
