@@ -18,7 +18,11 @@ When you install the Creation Station Lite `CSL` you will find that the scripts 
 
 ![](attachments/Pasted%20image%2020220505161101.png)
 
-Alternatively, you request the scripts from Imagine Communications.
+Note though that the scripts listed here will be for the version of Versio Graphic 4.4, that is not the latest and there for, should not be used. 
+
+You should request the scripts from Imagine Communications, and state the versio graphics version you have deployed on the system, 2.0.0.426 for example. 
+
+
 
 ### Script Versions & Graphics Compatibility
 
