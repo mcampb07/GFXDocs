@@ -336,30 +336,3 @@ You need to do something quickly, right? You want to cut the time it takes to pe
 | Scale and reposition selected layers to fit the composition                                                                             | Ctrl+Alt+F                                                            | Command+Option+F                                                                  |
 | Scale and reposition selected layers to fit composition width, preserving image aspect ratio for each layer                             | Ctrl+Alt+Shift+H                                                      | Command+Option+Shift+H                                                            |
 | Scale and reposition selected layers to fit composition height, preserving image aspect ratio for each layer                            | Ctrl+Alt+Shift+G                                                      | Command+Option+Shift+G                                                            |
-
-
-
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
----
-
-> Info ℹ️
-
-> Warning ⚠️
-
-> Version Notes 🔖
-
-> Check  ✅ 
-
-> Question  ❓
-
-> Danger ❗
-
-> Bug 🐞
-
-> Quote 💬
----
