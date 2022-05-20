@@ -6,7 +6,9 @@ nav:
  - Download : 
    - "Course Syllabus" : downloads/211230-VER-GFX-AE.pdf
    - "AE Script DVE" : downloads/DVE.jsx
-   - "AE Script RTO" : downloads/RealTimeObject.jsx
+   - "AE Script RealTimeObject-2.1.0.46" : downloads/RealTimeObject-2.1.0.46.jsx
+   - "AE Script RealTimeObject-2.1.0.47" : downloads/RealTimeObject-2.1.0.47.jsx
+   - "AE Script RealTimeObject-2.1.0.48" : downloads/RealTimeObject-2.1.0.48.jsx
  - Versio Graphics Release Notes:
    - "Release Notes" : release_notes/202204281212_versio_grahics_release_notes.md
  - Chapter 1 - What is Versio Graphics?:
@@ -30,6 +32,9 @@ nav:
 #- Chapter 3 - Operations (NA) :
  - Chapter 4 - After Effects :
    - "After Effects Set Up" : chapter04_getting_started_with_adobe_after_effects/2093924623_setup_after_effects_tutorial.md
+   - "After Effects Trim Comps" : chapter04_getting_started_with_adobe_after_effects/202204281936_after_effect_trim_comps_tutorial.md
+   - "After Effects Feature Guide" : chapter04_getting_started_with_adobe_after_effects/202204281741_after_effects_feature_support_guide_reference.md
+   - "After Effects Scripts Versions" : chapter04_getting_started_with_adobe_after_effects/202205051555_after_effects_rto_dve_scripts_version_reference.md
  - Chapter 5 - CTC Based Graphics :
    - "What is CTC?" : chapter05_create_ctc_based_graphics/2093968193_what_is_ctc_explanation.md
    - "CTC Cheat Sheet" : chapter05_create_ctc_based_graphics/2093970347_ctc_cheat_sheet_reference.md
@@ -51,7 +56,8 @@ nav:
    - "Versio DVEs" : chapter07_create_dves/2122905693_dve_explanation.md
    - "DVE Creation Tutorial" : chapter07_create_dves/2122915384_dve_creation_understanding_tutorial.md
    - "DVE Creation How To" : chapter07_create_dves/2122916070_build_dve_howto.md
-#- Chapter 8 - Postional Graphics with expressions
+ - Chapter 8 - Postional Graphics with expressions :
+   - "After Effects Expressions" : chapter08_graphics_with_expressions/202204282041_adobe_after_effects_expressions_reference.md
 #- Chapter 9 - Creation Clocks and Timers
 #- Chapter 10 - Advanced Graphics
 
