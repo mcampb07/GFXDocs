@@ -1,0 +1,38 @@
+name: Documentation Request or Update Submission 
+description: Raise a new documentation request or update to existing documentation 
+title: "[Documentation]: "
+labels: ["Documentation", "Update"]
+assignees:
+  - JamesRivers
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this request!
+  - type: input
+    id: contact
+    attributes:
+      label: Who are you... 
+      description: Who raised this request?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-requested
+    attributes:
+      label: What do you need?
+      description: What documentation is needed to be created or modified?
+      placeholder: Please detail here...
+      value: "Document needed!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software is the documentation required for?
+      options:
+        - 4.6
+        - 4.7
+    validations:
+      required: false
