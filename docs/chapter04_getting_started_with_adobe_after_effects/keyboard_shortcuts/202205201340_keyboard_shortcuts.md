@@ -1,0 +1,365 @@
+<!--
+Title : keyboard_shortcuts
+- Created : 2022-05-20
+- Updated :
+- Author : James Rivers
+- Written against (version):
+- Sources :
+- Author Notes :
+- Tags : 
+-->
+
+
+# After Effect Keyboard Shortcuts      
+You need to do something quickly, right? You want to cut the time it takes to perform a task... Right we all do. This page is dedicated to `After Effects Keyboard Shortcuts`.
+
+## Essential Shortcuts
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/216722026?h=06f359b297" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+## General Shortcuts
+
+| Result                                                                                                                                     | Windows                                              | Mac OS                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
+| Select all                                                                                                                                 | Ctrl+A                                               | Command+A                                                        |
+| Deselect all                                                                                                                               | F2 or Ctrl+Shift+A                                   | F2 or Command+Shift+A                                            |
+| Rename selected layer, composition, folder, effect, group, or mask                                                                         | Enter on the main keyboard                           | Return                                                           |
+| Open selected layer, composition, or footage item                                                                                          | Enter on the numeric keypad                          | Enter on the numeric keypad                                      |
+| Move selected layers, masks, effects, or render items down (back) or up (forward) in stacking order                                        | Ctrl+Alt+Down Arrow or Ctrl+Alt+Up Arrow             | Command+Option+Down Arrow or Command+Option+Up Arrow             |
+| Move selected layers, masks, effects, or render items to bottom (back) or top (front) of stacking order                                    | Ctrl+Alt+Shift+Down Arrow or Ctrl+Alt+Shift+Up Arrow | Command+Option+Shift+Down Arrow or Command+Option+Shift+Up Arrow |
+| Extend selection to next item in Project panel, Render Queue panel, or Effect Controls panel                                               | Shift+Down Arrow                                     | Shift+Down Arrow                                                 |
+| Extend selection to the previous item in Project panel, Render Queue panel, or Effect Controls panel                                       | Shift+Up Arrow                                       | Shift+Up Arrow                                                   |
+| Duplicate selected layers, masks, effects, text selectors, animators, puppet meshes, shapes, render items, output modules, or compositions | Ctrl+D                                               | Command+D                                                        |
+| Quit                                                                                                                                       | Ctrl+Q                                               | Command+Q                                                        |
+| Undo                                                                                                                                       | Ctrl+Z                                               | Command+Z                                                        |
+| Redo                                                                                                                                       | Ctrl+Shift+Z                                         | Command+Shift+Z                                                  |
+| Purge All Memory                                                                                                                           | Ctrl+Alt+/ (on numeric keypad)                       | Command+Option+/ (on numeric keypad)                             |
+| Interrupt running a script                                                                                                                 | Esc                                                  | Esc                                                              |
+| Display filename corresponding to the frame at the current time in the Info panel                                                          | Ctrl+Alt+E                                           | Command+Option+E                                                 |
+
+## Project Shortcuts 
+
+| Result                                     | Windows                                                       | Mac OS                                                        |
+| ------------------------------------------ | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| New project                                | Ctrl+Alt+N                                                    | Command+Option+N                                              |
+| Open project                               | Ctrl+O                                                        | Command+O                                                     |
+| Open a most recent project                 | Ctrl+Alt+Shift+P                                              | Command+Option+Shift+P                                        |
+| New folder in Project panel                | Ctrl+Alt+Shift+N                                              | Command+Option+Shift+N                                        |
+| Open Project Settings dialog box           | Ctrl+Alt+Shift+K                                              | Command+Option+Shift+K                                        |
+| Find in Project panel                      | Ctrl+F                                                        | Command+F                                                     |
+| Cycle through color bit depths for project | Alt-click bit-depth button at the bottom of Project panel     | Option-click bit-depth button at the bottom of Project panel  |
+| Open Project Settings dialog box           | Click the bit-depth button at the bottom of the Project panel | Click the bit-depth button at the bottom of the Project panel |
+## Preference Shortcuts
+
+| **Result**                           | **Windows**                                           | **Mac OS**                                                  |
+| ------------------------------------ | ----------------------------------------------------- | ----------------------------------------------------------- |
+| An open Preferences dialog box       | Ctrl+Alt+; (semicolon)                                | Command+Option+; (semicolon)                                |
+| Restore default preferences settings | Hold down Ctrl+Alt+Shift while starting After Effects | Hold down Command+Option+Shift while starting After Effects |
+
+
+## Panels,  Views,  Workspaces, Windows
+
+| **Result**                                                                                                                                                                    | **Windows**                                 | **Mac OS**                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | ------------------------------------------------- |
+| Open or close Project panel                                                                                                                                                   | Ctrl+0                                      | Command+0                                         |
+| Open or close Render Queue panel                                                                                                                                              | Ctrl+Alt+0                                  | Command+Option+0                                  |
+| Open or close Tools panel                                                                                                                                                     | Ctrl+1                                      | Command+1                                         |
+| Open or close Info panel                                                                                                                                                      | Ctrl+2                                      | Command+2                                         |
+| Open or close Preview panel                                                                                                                                                   | Ctrl+3                                      | Command+3                                         |
+| Open or close Audio panel                                                                                                                                                     | Ctrl+4                                      | Command+4                                         |
+| Open or close Effects & Presets panel                                                                                                                                         | Ctrl+5                                      | Command+5                                         |
+| Open or close Character panel                                                                                                                                                 | Ctrl+6                                      | Command+6                                         |
+| Open or close Paragraph panel                                                                                                                                                 | Ctrl+7                                      | Command+7                                         |
+| Open or close Paint panel                                                                                                                                                     | Ctrl+8                                      | Command+8                                         |
+| Open or close Brushes panel                                                                                                                                                   | Ctrl+9                                      | Command+9                                         |
+| Open or close Effect Controls panel for the selected layer                                                                                                                    | F3 or Ctrl+Shift+T                          | F3 or Command+Shift+T                             |
+| Open Flowchart panel for project flowchart                                                                                                                                    | Ctrl+F11                                    | Command+F11                                       |
+| Switch to workspace                                                                                                                                                           | Shift+F10, Shift+F11, or Shift+F12          | Shift+F10, Shift+F11, or Shift+F12                |
+| Close active viewer or panel (closes content first)                                                                                                                           | Ctrl+W                                      | Command+W                                         |
+| Close active panel or all viewers of the type of active viewer (closes content first). For example, if a Timeline panel is active, this command closes all Timeline panels.   | Ctrl+Shift+W                                | Command+Shift+W                                   |
+| Split the frame containing the active viewer and create a viewer with an opposite locked/unlocked state                                                                       | Ctrl+Alt+Shift+N                            | Command+Option+Shift+N                            |
+| Maximize or restore panel under pointer                                                                                                                                       | \` (accent grave)                           | \` (accent grave)                                 |
+| Resize the application window or floating window to fit the screen. (Press again to resize the window so that contents fill the screen.)                                      | Ctrl+\\ (backslash)                         | Command+\\ (backslash)                            |
+| Move the application window or floating window to the main monitor; resize the window to fit the screen. (Press again to resize the window so that contents fill the screen.) | Ctrl+Alt+\\ (backslash)                     | Command+Option+\\ (backslash)                     |
+| Toggle activation between Composition panel and Timeline panel for current composition                                                                                        | \\ (backslash)                              | \\ (backslash)                                    |
+| Cycle to previous or next item inactive viewer (for example, cycle through open compositions)                                                                                 | Shift+, (comma) or Shift+. (period)         | Shift+, (comma) or Shift+. (period)               |
+| Cycle to previous or next panel inactive frame (for example, cycle through open Timeline panels)                                                                              | Alt+Shift+, (comma) or Alt+Shift+. (period) | Option+Shift+, (comma) or Option+Shift+. (period) |
+| Activate a view in a multi-view layout in the Composition panel without affecting layer selection                                                                             | Click with the middle mouse button          | Click with the middle mouse button                |
+
+## Activate Tools 
+
+| **Result**                                                                                                                                                                                                    | **Windows**                                       | **Mac OS**                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
+| Cycle through tools                                                                                                                                                                                           | Alt-click tool button in the Tools panel          | Option-click tool button in the Tools panel       |
+| Activate Selection tool                                                                                                                                                                                       | V                                                 | V                                                 |
+| Activate Hand tool                                                                                                                                                                                            | H                                                 | H                                                 |
+| Temporarily activate Hand tool                                                                                                                                                                                | Hold down the spacebar or the middle mouse button | Hold down the spacebar or the middle mouse button |
+| Activate Zoom In tool                                                                                                                                                                                         | Z                                                 | Z                                                 |
+| Activate Zoom Out tool                                                                                                                                                                                        | Alt (when Zoom In tool is active)                 | Option (when Zoom In tool is active)              |
+| Activate Rotation tool                                                                                                                                                                                        | W                                                 | W                                                 |
+| Activate Roto Brush tool                                                                                                                                                                                      | Alt+W                                             | Option+W                                          |
+| Activate Refine Edge tool                                                                                                                                                                                     | Alt+W                                             | Option+W                                          |
+| Activate and cycle through Camera tools (Unified Camera, Orbit Camera, Track XY Camera, and Track Z Camera)                                                                                                   | C                                                 | C                                                 |
+| Activate Pan Behind tool                                                                                                                                                                                      | Y                                                 | Y                                                 |
+| Activate and cycle through mask and shape tools (Rectangle, Rounded Rectangle, Ellipse, Polygon, Star)                                                                                                        | Q                                                 | Q                                                 |
+| Activate and cycle through Type tools (Horizontal and Vertical)                                                                                                                                               | Ctrl+T                                            | Command+T                                         |
+| Activate and cycle between the Pen and Mask Feather tools. (Note: You can turn off this setting in the Preferences dialog box.)                                                                               | G                                                 | G                                                 |
+| Temporarily activate Selection tool when a pen tool is selected                                                                                                                                               | Ctrl                                              | Command                                           |
+| Temporarily activate Pen tool when the Selection tool is selected, and the pointer is over a path (Add Vertex tool when the pointer is over a segment; Convert Vertex tool when the pointer is over a vertex) | Ctrl+Alt                                          | Command+Option                                    |
+| Activate and cycle through Brush, Clone Stamp, and Eraser tools                                                                                                                                               | Ctrl+B                                            | Command+B                                         |
+| Activate and cycle through Puppet tools                                                                                                                                                                       | Ctrl+P                                            | Command+P                                         |
+| Temporarily convert Selection tool to Shape Duplication tool                                                                                                                                                  | Alt (in shape layer)                              | Option (in shape layer)                           |
+| Temporarily convert Selection tool to Direct Selection tool                                                                                                                                                   | Ctrl (in shape layer)                             | Command (in shape layer)                          |
+
+## Compositions and Work Areas
+
+| **Result**                                                                                                                                                       | **Windows**  | **Mac OS**       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------- |
+| New composition                                                                                                                                                  | Ctrl+N       | Command+N        |
+| Open Composition Settings dialog box for selected composition                                                                                                    | Ctrl+K       | Command+K        |
+| Set beginning or end of the work area to current time                                                                                                            | B or N       | B or N           |
+| Set work area to the duration of selected layers or, if no layers are selected, set work area to composition duration                                            | Ctrl+Alt+B   | Command+Option+B |
+| Open Composition Mini-Flowchart for active composition                                                                                                           | Tab          | Tab              |
+| Activate the most recently active composition that is in the same composition hierarchy (the network of nested compositions) as the currently active composition | Shift+Esc    | Shift+Esc        |
+| Trim composition to the work area                                                                                                                                | Ctrl+Shift+X | Command+Shift+X  |
+| New Composition from the selection                                                                                                                               | Alt+\\       | Option+\\        |
+
+## Time Navigation 
+
+| **Result**                                                                                             | **Windows**                               | **Mac OS**                                   |
+| ------------------------------------------------------------------------------------------------------ | ----------------------------------------- | -------------------------------------------- |
+| Go to the specific time                                                                                | Alt+Shift+J                               | Option+Shift+J                               |
+| Go to the beginning or end of the work area                                                            | Shift+Home or Shift+End                   | Shift+Home or Shift+End                      |
+| Go to previous or next visible item in time ruler (keyframe, layer marker, work area beginning or end) | J or K                                    | J or K                                       |
+| Go to beginning of composition, layer, or footage item                                                 | Home or Ctrl+Alt+Left Arrow               | Home or Command+Option+Left Arrow            |
+| Go to end of composition, layer, or footage item                                                       | End or Ctrl+Alt+Right Arrow               | End or Command+Option+Right Arrow            |
+| Go forward one frame                                                                                   | Page Down or Ctrl+Right Arrow             | Page Down or Command+Right Arrow             |
+| Go forward ten frames                                                                                  | Shift+Page Down or Ctrl+Shift+Right Arrow | Shift+Page Down or Command+Shift+Right Arrow |
+| Go backward one frame                                                                                  | Page Up or Ctrl+Left Arrow                | Page Up or Command+Left Arrow                |
+| Go backward ten frames                                                                                 | Shift+Page Up or Ctrl+Shift+Left Arrow    | Shift+Page Up or Command+Shift+Left Arrow    |
+| Go to layer In point                                                                                   | I                                         | I                                            |
+| Go to layer Out point                                                                                  | O                                         | O                                            |
+| Go to previous In point or Out point                                                                   | Ctrl+Alt+Shift+Left Arrow                 | Command+Option+Shift+Left Arrow              |
+| Go to next In point or Out point                                                                       | Ctrl+Alt+Shift+Right Arrow                | Command+Option+Shift+Right Arrow             |
+| Scroll to current time in Timeline panel                                                               | D                                         | D                                            |
+
+## Previews 
+
+| **Result**                                                                         | **Windows**                                                               | **Mac OS**                                                                                 |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Start or stop the preview                                                          | Spacebar, 0 on the numeric keypad, Shift+0 on the numeric keypad          | Spacebar, 0 on the numeric keypad, Shift+0 on the numeric keypad                           |
+| Reset preview settings to replicate RAM Preview and Standard Preview behaviors     | Alt-click Reset in Preview panel                                          | Option-click Reset in Preview panel                                                        |
+| Preview only audio, from current time                                              | . (decimal point) on numeric keypad\*                                     | . (decimal point) on numeric keypad\* or Control+. (period) on the main keyboard           |
+| Preview only audio in the work area                                                | Alt+. (decimal point) on numeric keypad\*                                 | Option+. (decimal point) on numeric keypad\* or Control+Option+. (period) on main keyboard |
+| Manually preview (scrub) Video                                                     | Drag or Alt-drag current-time indicator, depending on Live Update setting | Drag or Option-drag current-time indicator, depending on Live Update setting               |
+| Manually preview (scrub) audio                                                     | Ctrl-drag current-time indicator                                          | Command-drag current-time indicator                                                        |
+| Preview number of frames specified by Alternate Preview preference (defaults to 5) | Alt+0 on numeric keypad\*                                                 | Option+0 on numeric keypad\* or Control+Option+0 (zero) on main keyboard                   |
+| Toggle Mercury Transmit video preview                                              | / (on numeric keypad)                                                     | / (on numeric keypad), Control+/ on main keyboard                                          |
+| Take snapshot                                                                      | Shift+F5, Shift+F6, Shift+F7, or Shift+F8                                 | Shift+F5, Shift+F6, Shift+F7, or Shift+F8                                                  |
+| Display snapshot inactive viewer                                                   | F5, F6, F7, or F8                                                         | F5, F6, F7, or F8                                                                          |
+| Purge snapshot                                                                     | Ctrl+Shift+F5, Ctrl+Shift+F6, Ctrl+Shift+F7, or Ctrl+Shift+F8             | Command+Shift+F5, Command+Shift+F6, Command+Shift+F7, or Command+Shift+F8                  |
+| Fast Previews > Off                                                                | Ctrl+Alt+1                                                                | Command+Option+1                                                                           |
+| Fast Previews > Adaptive Resolution                                                | Ctrl+Alt+2                                                                | Command+Option+2                                                                           |
+| Fast Previews > Draft                                                              | Ctrl+Alt+3                                                                | Command+Option+3                                                                           |
+| Fast Previews > Fast Draft                                                         | Ctrl+Alt+4                                                                | Command+Option+4                                                                           |
+| Fast Previews > Wireframe                                                          | Ctrl+Alt+5                                                                | Command+Option+5                                                                           |
+
+## Views
+
+| **Result**                                                                                                                                           | **Windows**                           | **Mac OS**                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ---------------------------------------------- |
+| Turn display color management on or off for an active view                                                                                           | Shift+/ (on numeric keypad)           | Shift+/ (on numeric keypad)                    |
+| Show red, green, blue, or alpha channel as a grayscale                                                                                               | Alt+1, Alt+2, Alt+3, Alt+4            | Option+1, Option+2, Option+3, Option+4         |
+| Show colorized red, green, or blue channel                                                                                                           | Alt+Shift+1, Alt+Shift+2, Alt+Shift+3 | Option+Shift+1, Option+Shift+2, Option+Shift+3 |
+| Toggle showing straight RGB color                                                                                                                    | Alt+Shift+4                           | Option+Shift+4                                 |
+| Show alpha boundary (outline between transparent and opaque regions) in the Layer panel                                                              | Alt+5                                 | Option+5                                       |
+| Show alpha overlay (colored overlay on transparent regions) in the Layer panel                                                                       | Alt+6                                 | Option+6                                       |
+| Show Refine Edge X-ray                                                                                                                               | Alt+X                                 | Option+X                                       |
+| Center composition in the panel                                                                                                                      | Double-click Hand tool                | Double-click Hand tool                         |
+| Zoom-in in Composition, Layer, or Footage panel                                                                                                      | . (period) on the main keyboard       | . (period) on the main keyboard                |
+| Zoom-out in Composition, Layer, or Footage panel                                                                                                     | , (comma)                             | , (comma)                                      |
+| Zoom to 100% in Composition, Layer, or Footage panel                                                                                                 | / (on main keyboard)                  | / (on main keyboard)                           |
+| Zoom to fit in Composition, Layer, or Footage panel                                                                                                  | Shift+/ (on main keyboard)            | Shift+/ (on main keyboard)                     |
+| Zoom up to 100% to fit in the Composition, Layer, or Footage panel                                                                                   | Alt+/ (on main keyboard)              | Option+/ (on main keyboard)                    |
+| Set resolution to Full, Half, or Custom in the Composition panel                                                                                     | Ctrl+J, Ctrl+Shift+J, Ctrl+Alt+J      | Command+J, Command+Shift+J, Command+Option+J   |
+| Open View Options dialog box for active Composition panel                                                                                            | Ctrl+Alt+U                            | Command+Option+U                               |
+| Zoom in time                                                                                                                                         | \= (equal sign) on main keyboard      | \= (equal sign) on main keyboard               |
+| Zoom out time                                                                                                                                        | \- (hyphen) on the main keyboard      | \- (hyphen) on the main keyboard               |
+| Zoom in Timeline panel to single-frame units (Press again to zoom out to show entire composition duration.)                                          | ; (semicolon)                         | ; (semicolon)                                  |
+| Zoom out in the Timeline panel to show the entire composition duration (Press again to zoom back into the duration specified by the Time Navigator.) | Shift+; (semicolon)                   | Shift+; (semicolon)                            |
+| Prevent images from being rendered for previews in viewer panels                                                                                     | Caps Lock                             | Caps Lock                                      |
+| Show or hide safe zones                                                                                                                              | '(apostrophe)                         | '(apostrophe)                                  |
+| Show or hide the grid                                                                                                                                | Ctrl+' (apostrophe)                   | Command+' (apostrophe)                         |
+| Show or hide the proportional grid                                                                                                                   | Alt+' (apostrophe)                    | Option+' (apostrophe)                          |
+| Show or hide rulers                                                                                                                                  | Ctrl+R                                | Command+R                                      |
+| Show or hide guides                                                                                                                                  | Ctrl+; (semicolon)                    | Command+; (semicolon)                          |
+| Turn to snap to grid on or off                                                                                                                       | Ctrl+Shift+' (apostrophe)             | Command+Shift+' (apostrophe)                   |
+| Turn to snap to guides on or off                                                                                                                     | Ctrl+Shift+; (semicolon)              | Command+Shift+; (semicolon)                    |
+| Lock or unlock guides                                                                                                                                | Ctrl+Alt+Shift+; (semicolon)          | Command+Option+Shift+; (semicolon)             |
+| Show or hide layer controls (masks, motion paths, light and camera wireframes, effect control points, and layer handles)                             |                                       |                                                |
+
+## Footage
+| **Result**                                                                                      | **Windows**                                                      | **Mac OS**                                                          |
+| ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Import one file or image sequence                                                               | Ctrl+I                                                           | Command+I                                                           |
+| Import multiple files or image sequences                                                        | Ctrl+Alt+I                                                       | Command+Option+I                                                    |
+| Open movie in an After Effects Footage panel                                                    | Double-click the footage item in the Project panel               | Double-click the footage item in the Project panel                  |
+| Add selected items to the most recently activated composition                                   | Ctrl+/ (on main keyboard)                                        | Command+/ (on main keyboard)                                        |
+| Replace selected source footage for selected layers with footage item selected in Project panel | Ctrl+Alt+/ (on main keyboard)                                    | Command+Option+/ (on main keyboard)                                 |
+| Replace source for a selected layer                                                             | Alt-drag footage item from Project panel onto the selected layer | Option-drag footage item from Project panel onto the selected layer |
+| Delete a footage item without a warning                                                         | Ctrl+Backspace                                                   | Command+Delete                                                      |
+| Open Interpret Footage dialog box for a selected footage item                                   | Ctrl+Alt+G                                                       | Command+Option+G                                                    |
+| Remember footage interpretation                                                                 | Ctrl+Alt+C                                                       | Command+Option+C                                                    |
+| Edit selected footage item in application with which it's associated (Edit Original)            | Ctrl+E                                                           | Command+E                                                           |
+| Replace selected footage item                                                                   | Ctrl+H                                                           | Command+H                                                           |
+| Reload selected footage items                                                                   | Ctrl+Alt+L                                                       | Command+Option+L                                                    |
+| Set proxy for a selected footage item                                                           | Ctrl+Alt+P                                                       | Command+Option+P                                                    |
+
+## Effects, Animations and Presets
+
+| **Result**                                                      | **Windows**      | **Mac OS**             |
+| --------------------------------------------------------------- | ---------------- | ---------------------- |
+| Delete all effects from selected layers                         | Ctrl+Shift+E     | Command+Shift+E        |
+| Apply most recently applied effect to selected layers           | Ctrl+Alt+Shift+E | Command+Option+Shift+E |
+| Apply most recently applied animation preset to selected layers | Ctrl+Alt+Shift+F | Command+Option+Shift+F |
+
+## Layers
+| **Result**                                                                                                   | **Windows**                                                   | **Mac OS**                                                    |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| New solid layer                                                                                              | Ctrl+Y                                                        | Command+Y                                                     |
+| New null layer                                                                                               | Ctrl+Alt+Shift+Y                                              | Command+Option+Shift+Y                                        |
+| New adjustment layer                                                                                         | Ctrl+Alt+Y                                                    | Command+Option+Y                                              |
+| Select layer (1-999) by its number (enter digits rapidly for two-digit and three-digit numbers)              | 0-9 on numeric keypad\*                                       | 0-9 on numeric keypad\*                                       |
+| Toggle selection of layer (1-999) by its number (enter digits rapidly for two-digit and three-digit numbers) | Shift+0-9 on numeric keypad\*                                 | Shift+0-9 on numeric keypad\*                                 |
+| Select the next layer in the stacking order                                                                  | Ctrl+Down Arrow                                               | Command+Down Arrow                                            |
+| Select the previous layer in the stacking order                                                              | Ctrl+Up Arrow                                                 | Command+Up Arrow                                              |
+| Extend selection to next layer in the stacking order                                                         | Ctrl+Shift+Down Arrow                                         | Command+Shift+Down Arrow                                      |
+| Extend selection to the previous layer in the stacking order                                                 | Ctrl+Shift+Up Arrow                                           | Command+Shift+Up Arrow                                        |
+| Deselect all layers                                                                                          | Ctrl+Shift+A                                                  | Command+Shift+A                                               |
+| Scroll topmost selected layer to the top of Timeline panel                                                   | X                                                             | X                                                             |
+| Show or hide Parent column                                                                                   | Shift+F4                                                      | Shift+F4                                                      |
+| Show or hide Layer Switches and Modes columns                                                                | F4                                                            | F4                                                            |
+| Setting the sampling method for selected layers (Best/Bilinear)                                              | Alt+B                                                         | Option+B                                                      |
+| Setting the sampling method for selected layers (Best/Bicubic)                                               | Alt+Shift+B                                                   | Option+Shift+B                                                |
+| Turn off all other solo switches                                                                             | Alt-click solo switch                                         | Option-click solo switch                                      |
+| Turn Video (eyeball) switch on or off for selected layers                                                    | Ctrl+Alt+Shift+V                                              | Command+Option+Shift+V                                        |
+| Turn off Video switch for all video layers other than selected layers                                        | Ctrl+Shift+V                                                  | Command+Shift+V                                               |
+| The open settings dialog box for selected solid, light, camera, null, or adjustment layer                    | Ctrl+Shift+Y                                                  | Command+Shift+Y                                               |
+| Paste layers at the current time                                                                             | Ctrl+Alt+V                                                    | Command+Option+V                                              |
+| Split selected layers. (If no layers are selected, split all layers.)                                        | Ctrl+Shift+D                                                  | Command+Shift+D                                               |
+| Precompose selected layers                                                                                   | Ctrl+Shift+C                                                  | Command+Shift+C                                               |
+| Open Effect Controls panel for selected layers                                                               | Ctrl+Shift+T                                                  | Command+Shift+T                                               |
+| Open layer in Layer panel (opens source composition for precomposition layer in Composition panel)           | Double-click a layer                                          | Double-click a layer                                          |
+| Open source of a layer in Footage panel (opens precomposition layer in Layer panel)                          | Alt-double-click a layer                                      | Option-double-click a layer                                   |
+| Reverse selected layers in time                                                                              | Ctrl+Alt+R                                                    | Command+Option+R                                              |
+| Enable time remapping for selected layers                                                                    | Ctrl+Alt+T                                                    | Command+Option+T                                              |
+| Move selected layers so that their In point or Out point is at the current time                              | \[ (left bracket) or \] (right bracket)                       | \[ (left bracket) or \] (right bracket)                       |
+| Trim In point or Out point of selected layers to current time                                                | Alt+\[ (left bracket) or Alt+\] (right bracket)               | Option+\[ (left bracket) or Option+\] (right bracket)         |
+| Add or remove expression for a property                                                                      | Alt-click stopwatch                                           | Option-click stopwatch                                        |
+| Add an effect (or multiple selected effects) to selected layers                                              | Double-click effect selection in Effects & Presets panel      | Double-click effect selection in Effects & Presets panel      |
+| Set In point or Out point by time-stretching                                                                 | Ctrl+Shift+, (comma) or Ctrl+Alt+, (comma)                    | Command+Shift+, (comma) or Command+Option+, (comma)           |
+| Move selected layers so that their In point is at the beginning of the composition                           | Alt+Home                                                      | Option+Home                                                   |
+| Move selected layers so that their Out point is at the end of the composition                                | Alt+End                                                       | Option+End                                                    |
+| Lock selected layers                                                                                         | Ctrl+L                                                        | Command+L                                                     |
+| Unlock all layers                                                                                            | Ctrl+Shift+L                                                  | Command+Shift+L                                               |
+| Set Quality to Best, Draft, or Wireframe for selected layers                                                 | Ctrl+U, Ctrl+Shift+U, or Ctrl+Alt+Shift+U                     | Command+U, Command+Shift+U, Command+Option+Shift+U            |
+| Cycle forward or backward through blending modes for selected layers                                         | Shift+- (hyphen) or Shift+= (equal sign) on the main keyboard | Shift+- (hyphen) or Shift+= (equal sign) on the main keyboard |
+| Find in Timeline panel                                                                                       | Ctrl+F                                                        | Command+F                                                     |
+
+## Showing properties and groups in the Timeline panel
+
+| **Result**                                                                              | **Windows**                                                | **Mac OS**                                                    |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------- |
+| Find in Timeline panel                                                                  | Ctrl+F                                                     | Command+F                                                     |
+| Toggle expansion of selected layers to show all properties                              | Ctrl+\` (accent grave)                                     | Command+\` (accent grave)                                     |
+| Toggle expansion of property group and all child property groups to show all properties | Ctrl-click triangle to the left of the property group name | Command-click triangle to the left of the property group name |
+| Show only Anchor Point property (for lights and cameras, Point Of Interest)             | A                                                          | A                                                             |
+| Show only Audio Levels property                                                         | L                                                          | L                                                             |
+| Show only Mask Feather property                                                         | F                                                          | F                                                             |
+| Show only Mask Path property                                                            | M                                                          | M                                                             |
+| Show only Mask Opacity property                                                         | TT                                                         | TT                                                            |
+| Show only Opacity property (for lights, Intensity)                                      | T                                                          | T                                                             |
+| Show only Position property                                                             | P                                                          | P                                                             |
+| Show only Rotation and Orientation properties                                           | R                                                          | R                                                             |
+| Show only Scale property                                                                | S                                                          | S                                                             |
+| Show only Time Remap property                                                           | RR                                                         | RR                                                            |
+| Show only instances of missing effects                                                  | FF                                                         | FF                                                            |
+| Show only Effects property group                                                        | E                                                          | E                                                             |
+| Show only mask property groups                                                          | MM                                                         | MM                                                            |
+| Show only Material Options property group                                               | AA                                                         | AA                                                            |
+| Show only expressions                                                                   | EE                                                         | EE                                                            |
+| Show properties with keyframes                                                          | U                                                          | U                                                             |
+| Show only modified properties                                                           | UU                                                         | UU                                                            |
+| Show only paint strokes, Roto Brushstrokes, and Puppet pins                             | PP                                                         | PP                                                            |
+| Show only audio waveform                                                                | LL                                                         | LL                                                            |
+| Show only selected properties and groups                                                | SS                                                         | SS                                                            |
+| Hide property or group                                                                  | Alt+Shift-click property or group name                     | Option+Shift-click property or group name                     |
+| Add or remove property or group from the set that is shown                              | Shift+property or group shortcut                           | Shift+property or group shortcut                              |
+| Add or remove keyframe at the current time                                              | Alt+Shift+property shortcut                                | Option+property shortcut                                      |
+
+## Showing properties in the Effect Controls panel
+
+| **Result**                                                                              | **Windows**                                                | **Mac OS**                                                    |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------- |
+| Toggle expansion of selected effects to show all properties                             | Ctrl+\` (accent grave)                                     | Command+\` (accent grave)                                     |
+| Toggle expansion of property group and all child property groups to show all properties | Ctrl-click triangle to the left of the property group name | Command-click triangle to the left of the property group name |
+
+## Modifying layer properties
+
+| **Result**                                                                                                                              | **Windows**                                                           | **Mac OS**                                                                        |
+| --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Modify property value by default increments                                                                                             | Drag property value                                                   | Drag property value                                                               |
+| Modify property value by 10x default increments                                                                                         | Shift-drag property value                                             | Shift-drag property value                                                         |
+| Modify property value by 1/10 default increments                                                                                        | Ctrl-drag property value                                              | Command-drag property value                                                       |
+| Open Auto-Orientation dialog box for selected layers                                                                                    | Ctrl+Alt+O                                                            | Command+Alt+O                                                                     |
+| The open Opacity dialog box for selected layers                                                                                         | Ctrl+Shift+O                                                          | Command+Shift+O                                                                   |
+| The open Rotation dialog box for selected layers                                                                                        | Ctrl+Shift+R                                                          | Command+Shift+R                                                                   |
+| The open Position dialog box for selected layers                                                                                        | Ctrl+Shift+P                                                          | Command+Shift+P                                                                   |
+| Center-selected layers in view (modifies Position property to place anchor points of selected layers in the center of the current view) | Ctrl+Home                                                             | Command+Home                                                                      |
+| Center anchor point in the visible content                                                                                              | Ctrl+Alt+Home                                                         | Command+Option+Home                                                               |
+| Move selected layers 1 pixel at current magnification (Position)                                                                        | Arrow key                                                             | Arrow key                                                                         |
+| Move selected layers 10 pixels at current magnification (Position)                                                                      | Shift+arrow key                                                       | Shift+arrow key                                                                   |
+| Move selected layers one frame earlier or later                                                                                         | Alt+Page Up or Alt+Page Down                                          | Option+Page Up or Option+Page Down                                                |
+| Move selected layers ten frames earlier or later                                                                                        | Alt+Shift+Page Up or Alt+Shift+Page Down                              | Option+Shift+Page Up or Option+Shift+Page Down                                    |
+| Increase or decrease Rotation (Z Rotation) of selected layers by 1°                                                                     | \+ (plus) or - (minus) on numeric keypad                              | \+ (plus) or - (minus) on numeric keypad                                          |
+| Increase or decrease Rotation (Z Rotation) of selected layers by 10°                                                                    | Shift++ (plus) or Shift+- (minus) on numeric keypad                   | Shift++ (plus) or Shift+- (minus) on numeric keypad                               |
+| Increase or decrease Opacity (or Intensity for light layers) of selected layers by 1%                                                   | Ctrl+Alt++ (plus) or Ctrl+Alt+- (minus) on numeric keypad             | Control+Option++ (plus) or Control+Option+- (minus) on numeric keypad             |
+| Increase or decrease Opacity (or Intensity for light layers) of selected layers by 10%                                                  | Ctrl+Alt+Shift++ (plus) or Ctrl+Alt+Shift+- (minus) on numeric keypad | Control+Option+Shift++ (plus) or Control+Option+Shift+- (minus) on numeric keypad |
+| Increase Scale of selected layers by 1%                                                                                                 | Ctrl++ (plus) or Alt++ (plus) on numeric keypad                       | Command++ (plus) or Option++ (plus) on numeric keypad                             |
+| Decrease Scale of selected layers by 1%                                                                                                 | Ctrl+- (minus) or Alt+- (minus) on numeric keypad                     | Command+- (minus) or Option+- (minus) on numeric keypad                           |
+| Increase Scale of selected layers by 10%                                                                                                | Ctrl+Shift++ (plus) or Alt+Shift++ (plus) on numeric keypad           | Command+Shift++ (plus) or Option+Shift++ (plus) on numeric keypad                 |
+| Decrease Scale of selected layers by 10%                                                                                                | Ctrl+Shift+- (minus) or Alt+Shift+- (minus) on numeric keypad         | Command+Shift+- (minus) or Option+Shift+- (minus) on numeric keypad               |
+| Modify Rotation or Orientation in 45° increments                                                                                        | Shift-drag with the Rotation tool                                     | Shift-drag with the Rotation tool                                                 |
+| Modify Scale, constrained to footage frame aspect ratio                                                                                 | Shift-drag layer handle with the Selection tool                       | Shift-drag layer handle with the Selection tool                                   |
+| Reset Rotation to 0°                                                                                                                    | Double-click Rotation tool                                            | Double-click Rotation tool                                                        |
+| Reset Scale to 100%                                                                                                                     | Double-click Selection tool                                           | Double-click Selection tool                                                       |
+| Scale and reposition selected layers to fit the composition                                                                             | Ctrl+Alt+F                                                            | Command+Option+F                                                                  |
+| Scale and reposition selected layers to fit composition width, preserving image aspect ratio for each layer                             | Ctrl+Alt+Shift+H                                                      | Command+Option+Shift+H                                                            |
+| Scale and reposition selected layers to fit composition height, preserving image aspect ratio for each layer                            | Ctrl+Alt+Shift+G                                                      | Command+Option+Shift+G                                                            |
+
+
+
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+---
+
+> Info ℹ️
+
+> Warning ⚠️
+
+> Version Notes 🔖
+
+> Check  ✅ 
+
+> Question  ❓
+
+> Danger ❗
+
+> Bug 🐞
+
+> Quote 💬
+---
