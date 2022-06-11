@@ -13,6 +13,10 @@ Title : 2093924623_setup_after_effects_tutorial
 # Set up Adobe After Effects
 - Watch this quick 10 minute video, taking you through the requirements. [Setup Adobe After Effects](https://vimeo.com/661166181/f5c48784d3) 
 
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/661166181?h=f5c48784d3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="2126343277-After_effects_setup-2021-12-29"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+
 Now that you are ready to start building graphics for Versio, the first step is to install After Effects. It's recommended that you install the latest version. However, versions from 2017+ are supported. Most customers have creative cloud licenses.
 
 ### Install Adobe After Effects
@@ -46,5 +50,10 @@ Now that you are ready to start building graphics for Versio, the first step is 
 	- Create 3 labels - `RealTime` , `Time` and `Scroll`
 	- Upload the scripts - DVE and RealTimeObjects
 	- Create an output template as listed above.
+
+### Quiz
+
+<script id="shoutscript" type="text/javascript" src="https://freeonlinesurveys.com/ShoutEmbed/embed.min.js"></script>
+<div shout-embed sh-form="WP1bXUqs"></div>
 
 
