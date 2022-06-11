@@ -99,6 +99,7 @@ firetrigger = uppause
 ### Loops and Timeline Controls
 Using CTC commands you can create N point loops in your animations. You can control loops by triggers and loop count. You can fire gototriggers to jump and exit out of loops.
 
+
 #### jump to a specific frame: goto
 
 To build a loop you can use a goto command. The goto command will jump the playback to the defined frame/label. When building a loop, you want to make sure the last frame of the loop and the first frame are the same so there is no visible pause/jitter in your animation. You can have as many loops in your animation as you like. You can even nest, loops within loops. This can come in handy if you have a logo that has different states based on what is happening throughout the segment. You can specify a loop to exit using a loop count or trigger. Read below for triggerexit commands.
