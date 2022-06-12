@@ -52,7 +52,5 @@ Now that you are ready to start building graphics for Versio, the first step is 
 
 ### Quiz
 
-<script id="shoutscript" type="text/javascript" src="https://freeonlinesurveys.com/ShoutEmbed/embed.min.js"></script>
-<div shout-embed sh-form="WP1bXUqs"></div>
 
-
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfE2LL3aQi8G1Xw9Jlu6kR19TJCTXHghfR3MQG2Pvc9D2Qiuw/viewform?embedded=true" width="640" height="472" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
