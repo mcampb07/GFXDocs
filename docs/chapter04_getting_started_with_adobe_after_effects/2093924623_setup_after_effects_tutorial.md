@@ -50,8 +50,3 @@ Now that you are ready to start building graphics for Versio, the first step is 
 	- Upload the scripts - DVE and RealTimeObjects
 	- Create an output template as listed above.
 
-### Quiz
-
-<iframe src="https://audience.ahaslides.com/4t2hgp41u7" width="640" height="472" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfE2LL3aQi8G1Xw9Jlu6kR19TJCTXHghfR3MQG2Pvc9D2Qiuw/viewform?embedded=true" width="640" height="472" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
