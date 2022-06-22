@@ -3,7 +3,7 @@ site_url: https://jamesrivers.github.io/imagine_versio_graphics
 nav:
  - Home: index.md
  - About: about_james_rivers.md
- - Download : 
+ - Download :  
    - "Course Syllabus" : downloads/211230-VER-GFX-AE.pdf
    - "AE Script DVE" : downloads/DVE.jsx
    - "AE Script RealTimeObject-2.1.0.46" : downloads/RealTimeObject-2.1.0.46.jsx
