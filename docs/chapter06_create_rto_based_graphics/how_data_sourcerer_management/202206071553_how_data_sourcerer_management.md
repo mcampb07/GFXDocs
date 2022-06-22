@@ -17,7 +17,7 @@ What you will understand after reading this article:
 - How the end goal of RTO elements within a layout are then using the datasets from Data Sourcerer
 
 ## Data Sourcerer - What is it?
-
+ 
 The `Data Sourcerer` (fyi I am not a fan of the name, sourcerer... looks wrong!) is a Versio graphics data sourcing solution that replaces the Data Gatherer.
 
 Data Sourcerer (DS) was introduced to Versio in version 4.3.5.
