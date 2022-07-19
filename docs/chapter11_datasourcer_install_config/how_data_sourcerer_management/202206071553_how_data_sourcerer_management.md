@@ -124,6 +124,48 @@ Next we have:
 4. Save the PS file 
 5. Run the PS file
 
+
+### Adding CSV Source
+
+```sh
+     Invoke-RestMethod http://localhost:6474/api/sources `
+        -Method POST `
+        -ContentType "application/json" `
+        -Body `
+@"
+{
+    "name": "NEWS",
+    "providerConfiguration": {
+        "type": 3,
+        "delimiter": ":",
+        "hasheaderrecord": true,
+        "Path": "C:\\DataSources\\news.csv
+    },
+    "filterConfiguration": {
+        "columns": [
+            "region",
+            "headline",
+            "story"
+            ]
+         }
+}
+"@ 
+```
+
+Walkthorugh on this csv data collection:
+
+- name - the name of the data source you are adding.
+- type 3 = csv type
+- delimiter - what is going to seperare the data in the csv a `,` or  a `:` you get the idea....
+- hasheaderrecord - is there a top row header
+- path - path to the csv from the data sourcerer service
+- filterconfiguration  - what data are we interested in gettting from the data source.
+
+
+
+
+
+
 ### Initial Pull from Data Source
 Once the `source` is added, we need to `pull` from that source. You must send a pull request to Data Sourcerer before Versio Platform can use your registered source.
 
