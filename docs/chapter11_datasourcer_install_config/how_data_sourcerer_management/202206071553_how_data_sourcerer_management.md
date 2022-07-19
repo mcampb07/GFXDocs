@@ -64,7 +64,7 @@ Lets break down the information in listed in the `body` section.
 
 What follows are examples of the following data source types for review and practice. 
 
-### Adding XML Data Source
+### Adding XML Source
 In this section we will walk through the steps required to add a new XML based data source. login into the `Core Service` instance that has `Data Sourcerer` installed. 
 
 > Note if you have multiple instances you will have to perform the tasks below more than once. 
