@@ -128,7 +128,7 @@ Next we have:
 ### Adding CSV Source
 
 ```sh
-     Invoke-RestMethod http://localhost:6474/api/sources `
+ Invoke-RestMethod http://localhost:6474/api/sources `
         -Method POST `
         -ContentType "application/json" `
         -Body `
@@ -138,8 +138,8 @@ Next we have:
     "providerConfiguration": {
         "type": 3,
         "delimiter": ":",
-        "hasheaderrecord": true,
-        "Path": "C:\\DataSources\\news.csv
+        "HasHeaderRecord": true,
+        "Path": "C:\\DataSources\\news.csv"
     },
     "filterConfiguration": {
         "columns": [
@@ -149,7 +149,8 @@ Next we have:
             ]
          }
 }
-"@ 
+"@  
+
 ```
 
 Walkthorugh on this csv data collection:
@@ -161,16 +162,44 @@ Walkthorugh on this csv data collection:
 - path - path to the csv from the data sourcerer service
 - filterconfiguration  - what data are we interested in gettting from the data source.
 
+### Adding RSS Source
+```sh
+    Invoke-RestMethod http://localhost:6474/api/sources `
+        -Method POST `
+        -ContentType "application/json" `
+        -Body `
+@"
+{
+    "name": "SampleRss",
+    "providerConfiguration": {
+        "type": "rss",
+        "Url": "https://www.reddit.com/.rss"
+    },
+    "filterConfiguration": {
+        "columns": [
+            "Title",
+            "Content"
+        ]
+    },
+    "pollingIntervalMs": 15000
+}
+"@
+```
 
+Walkthrough the RSS data collection - 
 
-
-
+- name - your name for the source
+- type - 5 = rss
+- url - link to feed
+- filterconfiguration  - what data are we interested in gettting from the data source.
+- pollinginteval -  The time between polling the source (15000 = 15 seconds)
+ 
 
 ### Initial Pull from Data Source
 Once the `source` is added, we need to `pull` from that source. You must send a pull request to Data Sourcerer before Versio Platform can use your registered source.
 
 ```shell
- Invoke-RestMethod http://localhost:6474/api/sources/Forecasts/pull `
+Invoke-RestMethod http://localhost:6474/api/sources/Forecasts/pull `
  -Method POST
 ```
 
