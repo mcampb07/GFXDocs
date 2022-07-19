@@ -54,7 +54,6 @@ nav:
    - "Real Time Pull" : chapter06_create_rto_based_graphics/202204272022_realtime_pull_data_tutorial.md
    - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
    - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/2114465112_creation_real_time_clocks_timers_howto.md
-   - "Data Sourcerer Management" : chapter06_create_rto_based_graphics/how_data_sourcerer_management/202206071553_how_data_sourcerer_management.md
    - "RTO AEP" : downloads/Real Time Graphics Examples.aep
  - Chapter 7 - Create DVEs :
    - "Versio DVEs" : chapter07_create_dves/2122905693_dve_explanation.md
@@ -64,6 +63,9 @@ nav:
    - "After Effects Expressions" : chapter08_graphics_with_expressions/202204282041_adobe_after_effects_expressions_reference.md
 #- Chapter 9 - Creation Clocks and Timers
 #- Chapter 10 - Advanced Graphics
+ - Chapter 11 - Data Sourcerer :
+   - "About Data Sourcerer" : chapter11_datasourcer_install_config/exp_data_sourcerer/202207190825_exp_data_sourcerer.md
+   - "Data Sourcerer Management" : chapter11_datasourcer_install_config/how_data_sourcerer_management/202206071553_how_data_sourcerer_management.md
 
 theme:
   name: material
