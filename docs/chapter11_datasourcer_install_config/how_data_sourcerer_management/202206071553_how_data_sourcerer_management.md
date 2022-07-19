@@ -50,7 +50,7 @@ Lets break down the information in listed in the `body` section.
 - HasHeaderRecord 
 	- Whether the first line of the file contains header text. This is not applicable to RSS or SQL sources. 
 - Delimiter 
-	- The character that is used as a delimiter. This is only applicable to CSV sources. 
+	- The character that is used as a delimiter. This is only applicable to CSV sources. Exmaple `,` `:`
 - Path 
 	- The path to the data source file or feed. Note: This is not applicable to SQL sources. 
 - columns 
