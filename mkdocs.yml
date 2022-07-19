@@ -54,6 +54,7 @@ nav:
    - "Real Time Pull" : chapter06_create_rto_based_graphics/202204272022_realtime_pull_data_tutorial.md
    - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
    - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/2114465112_creation_real_time_clocks_timers_howto.md
+   - "Data Sourcerer Management" : chapter06_create_rto_based_graphics/how_data_sourcerer_management/202206071553_how_data_sourcerer_management.md
    - "RTO AEP" : downloads/Real Time Graphics Examples.aep
  - Chapter 7 - Create DVEs :
    - "Versio DVEs" : chapter07_create_dves/2122905693_dve_explanation.md
