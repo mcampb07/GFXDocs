@@ -172,7 +172,7 @@ Walkthorugh on this csv data collection:
 {
     "name": "SampleRss",
     "providerConfiguration": {
-        "type": "rss",
+        "type": "4",
         "Url": "https://www.reddit.com/.rss"
     },
     "filterConfiguration": {
@@ -189,11 +189,32 @@ Walkthorugh on this csv data collection:
 Walkthrough the RSS data collection - 
 
 - name - your name for the source
-- type - 5 = rss
+- type - 4 = rss
 - url - link to feed
 - filterconfiguration  - what data are we interested in gettting from the data source.
 - pollinginteval -  The time between polling the source (15000 = 15 seconds)
  
+### Adding Text Source 
+```sh
+Invoke-RestMethod http://localhost:6474/api/sources `
+        -Method POST `
+        -ContentType "application/json" `
+        -Body `
+@"
+{
+    "name": "Text",
+    "providerConfiguration": {
+        "type": "5",
+        "Path": $path
+    }
+}
+"@
+```
+Walkthrough the txt data collection
+
+- name - your name for the source
+- type - 5 = text
+- path - path to the file from data sourcerer
 
 ### Initial Pull from Data Source
 Once the `source` is added, we need to `pull` from that source. You must send a pull request to Data Sourcerer before Versio Platform can use your registered source.
