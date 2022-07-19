@@ -239,3 +239,13 @@ Either installed an application, like DB Browser for SQL lite - downloaded from 
 Additionally, if your Creation Station and or Versio Server Graphic engines have been configured to  point towards the `Data Sourcerer` then you can check the available data via the RTO fields in your layouts.
 
 ![](attachments/Pasted%20image%2020220608175720.png)
+
+### Delete Data Source 
+
+You need to remove a source that you have added prior. To remove simply run the following:
+
+```sh
+Invoke-RestMethod http://localhost:6474/api/sources/SOURCE-NAME `
+   -Method Delete
+```
+
