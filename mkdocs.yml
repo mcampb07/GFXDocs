@@ -65,6 +65,7 @@ nav:
 #- Chapter 10 - Advanced Graphics
  - Chapter 11 - Data Sourcerer :
    - "About Data Sourcerer" : chapter11_datasourcer_install_config/exp_data_sourcerer/202207190825_exp_data_sourcerer.md
+   - "Data Sourcer Install" : chapter11_datasourcer_install_config/tut_data_sourcerer_install/202207190834_tut_data_sourcerer_install.md
    - "Data Sourcerer Management" : chapter11_datasourcer_install_config/how_data_sourcerer_management/202206071553_how_data_sourcerer_management.md
 
 theme:
@@ -91,3 +92,12 @@ plugins:
         password_button: True
         password_button_text: 'login'
         
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/james-rivers
+      name: James Rivers on Twitter
+  copyright: Copyright &copy; 2021 - 2022 James Rivers & MyImagine Academy Part of Imagine Communications.
+
+
