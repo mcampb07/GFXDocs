@@ -42,7 +42,7 @@ nav:
    - "What is CTC?" : chapter05_create_ctc_based_graphics/2093968193_what_is_ctc_explanation.md
    - "CTC Cheat Sheet" : chapter05_create_ctc_based_graphics/2093970347_ctc_cheat_sheet_reference.md
    - "Create CTC Graphics" : chapter05_create_ctc_based_graphics/2094000644_create_ctc_create_ctc_graphics_howto.md
-   - "CTC BUG Promo AEP" : downloads/CTC_BUG_PROMO_2201.zip
+   - "AEP CTC RTO - BUG PROMO" : downloads/CH2_CTC_BUG_PROMO_2201.zip
  - Chapter 6 - RTO Based Graphics :
    - "What is RTO?" : chapter06_create_rto_based_graphics/2101008531_what_is_a_real_time_object_explanation.md
    - "Understanding RTO" : chapter06_create_rto_based_graphics/2101068464_rt_graphic_understanding_tutorial.md
@@ -54,7 +54,7 @@ nav:
    - "Real Time Pull" : chapter06_create_rto_based_graphics/202204272022_realtime_pull_data_tutorial.md
    - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
    - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/2114465112_creation_real_time_clocks_timers_howto.md
-   - "RTO AEP" : downloads/Real Time Graphics Examples.aep
+   - "AEP RTO SCROLLS" : downloads/CH6_RTO_SCROLL.aep
  - Chapter 7 - Create DVEs :
    - "Versio DVEs" : chapter07_create_dves/2122905693_dve_explanation.md
    - "DVE Creation Tutorial" : chapter07_create_dves/2122915384_dve_creation_understanding_tutorial.md
