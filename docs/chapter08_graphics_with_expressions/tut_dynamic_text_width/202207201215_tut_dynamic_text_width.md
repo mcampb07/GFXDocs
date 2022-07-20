@@ -16,11 +16,11 @@ This article will briefly review a dynamic width expression that can be used in 
 
 Here we have a single line of 24 characters that we are then going to shorten to 16 characters. Notice the dynamic state of the later banner and text we are seeing. 
 
-![07-20-12.21.52.gif](docs/chapter08_graphics_with_expressions/tut_dynamic_text_width/attachments/2022-07-20-12.21.52.gif)
+![07-20-12.21.52.gif](attachments/2022-07-20-12.21.52.gif)
 
 What about if we use more than 1 line, say 3 or 4. Sure we can do that here.
 
-![07-20-12.26.39.gif](docs/chapter08_graphics_with_expressions/tut_dynamic_text_width/attachments/2022-07-20-12.26.39.gif)
+![07-20-12.26.39.gif](attachments/2022-07-20-12.26.39.gif)
 
 ## After Effects Comp Review 
 
