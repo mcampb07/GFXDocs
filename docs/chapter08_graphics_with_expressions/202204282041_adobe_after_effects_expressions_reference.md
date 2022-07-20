@@ -11,7 +11,9 @@ Title : 202204282041_adobe_after_effects_expressions_reference
 # Adobe After Effects Scripts - Expressions
 
 ## Sample Scripts
+
 **TIPS**
+
 - For leading to be applied to text, run Imagine Script with two lines of text (not from an expression - use an actual break)
 - All Adobe Extend Scripting may not be supported, there may be ways of doing things using JavaScript that will also work in After Effects
 - Tracks must be at frame 0 for real time object.
