@@ -23,3 +23,4 @@ Youtube Playlist for leanring expressions
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLvr5U5ZSt6IzHyvSL9fo0M9NRPsTvra31" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+- [Link to youtube course material](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjJaVUZPRE8xcF9WQUtaaVJDWGlyMm1MejlFZ3xBQ3Jtc0tuanNJLTZvcVdVVEd4XzVPUU9mQ05CR0dGSG9uaUdSWk1SaDBnUHlnakVHVkh1NlpYM0I5b2dMX3RZYTZhZ2pvR0ljQ2xFNFVLUVpsdVJDeXp0cFpMd2QzbXBISVIyYmYzMDVtYUZyaGZDRW9HUC03QQ&q=https%3A%2F%2Fgum.co%2Fanimoplex-expressions&v=Ar_8XBVEKGY)
