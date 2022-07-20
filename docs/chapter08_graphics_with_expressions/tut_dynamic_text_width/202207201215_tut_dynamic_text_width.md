@@ -30,7 +30,7 @@ Here we have the comp for review - please download the comp so you can also revi
 
 ![07-20_123156.png](attachments/2022-07-20_123156.png)
 
-So we have a huge number of Real Time Objects,  Masks, Shapes and Text layers. To make your building simple here everything is linked to a parent `null1`. It is within `null1` that you will find the expression in which the magic happens for the postion, lets take a look. 
+So we have a huge number of Real Time Objects,  Masks, Shapes and Text layers. To make your building simple here everything is linked to a parent `null1`. It is within `null1` that you will find the expression in which the magic happens for the postion, lets take a look.  We also have lots of other expressions dclared here on the differing layers that we will also showcase here.
 
 ![07-20_123612.png](attachments/2022-07-20_123612.png)
 
