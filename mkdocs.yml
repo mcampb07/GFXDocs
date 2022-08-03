@@ -5,6 +5,7 @@ nav:
  - About: about_james_rivers.md
  - Download :  
    - "Course Syllabus" : downloads/211230-VER-GFX-AE.pdf
+   - "Versio Operations 4.6" : downloads/versio-operations-4.6.pdf
    - "AE Script DVE" : downloads/DVE.jsx
    - "AE Script RealTimeObject-2.1.0.46" : downloads/RealTimeObject-2.1.0.46.jsx
    - "AE Script RealTimeObject-2.1.0.47" : downloads/RealTimeObject-2.1.0.47.jsx
@@ -29,6 +30,7 @@ nav:
    - "CSL Macros" : chapter02_versio_ceation_station/2092827666_csl_macros_tutorial.md
    - "CSL Realtime Content" : chapter02_versio_ceation_station/2093313703_csl_realtime_content_tutorial.md
    - "CSL Branded ++" : chapter02_versio_ceation_station/2100987628_csl_branded++_explanation.md
+   - "Layout Z-Order" : chapter02_versio_ceation_station/tut_layout_z-order/202207181848_tut_layout_z-order.md
 #- Chapter 3 - Operations (NA) :
  - Chapter 4 - After Effects :
    - "After Effects Set Up" : chapter04_getting_started_with_adobe_after_effects/2093924623_setup_after_effects_tutorial.md
@@ -41,7 +43,7 @@ nav:
    - "What is CTC?" : chapter05_create_ctc_based_graphics/2093968193_what_is_ctc_explanation.md
    - "CTC Cheat Sheet" : chapter05_create_ctc_based_graphics/2093970347_ctc_cheat_sheet_reference.md
    - "Create CTC Graphics" : chapter05_create_ctc_based_graphics/2094000644_create_ctc_create_ctc_graphics_howto.md
-   - "CTC BUG Promo AEP" : downloads/CTC_BUG_PROMO_2201.aep
+   - "AEP CTC RTO - BUG PROMO" : downloads/CH2_CTC_BUG_PROMO_2201.zip
  - Chapter 6 - RTO Based Graphics :
    - "What is RTO?" : chapter06_create_rto_based_graphics/2101008531_what_is_a_real_time_object_explanation.md
    - "Understanding RTO" : chapter06_create_rto_based_graphics/2101068464_rt_graphic_understanding_tutorial.md
@@ -53,15 +55,23 @@ nav:
    - "Real Time Pull" : chapter06_create_rto_based_graphics/202204272022_realtime_pull_data_tutorial.md
    - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
    - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/2114465112_creation_real_time_clocks_timers_howto.md
-   - "RTO AEP" : downloads/Real Time Graphics Examples.aep
+   - "Custom Variables" : chapter06_create_rto_based_graphics/tut_versio_graphics_variables/202207191158_tut_versio_graphics_variables.md
+   - "AEP RTO SCROLLS" : downloads/CH6_RTO_SCROLL.aep
  - Chapter 7 - Create DVEs :
    - "Versio DVEs" : chapter07_create_dves/2122905693_dve_explanation.md
    - "DVE Creation Tutorial" : chapter07_create_dves/2122915384_dve_creation_understanding_tutorial.md
    - "DVE Creation How To" : chapter07_create_dves/2122916070_build_dve_howto.md
- - Chapter 8 - Postional Graphics with expressions :
-   - "After Effects Expressions" : chapter08_graphics_with_expressions/202204282041_adobe_after_effects_expressions_reference.md
+ - Chapter 8 - After Effects & Expressions :
+   - "Learn Expressions" : chapter08_graphics_with_expressions/ref_expressions_after_effects_external_training/202207201155_ref_expressions_after_effects_external_training.md
+   - "Example Expressions" : chapter08_graphics_with_expressions/202204282041_adobe_after_effects_expressions_reference.md
+   - "Dynamic Width Review" : chapter08_graphics_with_expressions/tut_dynamic_text_width/202207201215_tut_dynamic_text_width.md
+   - "AEP DYNAMIC WIDTH" : downloads/ch8_expression_dynamic_width.aep
 #- Chapter 9 - Creation Clocks and Timers
 #- Chapter 10 - Advanced Graphics
+ - Chapter 11 - Data Sourcerer :
+   - "About Data Sourcerer" : chapter11_datasourcer_install_config/exp_data_sourcerer/202207190825_exp_data_sourcerer.md
+   - "Data Sourcer Install" : chapter11_datasourcer_install_config/tut_data_sourcerer_install/202207190834_tut_data_sourcerer_install.md
+   - "Data Sourcerer Management" : chapter11_datasourcer_install_config/how_data_sourcerer_management/202206071553_how_data_sourcerer_management.md
 
 theme:
   name: material
@@ -87,3 +97,12 @@ plugins:
         password_button: True
         password_button_text: 'login'
         
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/james-rivers
+      name: James Rivers on Twitter
+  copyright: Copyright &copy; 2021 - 2022 James Rivers & MyImagine Academy Part of Imagine Communications.
+
+

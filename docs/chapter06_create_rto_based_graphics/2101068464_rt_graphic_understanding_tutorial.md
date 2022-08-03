@@ -14,12 +14,18 @@ Title : 2101068464_rt_generating_frames_tutorial
 Walkthrough some of the RT object behaviours and setups.  
 
 ## Last Frame Behaviour
+
 - New Comp
-	- 1920*1080
-	- 5 Seconds duration
+   - 1920x1080
+   - 5 Seconds duration
 - New text field not realtime
 - Add an expression to this layer 
-	- `"frame " + thisLayer.timeToFrames(time);`
+   - `"frame " + thisLayer.timeToFrames(time);`
+
+> How to add expressions? Press Alt+click (Windows) or Option+click (macOS) the stopwatch button next to the property name in the Timeline panel or the Effect Controls panel.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Wq9B-bjDDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ![](attachments/Pasted%20image%2020220104115910.png)
 

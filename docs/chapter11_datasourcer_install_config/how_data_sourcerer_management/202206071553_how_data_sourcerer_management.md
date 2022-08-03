@@ -8,30 +8,6 @@ Title : how_data_sourcerer_management
 - Author Notes :
 - Tags : 
 -->
-# Data Sourcerer        
-
-What you will understand after reading this article:
-- What is Data Sourcerer as an overview
-- How to set the infrastructure for Data Sourcerer
-- What the Differing Data Sourcerer sources are
-- How the end goal of RTO elements within a layout are then using the datasets from Data Sourcerer
-
-## Data Sourcerer - What is it?
- 
-The `Data Sourcerer` (fyi I am not a fan of the name, sourcerer... looks wrong!) is a Versio graphics data sourcing solution that replaces the Data Gatherer.
-
-Data Sourcerer (DS) was introduced to Versio in version 4.3.5.
-
-It  is a service that manages data source content for Versio Platform graphics. It works on a registration and pull model, with each of your data sources registered and then pulled in response to "pull" commands in your graphic animations. Data sources are registered using Powershell script files that you can customize and run as required
-
-A selection of sample scripts are provided with the Data Sourcerer installation packages. You can also find samples in the Versio System Operations Technical Guide. 
-
-## Where is it?
-Data Sourcerer is installed on the Windows based `Core Services` instances. If you have an `HA` environment, then you will be load balancing connections from the Versio Graphics engines to the `Data Sourcerers`
-
-<!--
-<insert concept map>
--->
 
 ## Registering a new Data Source
 You must register data `sources` before the Versio Graphics component is able to use them. Like all the other methods for interacting with `Data Sourcerer`.
@@ -74,7 +50,7 @@ Lets break down the information in listed in the `body` section.
 - HasHeaderRecord 
 	- Whether the first line of the file contains header text. This is not applicable to RSS or SQL sources. 
 - Delimiter 
-	- The character that is used as a delimiter. This is only applicable to CSV sources. 
+	- The character that is used as a delimiter. This is only applicable to CSV sources. Exmaple `,` `:`
 - Path 
 	- The path to the data source file or feed. Note: This is not applicable to SQL sources. 
 - columns 
@@ -88,7 +64,7 @@ Lets break down the information in listed in the `body` section.
 
 What follows are examples of the following data source types for review and practice. 
 
-### Adding XML Data Source
+### Adding XML Source
 In this section we will walk through the steps required to add a new XML based data source. login into the `Core Service` instance that has `Data Sourcerer` installed. 
 
 > Note if you have multiple instances you will have to perform the tasks below more than once. 
@@ -148,11 +124,103 @@ Next we have:
 4. Save the PS file 
 5. Run the PS file
 
+
+### Adding CSV Source
+
+```sh
+ Invoke-RestMethod http://localhost:6474/api/sources `
+        -Method POST `
+        -ContentType "application/json" `
+        -Body `
+@"
+{
+    "name": "NEWS",
+    "providerConfiguration": {
+        "type": 3,
+        "delimiter": ":",
+        "HasHeaderRecord": true,
+        "Path": "C:\\DataSources\\news.csv"
+    },
+    "filterConfiguration": {
+        "columns": [
+            "region",
+            "headline",
+            "story"
+            ]
+         }
+}
+"@  
+
+```
+
+Walkthorugh on this csv data collection:
+
+- name - the name of the data source you are adding.
+- type 3 = csv type
+- delimiter - what is going to seperare the data in the csv a `,` or  a `:` you get the idea....
+- hasheaderrecord - is there a top row header
+- path - path to the csv from the data sourcerer service
+- filterconfiguration  - what data are we interested in gettting from the data source.
+
+### Adding RSS Source
+```sh
+    Invoke-RestMethod http://localhost:6474/api/sources `
+        -Method POST `
+        -ContentType "application/json" `
+        -Body `
+@"
+{
+    "name": "SampleRss",
+    "providerConfiguration": {
+        "type": "4",
+        "Url": "https://www.reddit.com/.rss"
+    },
+    "filterConfiguration": {
+        "columns": [
+            "Title",
+            "Content"
+        ]
+    },
+    "pollingIntervalMs": 15000
+}
+"@
+```
+
+Walkthrough the RSS data collection - 
+
+- name - your name for the source
+- type - 4 = rss
+- url - link to feed
+- filterconfiguration  - what data are we interested in gettting from the data source.
+- pollinginteval -  The time between polling the source (15000 = 15 seconds)
+ 
+### Adding Text Source 
+```sh
+Invoke-RestMethod http://localhost:6474/api/sources `
+        -Method POST `
+        -ContentType "application/json" `
+        -Body `
+@"
+{
+    "name": "Text",
+    "providerConfiguration": {
+        "type": "5",
+        "Path": $path
+    }
+}
+"@
+```
+Walkthrough the txt data collection
+
+- name - your name for the source
+- type - 5 = text
+- path - path to the file from data sourcerer
+
 ### Initial Pull from Data Source
 Once the `source` is added, we need to `pull` from that source. You must send a pull request to Data Sourcerer before Versio Platform can use your registered source.
 
 ```shell
- Invoke-RestMethod http://localhost:6474/api/sources/Forecasts/pull `
+Invoke-RestMethod http://localhost:6474/api/sources/Forecasts/pull `
  -Method POST
 ```
 
@@ -171,3 +239,13 @@ Either installed an application, like DB Browser for SQL lite - downloaded from 
 Additionally, if your Creation Station and or Versio Server Graphic engines have been configured to  point towards the `Data Sourcerer` then you can check the available data via the RTO fields in your layouts.
 
 ![](attachments/Pasted%20image%2020220608175720.png)
+
+### Delete Data Source 
+
+You need to remove a source that you have added prior. To remove simply run the following:
+
+```sh
+Invoke-RestMethod http://localhost:6474/api/sources/SOURCE-NAME `
+   -Method Delete
+```
+
