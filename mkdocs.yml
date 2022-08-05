@@ -6,7 +6,7 @@ markdown_extensions:
 nav:
  - Home: index.md
  - About: about_james_rivers.md
- - Download :  
+ - Downloads :  
    - "Course Syllabus" : downloads/211230-VER-GFX-AE.pdf
    - "Versio Operations 4.6" : downloads/versio-operations-4.6.pdf
    - "AE Script DVE" : downloads/DVE.jsx
