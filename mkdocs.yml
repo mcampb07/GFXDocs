@@ -94,4 +94,8 @@ plugins:
     - section-index
     - mkdocs-newsletter
 
-        
+extra:
+  social:
+    - icon: fontawesome/solid/rss
+      link: https://jamesrivers.github.io/imagine_versio_graphics/newsletter/0_newsletter_index/
+
