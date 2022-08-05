@@ -106,6 +106,7 @@ plugins:
     - section-index
     - mkdocs-newsletter
 
+<<<<<<< HEAD
         
 extra:
   generator: false
@@ -115,4 +116,10 @@ extra:
       name: James Rivers on Twitter
   copyright: Copyright &copy; 2021 - 2022 James Rivers & MyImagine Academy Part of Imagine Communications.
 
+=======
+extra:
+  social:
+    - icon: fontawesome/solid/rss
+      link: https://jamesrivers.github.io/imagine_versio_graphics/newsletter/0_newsletter_index/
+>>>>>>> develop
 
