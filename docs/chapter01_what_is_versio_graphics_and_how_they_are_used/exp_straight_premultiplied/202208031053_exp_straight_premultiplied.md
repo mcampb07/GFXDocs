@@ -14,7 +14,6 @@ Title : exp_straight_premultiplied
 
 In the After Effects world we have the option to render `straight` or `premultiplied.  Never heard of it? Watch this video...
 
-
 <iframe width="995" height="746" src="https://www.youtube.com/embed/c0kPLEMF4xk" title="Understanding Straight vs. Premultiplied" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Veriso (Phoenix) Does it care? 
@@ -24,8 +23,6 @@ Yes, yes, yes ... Versio or rather the graphics component on the server - `Phoen
 Can set the Versio Server to handle straight or pre-multiplied? Yes. It is not a file by file option it is an overall server setting:
 It’s all or nothing for everything played through libav provider.
 
-
 Set `LibavProviderPreMultiplied` under `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Inscriber\StreamEffect2` to `0` instead of `1`.
-
 
 In summary, you need to make the decision in the early stages of your new Versio installation - are we using `straight` or `pre-multiplied`
