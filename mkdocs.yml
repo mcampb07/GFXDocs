@@ -101,7 +101,7 @@ plugins:
         password_button: True
         password_button_text: 'login'
     - git-revision-date-localized:
-        type: timeago
+      type: timeago
     - autolinks
     - section-index
     - mkdocs-newsletter
