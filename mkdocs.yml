@@ -1,5 +1,8 @@
 site_name: MyImagine Academy - Versio Graphics
 site_url: https://jamesrivers.github.io/imagine_versio_graphics
+markdown_extensions:
+  - toc:
+      baselevel: 2
 nav:
  - Home: index.md
  - About: about_james_rivers.md
@@ -85,4 +88,10 @@ plugins:
         default_expire_dalay: 12  
         password_button: True
         password_button_text: 'login'
+    - git-revision-date-localized:
+        type: timeago
+    - autolinks
+    - section-index
+    - mkdocs-newsletter
+
         
