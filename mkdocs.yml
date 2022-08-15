@@ -3,6 +3,12 @@ site_url: https://jamesrivers.github.io/imagine_versio_graphics
 markdown_extensions:
   - toc:
       baselevel: 2
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 nav:
  - Home: index.md
  - About: about_james_rivers.md
@@ -15,6 +21,7 @@ nav:
    - "AE Script RealTimeObject-2.1.0.48" : downloads/RealTimeObject-2.1.0.48.jsx
  - Versio Graphics Release Notes:
    - "Release Notes" : release_notes/202204281212_versio_grahics_release_notes.md
+   - "new" : newsletter.md
  - Chapter 1 - What is Versio Graphics?:
    - "Versio Graphics Overview" : chapter01_what_is_versio_graphics_and_how_they_are_used/2082386875_versio_graphics_overview_explanation.md
    - "Versio Creation Station" : chapter01_what_is_versio_graphics_and_how_they_are_used/2082457183_what_is_creation_station_explanation.md
