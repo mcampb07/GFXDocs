@@ -15,4 +15,5 @@ jobs:
               mkdocs-material \
               mkdocs-encryptcontent-plugin \
               mkdocs-git-revision-date-localized-plugin \
+              mkdocs-autolinks-plugin \
       - run: mkdocs gh-deploy --force
