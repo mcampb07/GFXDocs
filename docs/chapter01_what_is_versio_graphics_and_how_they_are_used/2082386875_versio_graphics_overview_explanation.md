@@ -1,6 +1,5 @@
 <!--
 Title : 2082386875_versio_graphics_overview_explanation
-
 - Created : 2021-12-29 14:44
 - Updated :
 - Author : James Rivers
