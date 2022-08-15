@@ -22,6 +22,7 @@ nav:
  - Versio Graphics Release Notes:
    - "Release Notes" : release_notes/202204281212_versio_grahics_release_notes.md
    - "new" : newsletter.md
+     "123" : 123.md
  - Chapter 1 - What is Versio Graphics?:
    - "Versio Graphics Overview" : chapter01_what_is_versio_graphics_and_how_they_are_used/2082386875_versio_graphics_overview_explanation.md
    - "Versio Creation Station" : chapter01_what_is_versio_graphics_and_how_they_are_used/2082457183_what_is_creation_station_explanation.md
@@ -101,12 +102,12 @@ theme:
 
 plugins:
     - search: {}
-    - encryptcontent:
-        global_password: 'Imagine2022!'
-        remember_password: True
-        default_expire_dalay: 12  
-        password_button: True
-        password_button_text: 'login'
+      #- encryptcontent:
+      #  global_password: 'Imagine2022!'
+      #  remember_password: True
+      #  default_expire_dalay: 12  
+      #  password_button: True
+      #  password_button_text: 'login'
     - git-revision-date-localized:
         type: timeago
     - autolinks
