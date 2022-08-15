@@ -1,8 +1,6 @@
 site_name: MyImagine Academy - Versio Graphics
 site_url: https://graphics.myimagine.io/
 markdown_extensions:
-  - toc:
-      baselevel: 2
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -106,12 +104,6 @@ plugins:
         default_expire_dalay: 12  
         password_button: True
         password_button_text: 'login'
-    - git-revision-date-localized:
-        type: timeago
-    - autolinks
-    - section-index
-#   - mkdocs-newsletter
-
         
 extra:
   generator: false
@@ -119,8 +111,6 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/james-rivers
       name: James Rivers on Twitter
-    - icon: fontawesome/solid/rss
-    # link: https://jamesrivers.github.io/imagine_versio_graphics/newsletter/0_newsletter_index/
   copyright: Copyright &copy; 2021 - 2022 James Rivers & MyImagine Academy Part of Imagine Communications.
 
 
