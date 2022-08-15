@@ -8,8 +8,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 nav:
- - Home: index.md
- - About: about_james_rivers.md
+ - Home : index.md
+ - About : about_james_rivers.md
  - Downloads :  
    - "Course Syllabus" : downloads/211230-VER-GFX-AE.pdf
    - "Versio Operations Guide 4.6" : downloads/versio-operations-4.6.pdf
