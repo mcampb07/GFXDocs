@@ -1,5 +1,5 @@
 site_name: MyImagine Academy - Versio Graphics
-site_url: https://graphics.myimagine.io/
+site_url: https://jamesrivers.github.io/700_graphics/
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
