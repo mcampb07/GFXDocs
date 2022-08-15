@@ -14,6 +14,5 @@ jobs:
       - run: pip install \
               mkdocs-material \
               mkdocs-encryptcontent-plugin \
-            # mkdocs-newsletter \
               mkdocs-git-revision-date-localized-plugin \
       - run: mkdocs gh-deploy --force
