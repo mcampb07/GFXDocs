@@ -16,4 +16,5 @@ jobs:
               mkdocs-encryptcontent-plugin \
               mkdocs-git-revision-date-localized-plugin \
               mkdocs-autolinks-plugin \
+              mkdocs-section-index \
       - run: mkdocs gh-deploy --force
