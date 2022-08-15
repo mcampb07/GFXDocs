@@ -110,7 +110,7 @@ plugins:
         type: timeago
     - autolinks
     - section-index
-    - mkdocs-newsletter
+#   - mkdocs-newsletter
 
         
 extra:
@@ -120,7 +120,7 @@ extra:
       link: https://twitter.com/james-rivers
       name: James Rivers on Twitter
     - icon: fontawesome/solid/rss
-      link: https://jamesrivers.github.io/imagine_versio_graphics/newsletter/0_newsletter_index/
+    # link: https://jamesrivers.github.io/imagine_versio_graphics/newsletter/0_newsletter_index/
   copyright: Copyright &copy; 2021 - 2022 James Rivers & MyImagine Academy Part of Imagine Communications.
 
 
