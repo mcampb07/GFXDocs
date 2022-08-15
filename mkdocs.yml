@@ -1,17 +1,28 @@
 site_name: MyImagine Academy - Versio Graphics
 site_url: https://jamesrivers.github.io/imagine_versio_graphics
+markdown_extensions:
+  - toc:
+      baselevel: 2
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 nav:
  - Home: index.md
  - About: about_james_rivers.md
- - Download :  
+ - Downloads :  
    - "Course Syllabus" : downloads/211230-VER-GFX-AE.pdf
-   - "Versio Operations 4.6" : downloads/versio-operations-4.6.pdf
+   - "Versio Operations Guide 4.6" : downloads/versio-operations-4.6.pdf
    - "AE Script DVE" : downloads/DVE.jsx
    - "AE Script RealTimeObject-2.1.0.46" : downloads/RealTimeObject-2.1.0.46.jsx
    - "AE Script RealTimeObject-2.1.0.47" : downloads/RealTimeObject-2.1.0.47.jsx
    - "AE Script RealTimeObject-2.1.0.48" : downloads/RealTimeObject-2.1.0.48.jsx
  - Versio Graphics Release Notes:
    - "Release Notes" : release_notes/202204281212_versio_grahics_release_notes.md
+   - "new" : newsletter.md
+     "123" : 123.md
  - Chapter 1 - What is Versio Graphics?:
    - "Versio Graphics Overview" : chapter01_what_is_versio_graphics_and_how_they_are_used/2082386875_versio_graphics_overview_explanation.md
    - "Versio Creation Station" : chapter01_what_is_versio_graphics_and_how_they_are_used/2082457183_what_is_creation_station_explanation.md
@@ -19,6 +30,7 @@ nav:
    - "Versio Graphics Data Sourcerer" : chapter01_what_is_versio_graphics_and_how_they_are_used/2083402020_what_is_data_sourcerer_explanation.md
    - "Versio EAS" : chapter01_what_is_versio_graphics_and_how_they_are_used/2083736539_what_is_eas_explanation.md
    - "Versio Basic Grpahics Creation" : chapter01_what_is_versio_graphics_and_how_they_are_used/2086642523_basic_graphics_creation_tutorial.md
+   - "Straight or Premultiplied": chapter01_what_is_versio_graphics_and_how_they_are_used/exp_straight_premultiplied/202208031053_exp_straight_premultiplied.md
    - "Imagine Communications Tech Guide" : downloads/Versio Platform 4.6 System Operations_20211215.pdf
  - Chapter 2 - Veriso Creation Station :
    - "What is CSL" : chapter02_versio_ceation_station/2084363940_csl_review_explanation.md
@@ -90,12 +102,18 @@ theme:
 
 plugins:
     - search: {}
-    - encryptcontent:
-        global_password: 'Imagine2022!'
-        remember_password: True
-        default_expire_dalay: 12  
-        password_button: True
-        password_button_text: 'login'
+      #- encryptcontent:
+      #  global_password: 'Imagine2022!'
+      #  remember_password: True
+      #  default_expire_dalay: 12  
+      #  password_button: True
+      #  password_button_text: 'login'
+    - git-revision-date-localized:
+        type: timeago
+    - autolinks
+    - section-index
+    - mkdocs-newsletter
+
         
 extra:
   generator: false
@@ -103,6 +121,8 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/james-rivers
       name: James Rivers on Twitter
+    - icon: fontawesome/solid/rss
+      link: https://jamesrivers.github.io/imagine_versio_graphics/newsletter/0_newsletter_index/
   copyright: Copyright &copy; 2021 - 2022 James Rivers & MyImagine Academy Part of Imagine Communications.
 
 
