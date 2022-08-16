@@ -1,7 +1,7 @@
 <!--tag : [!versio_graphics_moc](!versio_graphics_moc.md)
 -->
 # Versio Graphics
-Welcome to the course `Versio Graphics`. This course was written by James Rivers from the MyImagine Academy team, find out more about James here  [about_james_rivers](about_james_rivers.md)
+Welcome to the course `Versio Graphics`. This course was written by James Rivers from the MyImagine Academy team, find out more about James here  [about_james_rivers](docs/about_james_rivers.md)
 
 
 What to expect from the course? You will cover a number of chapters from the beginner level to the advanced level. Course materials in the class is listed in four pillars:
