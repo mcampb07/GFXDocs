@@ -99,7 +99,7 @@ theme:
 plugins:
     - search: {}
     - encryptcontent:
-        global_password: 'Imagine2022!'
+        global_password: 'Imagine2023@'
         remember_password: True
         default_expire_dalay: 12  
         password_button: True
