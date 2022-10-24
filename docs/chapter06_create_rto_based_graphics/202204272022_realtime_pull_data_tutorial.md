@@ -1,3 +1,10 @@
+---
+tags:
+   - realtime
+   - pulls
+   - loops
+---
+
 <!--
 Title :202204272022_realtime_pull_data
 - Created : 2022-04-15 11:10
@@ -114,6 +121,15 @@ After edit to enable infinite loops:
 
 The 1st record in the db is `Allentown` the last is `Wilmington`
 ![](attachments/2022-04-28%2009.55.54.gif)
+
+!!! info "Update to Loops! - VMGMT-14960"
+    ok, so we have the ability to make a text or media source loop when connected to a data source but the designer has to modify the JSON in the sidecar file manually. But! as of version Versio 4.7 GA - (prometheus-ui 1.5.0.24) we can now loop the data source... see the screengrab below.
+
+
+![10-24_190107.png](attachments/2022-10-24_190107.png)
+
+
+
 
 ### Customer request
 Customer A has requested to show not 1 town but 2 towns on screen at the same time from the same data source. Can this be achieved? Yes!  - How? 

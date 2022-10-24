@@ -162,6 +162,11 @@ Walkthorugh on this csv data collection:
 - path - path to the csv from the data sourcerer service
 - filterconfiguration  - what data are we interested in gettting from the data source.
 
+!!! info 
+    review the CSV page with all the ps scripts for pulling, querying, adding this type of source.  
+![Data Sourcerer CSV Query](docs/chapter11_datasourcer_install_config/ref_data_sourcerer_csv/202209141248_ref_data_sourcerer_csv.md)
+
+
 ### Adding RSS Source
 ```sh
     Invoke-RestMethod http://localhost:6474/api/sources `
