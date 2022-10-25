@@ -101,7 +101,7 @@ theme:
     - naviagtion.tabs.sticky
    #- navigation.expand
     - navigation.indexes
-    - navigation.top
+   # - navigation.top
 
 
 plugins:
