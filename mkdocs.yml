@@ -86,6 +86,8 @@ nav:
    - "Data Sourcerer Management" : chapter11_datasourcer_install_config/how_data_sourcerer_management/202206071553_how_data_sourcerer_management.md
 #- Chapter 12 - Advanced Graphics
 #- Chapter 13 - Linux Graphics
+ - Chapter 14 - Misc Items :
+   - "Reference Mask Opacity" : chapter14_misc/ref_mask_opacity_percentage/202210251855_ref_mask_opacity_percentage.md
 
 theme:
   name: material
