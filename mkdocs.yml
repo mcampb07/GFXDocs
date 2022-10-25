@@ -94,9 +94,17 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+  features:
+    - navigation.tabs
+    - naviagtion.tabs.sticky
+   #- navigation.expand
+    - navigation.indexes
+    - navigation.top
 
 
 plugins:
+    - tags:
+        tags_file: tags.md
     - search: {}
     - encryptcontent:
         global_password: 'Imagine2023@'
