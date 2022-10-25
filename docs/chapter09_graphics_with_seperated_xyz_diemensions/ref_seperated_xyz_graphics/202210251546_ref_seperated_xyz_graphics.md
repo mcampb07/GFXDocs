@@ -1,9 +1,8 @@
 ---
 tags:
-  - 
-  - 
-  - 
-  - 
+  - xyz
+  - separation 
+  - realtime
 ---
 
 
@@ -18,42 +17,17 @@ Title : ref_seperated_xyz_graphics
 -->
 
 !!! info "Article Updated"
-Wed  7 Sep 2022 12:38:32 BST
+    Tue 25 Oct 2022 15:46:35 BST
 
-# Article Title
+# Reference - Support Separated XYZ dimensions
 
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+- [POGM-2851](https://imaginecommunications.atlassian.net/browse/POPGM-2851)
+- [CO-1281](https://imaginecommunications.atlassian.net/browse/CO-1281)
 
----
+Customer is looking for adding the support of sperate dimension in layers where user need to be able to control X and Y dimension separately.
 
-!!! note "Title"
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-!!! tldr
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+Currently the Real Time Object Script only captures keyframes when X and Y transformations are combined. Customers would like to capture these keyframe transforms independently and ability to have expression on the separate dimensions. This provide support for better easing, acceleration and curves to produce smoother animations. If the customer sets "Separate Dimensions" in After Effect our script does not log the keyframe transformations. It should also support X,Y,Z when available.
 
-!!! info
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+Video for internal review only. 
 
-!!! tip
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-!!! question
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-!!! warning
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-!!! fail
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-!!! example
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-!!! quote
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-
+<iframe src="https://player.vimeo.com/video/763866617?h=5b95e237cc" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
