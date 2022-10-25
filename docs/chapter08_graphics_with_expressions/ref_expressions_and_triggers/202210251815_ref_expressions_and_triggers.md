@@ -30,6 +30,7 @@ We need to have the ability to fire CTC triggers based on result of an AE expres
 Graphics will be able to change or show/hide different objects based on conditions within a single graphic. Triggers can respond on any layer where the layout is loaded. 
 
 Examples Use Case:
+
 - If the value of a RT time text object is “Sauce” then fire named trigger “Spaghetti”.
 - The countdown time remaining is greater than 00:00:05 set value Opacity = 100. Else, Opacity=0 and fire trigger “Spaghetti”
 - If a value from a data source tied to a RT Text item is “Sauce” then fire named trigger “Spaghetti”
