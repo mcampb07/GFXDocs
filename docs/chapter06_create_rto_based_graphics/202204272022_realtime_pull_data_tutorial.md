@@ -15,6 +15,10 @@ Title :202204272022_realtime_pull_data
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+
+!!! info "article updated"
+    Tue 25 Oct 2022 09:11:24 BST
+
 # Versio Graphics Real Time Data - Pulls and Loops
 In this article we are going to walk through the process of linking an RTO text item to a Data Source, and for that data to loop and show differing items on each. 
 ![](attachments/2022-04-27%2020.27.49.gif)
@@ -123,18 +127,28 @@ The 1st record in the db is `Allentown` the last is `Wilmington`
 
 ![](attachments/2022-04-28%2009.55.54.gif)
 
+
+## Updates to Loops for RealTime Data Objects
+
 !!! note "Update to Loops"
-    ok, so we have the ability to make a text or media source loop when connected to a data source but the designer has to modify the JSON in the sidecar file manually. But! as of version Versio 4.7 GA - (prometheus-ui 1.5.0.24), as part of VMGMT-14960 we can now loop the data source via the ui... see the screengrab below.
+    ok, so we have the ability to make a text or media source loop when connected to a data source but the designer has to modify the JSON in the sidecar file manually. But! as of version Versio 4.7 GA - (prometheus-ui 1.5.0.24), 
+as part of VMGMT-14960 we can now loop the data source via the ui...
+
+What is a vaild lopping object in this update? Objects that have a valid `goto loop` and `loopin` specified in the object (.mov). 
+
+![10-25-091539.png](attachments/2022-10-25-091539.png)
+
+The loop details are going to be listed within the realtime object data source links, as shown below
 
 
-![10-24_190107.png](attachments/2022-10-24_190107.png)
+![10-25-093255.png](attachments/2022-10-25-093255.png)
 
+!!! note
+    Note this update does not affect the crawls method of looping data, that remains the same as previous. 
 
 Video on this update, internal viewing only.
-<iframe src="https://player.vimeo.com/video/763565991?h=d4222631a9" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-
-
+<iframe src="https://player.vimeo.com/video/763565991?h=d4222631a9" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
 ### Customer request
