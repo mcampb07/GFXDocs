@@ -120,9 +120,10 @@ After edit to enable infinite loops:
 ```
 
 The 1st record in the db is `Allentown` the last is `Wilmington`
+
 ![](attachments/2022-04-28%2009.55.54.gif)
 
-!!! note "Update to Loops!"
+!!! note "Update to Loops"
     ok, so we have the ability to make a text or media source loop when connected to a data source but the designer has to modify the JSON in the sidecar file manually. But! as of version Versio 4.7 GA - (prometheus-ui 1.5.0.24), as part of VMGMT-14960 we can now loop the data source via the ui... see the screengrab below.
 
 
