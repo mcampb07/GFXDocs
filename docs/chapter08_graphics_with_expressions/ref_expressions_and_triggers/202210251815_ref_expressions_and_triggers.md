@@ -22,6 +22,9 @@ Title : ref_expressions_and_triggers
 
 - [POPGM-2852](https://imaginecommunications.atlassian.net/browse/POPGM-2852)
 
+!!! Success
+    This feature is added as part of the Veriso 4.7GA Release 
+
 We need to have the ability to fire CTC triggers based on result of an AE expression under multiple conditions. This will allow customers to evaluate the input of real time tags and other layer properties then fire a named trigger when the condition is met. The named trigger (already in product) can be used to do things like fire a salvo/macro or unpause an animation.
 
 Graphics will be able to change or show/hide different objects based on conditions within a single graphic. Triggers can respond on any layer where the layout is loaded. 
