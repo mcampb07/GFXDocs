@@ -75,13 +75,17 @@ nav:
    - "Learn Expressions" : chapter08_graphics_with_expressions/ref_expressions_after_effects_external_training/202207201155_ref_expressions_after_effects_external_training.md
    - "Example Expressions" : chapter08_graphics_with_expressions/202204282041_adobe_after_effects_expressions_reference.md
    - "Dynamic Width Review" : chapter08_graphics_with_expressions/tut_dynamic_text_width/202207201215_tut_dynamic_text_width.md
+   - "Expressions & Triggers" : chapter08_graphics_with_expressions/ref_expressions_and_triggers/202210251815_ref_expressions_and_triggers.md
    - "AEP DYNAMIC WIDTH" : downloads/ch8_expression_dynamic_width.aep
-#- Chapter 9 - Creation Clocks and Timers
-#- Chapter 10 - Advanced Graphics
+ - Chapter 9 - Graphics XYZ Diemensions :
+   - "Reference XYZ Diemensions" : chapter09_graphics_with_seperated_xyz_diemensions/ref_seperated_xyz_graphics/202210251546_ref_seperated_xyz_graphics.md
+#- Chapter 10 - Creation Clocks and Timers
  - Chapter 11 - Data Sourcerer :
    - "About Data Sourcerer" : chapter11_datasourcer_install_config/exp_data_sourcerer/202207190825_exp_data_sourcerer.md
    - "Data Sourcer Install" : chapter11_datasourcer_install_config/tut_data_sourcerer_install/202207190834_tut_data_sourcerer_install.md
    - "Data Sourcerer Management" : chapter11_datasourcer_install_config/how_data_sourcerer_management/202206071553_how_data_sourcerer_management.md
+#- Chapter 12 - Advanced Graphics
+#- Chapter 13 - Linux Graphics
 
 theme:
   name: material
@@ -97,11 +101,14 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
   features:
-    - navigation.tabs
-    - naviagtion.tabs.sticky
+   #- navigation.tabs
+    - navigation.instant
+    - navigation.expand
+   #- naviagtion.tabs.sticky
    #- navigation.expand
     - navigation.indexes
    # - navigation.top
+    - toc.follow
 
 
 plugins:
