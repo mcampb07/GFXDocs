@@ -1,6 +1,8 @@
 site_name: MyImagine Academy - Versio Graphics
 site_url: https://graphics.myimagine.io
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
