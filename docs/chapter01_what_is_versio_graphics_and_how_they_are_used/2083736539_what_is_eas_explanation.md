@@ -1,3 +1,9 @@
+---
+tags: 
+   - eas
+   - graphics
+---
+
 <!--
 Title : 2083736539_what_is_eas_explanationUntitled
 
@@ -7,10 +13,13 @@ Title : 2083736539_what_is_eas_explanationUntitled
 - Written against (version):
 - Sources :Versio EAS Setup Guide
 - Author Notes :
-- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
 
+!!! info "Article Updated"
+    Thu 27 Oct 2022 13:15:42 BST
+
 # Emergency Alert System - EAS
+
 The  Emergency  Alert  System  (EAS)  feature  enables Versio™  to  receive  and  broadcast  standard  FCC compliant  (S.A.M.E.)  EAS  messages from  a  supported  EAS  encoder. 
 
 Versio supports  the  Digital  Alert Systems DASDEC  II.  Up  to 8 independent Versios may be configured from  a single  DASDEC device.  Multichannel  Versios  can be configured  to  recei ve  a common  DASDEC  EA source,  or each channel can be independent. Connectivity  with the DASDEC  is all done  via IP  (no serial, analog audio  receiver, or  GPI are necessary).
@@ -25,5 +34,6 @@ If  the crawl text is shorter than the audio the crawl will remain looping  unti
 
 Visible  EAS  crawls  are always  displayed  downstream  (on top) of the internal  graphics and external key fill inputs.
 
-> Note: EAS  support must be enabled within  Configuration Manager  before you  install your  channel instances, and it also  involves  configuring  your  EAS  device. 
+!!! note
+    Note EAS support must be enabled within  Configuration Manager  before you  install your  channel instances, and it also  involves  configuring  your  EAS  device. 
 
