@@ -1,3 +1,8 @@
+---
+tags:
+   - creation station
+   - review 
+---
 <!--
 Title : 2084363940_csl_review_explanation
 
@@ -10,9 +15,9 @@ Title : 2084363940_csl_review_explanation
 	- Versio Platform 4.6 System Operations - p248
 	- Creation Station Lite for Versio 4.0.2 System Requirements
 - Author Notes :
-- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
-
+!!! info "Article Updated"
+    Thu 27 Oct 2022 15:53:05 BST
 
 # CSL Review
 Creation Station Lite will be installed on one or many PCs in your facility.  CSL comproises of 3 main User Interfaces:
@@ -32,7 +37,8 @@ To access the Versio Graphics - HTML5 UI enter the follwing url replacing the IP
 
 To access the Versio Console - SilverLight UI enter the follwing url replacing the IP address / hostname to fit your system. `http://localhost:8895/Versio/VersioConsole.html#GraphicsControl`
 
-> Full screen preview http://localhost:8895/Versio/PreviewDebug.html  Port 4502 - see Creation Station System and port for details on ports
+!!! info "Keep hold of this link - you will need it!"
+    Full screen preview `http://localhost:8895/Versio/PreviewDebug.html`  Port 4502 - see Creation Station System and port for details on ports
 
 
 To access the IconStation Login into the hosting server there you should see the IconStation Desktop application. 
