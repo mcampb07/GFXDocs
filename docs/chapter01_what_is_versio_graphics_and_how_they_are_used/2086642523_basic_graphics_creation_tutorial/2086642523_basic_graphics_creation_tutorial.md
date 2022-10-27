@@ -31,6 +31,6 @@ It is a taster tutorial to show some of the user interfaces and get you comforta
 
 ## Downloads for this article
 
-![chapter1.zip](downloads/2086642523_basic_graphics_creation_tutorial/chapter1.zip)
+[chapter1.zip](downloads/2086642523_basic_graphics_creation_tutorial/chapter1.zip)
 
 
