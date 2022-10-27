@@ -57,6 +57,6 @@ What if you wanted to update the RT whilst on air? Add in a loop.
 ![](attachments/2022-01-04%2015.24.05.gif)
 
 !!! success
-    See the recent update to the loop option in the Versio CSL User Interface [here](chapter06_create_rto_based_graphics/202204272022_realtime_pull_data_tutorial.md)
+    See the recent update to the loop option in the Versio CSL User Interface [here](202204272022_realtime_pull_data_tutorial.md)
 
 
