@@ -126,15 +126,18 @@ Geometry items such as rotation and scale are supported.
 
 ## Active Textrues in Crawls?
 
-Sure you can add active textures to your crawl we treat them the same as text objects.  The image below is a series of imagine logos (active textures) in a crawl. 
+Sure you can add active textures to your crawls we treat them the same as text objects. An active texture item could be that graphic seperator between stores right?  The image below is a series of imagine logos (active textures) in a crawl. 
 
 ![10-25-100203.png](attachments/2022-10-25-100203.png)
+
 
 !!! bug
     Active textures only display in crawls when looping infinitely. If you say loop N times you also get some active textures and does not display as intended. If you say play once, you get no active textures. Additionally, if we have a crawl with multiple data sourced image sets we noticed that it is not properly looping all these images together. What should happen? The active texture should display for every scroll item regardless of the looping or loop count.
 
 !!! success
-    VMGMT-15870 and VMGMT-15193 part of POPGM-4186 have resolved this issue. The video below, shows this in action. 
+    VMGMT-10607, VMGMT-15870 and VMGMT-15193 part of POPGM-4186 have resolved this issue. The videos below, show this in action. 
+
+<iframe src="https://player.vimeo.com/video/764464413?h=48f505daa4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 <iframe src="https://player.vimeo.com/video/763777291?h=641eb6efc3" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
@@ -157,7 +160,7 @@ Once you have added this .mov to a layout you can link the realtime active textu
 Improvements have been made to how we show multiple active textures across multiple crawls. A new feature for texture sync has been added, the review video walks you through this new option. 
 
 !!! note
-    only works on media objects that are referenced data sources and part of crawls
+    This only works on media objects that are referenced data sources and part of crawls
 
 <iframe src="https://player.vimeo.com/video/763792033?h=908395eb4c" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
