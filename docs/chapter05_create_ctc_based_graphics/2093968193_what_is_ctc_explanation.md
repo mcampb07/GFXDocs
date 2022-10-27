@@ -1,3 +1,10 @@
+---
+tags: 
+   - ctc
+   - triggers
+   - graphics
+--- 
+
 <!--
 Title : 2093968193_what_is_ctc_explanation
 
@@ -7,8 +14,11 @@ Title : 2093968193_what_is_ctc_explanation
 - Written against (version):
 - Sources :
 - Author Notes :
-- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+
+!!! info "Article Updated"
+    Thu 27 Oct 2022 15:30:05 BST
+
 # CTC - Content Triggering Content
 Content Triggering Content, known as CTC, allows for control of playback of video files through the use of named triggers. When building an animation in After Effects, the designer adds markers to the main composition track that are stored as Adobe XMP metadata and understood by the Versio graphics playback engine. This allows you to have graphics logic built directly into flatted animations without learning new CG tools, scripting or macros.
 
@@ -34,6 +44,7 @@ Most triggers will be embedded into the XMP metadata of the MOV file.
 Markers must only be on the main composition timeline of the element that is to be rendered. Markers can be inserted using the NUMPAD * key.
 ![](attachments/Pasted%20image%2020220103131206.png)
 ![](attachments/Pasted%20image%2020220103131216.png)
+
 ### Salvo Triggers 
 Triggers can be fired using a Salvo. The command can be added to your switcher command timeline where you can fire one to many named triggers. 
 

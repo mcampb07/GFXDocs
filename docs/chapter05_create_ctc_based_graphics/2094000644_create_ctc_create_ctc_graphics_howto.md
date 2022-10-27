@@ -1,3 +1,9 @@
+---
+tags:
+   - ctc
+   - tutorial
+---
+
 <!--
 Title : 2094000644_create_ctc_howto
 
@@ -7,7 +13,6 @@ Title : 2094000644_create_ctc_howto
 - Written against (version):
 - Sources :
 - Author Notes :
-- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
 
 # How to create CTC mov files
@@ -16,6 +21,7 @@ The majority of CTC commands are created in Adobe After Effects using Layer Mark
 The Layer Markers must be on the **main composition timeline** being rendered in most cases. 
 
 The Following are a list of supported commands and there behaviours. 
+
 - Pause Resume
 - Fire Triggers
 - Loops & TimeLine Control
@@ -23,6 +29,7 @@ The Following are a list of supported commands and there behaviours.
 
 
 ## CTC Rules 
+
 - All markers must have a label. A label is the 1st line in the comment.
 - Labels should not have s pa ce s.
 - DO NOT use “=” or “:” in your names as they are used in the commands.
@@ -30,14 +37,12 @@ The Following are a list of supported commands and there behaviours.
 - Triggers are global - if anything fires FOO, everything set to react on FOO that is currently playing will respond.
 - Play once in IconStation does not work with CTC triggers as it uses the clips duration which is invalid. A kill command will need to be setup in a Salvo to kill CTC animations.
 
-
-
-
-
 ### Create CTC  Pause and Resume
+
 - Add composition (comp) marker to your timeline.
 
 #### Hold on Frame indefinitely
+
 - To hold on a specific frame you need to use the hold command. 
 	- Hold will pause indefinitely without a trigger or hold time. The default value is false.
 ```
@@ -82,6 +87,7 @@ triggerresume = unpause
 ```
 
 ### Triggers
+
 - Triggers are names that can be fired using CTC commands or salvos.
 - A trigger is essentially a name. All triggering is global, so triggers should be implicit if necessary. 
 - Multiple items can respond to a single trigger on any layout on air. A salvo can fire a trigger or be fired from a trigger as well.
@@ -93,6 +99,7 @@ triggerresume = unpause
 - firetrigger = uppause
 
 ### Loops & Timeline Control
+
 - Using CTC commands you can create N point loops in your animations. 
 - You can control loops by triggers and loop count. 
 - You can fire gototriggers to jump and exit out of loops.
@@ -100,11 +107,14 @@ triggerresume = unpause
 ![](attachments/Pasted%20image%2020220104082251.png)
 
 #### Goto 
+
 - Go to a frame/label: goto
 - When this command is hit, it will jump to a specific frame or label. 
 - Ability to have a count as a parameter. After the count is reached, the goto will be ignored.
 
+
 #### Loop Go to point
+
 - Trigger a Jump: triggergoto
 - Defines a trigger that will immediately skip to the specified label or frame when fired. This is great if you have a loop that you may need to jump out of at any time. 
 - Each trigger of this type can only be fired once.  Playing over this frame again in a loop will not work.
@@ -113,6 +123,7 @@ LoopEnd
 goto = LoopIn
 ```
 #### Exit Loop
+
 - Exit a loop: triggerexit
 - Defines a trigger that will cause the animation, when in a loop, to play through the specified label or frame when fired (it will ignore all gotos until it reaches the label or frame). 
 - If a label or frame is not specified it will play through the label the command is on. This type of trigger can be fired more than once.
@@ -123,6 +134,7 @@ triggerexit = exitloop:exit
 
 ```
 ### Kill Triggers
+
 - Kill Triggers are handy when it comes to cleaning up objects. Objects can sometimes be hidden but still on air. Kill triggers, can have objects immediately take themselves off air when passed. 
 - Kill an Object: kill
 	- Defines a point where an object will no longer be on air. Great for play once type of objects or to completely remove an object from air to reset it.
@@ -137,12 +149,14 @@ Build a new CTC Bug and Promo.
 
 Requirements:
 	- After Effects 
-	- CTC BUG PROMO AEP Version 2201 - Download from this chapter. 
+	- CTC BUG PROMO AEP Version 2201 - [Download here](downloads/CH2_CTC_BUG_PROMO_2201.zip)
+
 
 
 ### Steps
 
 #### Bug creation:
+
 - Open the Bug composition of the resolution you require. 
 - Review the composition markers that have already been added:
 	- Hidebug
@@ -158,6 +172,7 @@ Requirements:
 - Preview the layout and understand the exhibited behaviour.
 
 #### Promo Creation:
+
 - Open the Promo composition of the resolution you require. 
 - Review the composition markers that have already been added:
 	- Hidebug
@@ -174,7 +189,8 @@ Requirements:
 
 If you have performed the above steps correctly then you should see graphics firing and interacting. 
 
-#### Bonus item:
+#### Additional Trigger:
+
 - Create a new layout
 - Add no objects 
 - Create a new salvo

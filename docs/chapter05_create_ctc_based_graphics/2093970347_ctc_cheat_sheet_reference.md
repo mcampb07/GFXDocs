@@ -1,3 +1,10 @@
+---
+tags:
+   - ctc
+   - reference
+   - triggers
+---
+
 <!--
 Title : 2093970347_ctc_cheat_sheet_reference
 
@@ -7,11 +14,12 @@ Title : 2093970347_ctc_cheat_sheet_reference
 - Written against (version):
 - Sources :
 - Author Notes :
-- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+!!! info "Article Updated"
+    Thu 27 Oct 2022 15:31:57 BST
 
 # CTC Reference
-CTC triggers are added to animations using markers. Markers can be added by Layer > Add Marker or Numpad *. Markers should only be added to the main composition that will be rendered.  Child compositions will not always support CTC triggers.
+CTC triggers are added to animations using markers. Markers can be added by Layer > Add Marker or Numpad `*`. Markers should only be added to the main composition that will be rendered.  Child compositions will not always support CTC triggers.
 
 ### Pause and Resume Triggers
 Pauses are great to animate something in, hold, then animation something out. you can have as many pause points in your animation as you want.
