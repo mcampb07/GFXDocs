@@ -107,7 +107,7 @@ Instead of us adding static text to the real time field in Versio Graphic. Lets 
 
 ![](attachments/2022-01-04%2018.19.18.gif)
 
-IconStaion is talking to Data Sourcerer to fetch all that external data. What is Data Sourcerer? Please review [2083402020_what_is_data_sourcerer_explanation](../chapter01_what_is_versio_graphics_and_how_they_are_used/2083402020_what_is_data_sourcerer_explanation.md)
+IconStaion is talking to Data Sourcerer to fetch all that external data. What is Data Sourcerer? Please review [2083402020_what_is_data_sourcerer_explanation](../chapter01_what_is_versio_graphics_and_how_they_are_used/2083402020_what_is_data_sourcerer_explanation/2083402020_what_is_data_sourcerer_explanation.md)
 
 ![](attachments/Pasted%20image%2020220104182346.png)
 ![](attachments/Pasted%20image%2020220104182417.png)
