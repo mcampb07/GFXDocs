@@ -1,3 +1,8 @@
+---
+tags:
+   - data sourcerer
+   - explain
+---
 <!--
 Title : exp_data_sourcerer
 - Created : 2022-07-19
@@ -8,6 +13,10 @@ Title : exp_data_sourcerer
 - Author Notes :
 - Tags : 
 -->
+
+!!! info "Article Updated"
+    Thu 27 Oct 2022 16:28:22 BST
+
 # About Data Sourcerer
 
 What you will understand after reading this article:
