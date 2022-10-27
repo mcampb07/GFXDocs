@@ -1,3 +1,9 @@
+---
+tags:
+   - creation station
+   - explained
+---
+
 <!--
 Title : 2082457183_what_is_creation_station_explanation
 
@@ -7,10 +13,13 @@ Title : 2082457183_what_is_creation_station_explanation
 - Written against (version):
 - Sources :
 - Author Notes :
-- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
 
 # What is Creation Station? 
+
+!!! info "Article Updated"
+    Thu 27 Oct 2022 13:15:42 BST
+
 -    Create graphics layouts
 -    Publish layouts
 -    Offline version
@@ -20,6 +29,7 @@ The Creation Station for Versio™ includes the tools you need to create graphic
 
 
 ## Creation Station Lite
+
 Released with Versio 4. 
 
 I keep hearing this term `CSL` is that the same? 
@@ -34,7 +44,7 @@ Works as a stand-alone or  connected  to  Content Portal
 - Stand-alone:  download  layout  to  local  PC  as  .lyt  (must  import  .lyt  on  another instance  of Versio  Graphics) 
 - Content Portal:  publish  layout  to  central repository  for use  by  Content  Portal and  Versio Automation 
 
-**Versio Graphics  HTML-5  web  client**  for layout  creation,  editing,  salvo/macro  editing,  preview control  and  layout  management 
+**Versio Graphics  HTML-5  web  client** - `Web Graphics` for layout  creation,  editing,  salvo/macro  editing,  preview control  and  layout  management 
 - Inclusion  of JPEG or  PNG stills  and  MOV  QuickTime Animations 
 - Limited editing  (import  and  position  asset) 
 - No creation  or  editing  of legacy  elements:  Title,  Table,  Clock,  Countdown,  Roll,  Crawl, TMGS 
@@ -53,6 +63,7 @@ Import legacy  IconStation  created  layouts
 - Export to  local  or  Motion  watch  folder.  Will allow  for  distributing  layouts  using  Motion  4,  but doesn’t  require  Content  Portal 
 
 ## Creation Station Legacy
+
 - Stand-alone  application 
 - Publish directly  to  multiple  Versios 
 - IconStation  thick  client  for layout  creation  and  editing 
