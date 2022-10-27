@@ -34,7 +34,7 @@ nav:
    - "Imagine Communications Tech Guide" : downloads/Versio Platform 4.6 System Operations_20211215.pdf
  - Chapter 2 - Veriso Creation Station :
    - "What is CSL" : chapter02_versio_ceation_station/2084363940_csl_review_explanation.md
-   - "Best Practices" : chapter02_versio_ceation_station/2084300354_csl_best_practices_explanation.md
+   - "CSL Best Practices" : chapter02_versio_ceation_station/2084300354_csl_best_practices_explanation.md
    - "CSL Support Formats" : chapter02_versio_ceation_station/2087262817_csl_supported_standards_formats_reference.md
    - "CSL Layout Management" : chapter02_versio_ceation_station/2087493295_csl_layout_management_tutorial.md
    - "CSL Create a new Layout" : chapter02_versio_ceation_station/2089219277_create_new_layout_howto.md
@@ -42,7 +42,7 @@ nav:
    - "CSL Macros" : chapter02_versio_ceation_station/2092827666_csl_macros_tutorial.md
    - "CSL Realtime Content" : chapter02_versio_ceation_station/2093313703_csl_realtime_content_tutorial.md
    - "CSL Branded ++" : chapter02_versio_ceation_station/2100987628_csl_branded++_explanation.md
-   - "Layout Z-Order" : chapter02_versio_ceation_station/tut_layout_z-order/202207181848_tut_layout_z-order.md
+   - "CSL Layout Z-Order" : chapter02_versio_ceation_station/tut_layout_z-order/202207181848_tut_layout_z-order.md
    - "CSL Targets" : chapter02_versio_ceation_station/ref_creation_station_target_selection/202210271049_ref_creation_station_target_selection.md
    - "CSL Publish & Export " : chapter02_versio_ceation_station/ref_publish_layouts_direct_to_db_or_network_path/202210271112_ref_publish_layouts_direct_to_db_or_network_path.md
 #- Chapter 3 - Operations (NA) :
