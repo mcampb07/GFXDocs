@@ -89,6 +89,7 @@ nav:
    - "Tutorial Mask Expansion" : pending.md
    - "Reference Mask Feathering" : chapter10_graphics_masks/ref_mask_feathers/202210271005_ref_mask_feathers.md
    - "Tutorial Mask Feathering" : pending.md
+   - "Reference Maskable Targa, PNG" : chapter10_graphics_masks/ref_targa_maskable/202210271315_ref_targa_maskable.md
  - Chapter 11 - Data Sourcerer :
    - "About Data Sourcerer" : chapter11_datasourcer_install_config/exp_data_sourcerer/202207190825_exp_data_sourcerer.md
    - "Data Sourcer Install" : chapter11_datasourcer_install_config/tut_data_sourcerer_install/202207190834_tut_data_sourcerer_install.md
