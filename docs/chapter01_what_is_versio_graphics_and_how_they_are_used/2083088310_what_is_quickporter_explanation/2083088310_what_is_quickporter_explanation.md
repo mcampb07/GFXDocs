@@ -1,3 +1,9 @@
+---
+tags:
+   - quickporter
+   - explain
+---
+
 <!--
 Title : 2083088310_what_is_quickporter_explanation
 
@@ -9,8 +15,10 @@ Title : 2083088310_what_is_quickporter_explanation
 	- QuickPorter User Guide
 	- [fn-Quickporter_Workflow](../../reference/fn-Quickporter_Workflow.md)
 - Author Notes :
-- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+
+!!! info "Article Updated"
+    Thu 27 Oct 2022 13:15:42 BST
 
 # QuickPorter
 
@@ -27,6 +35,7 @@ QuickPorter requires
 After you  have configured  Quickporter and saved  your Versio  Graphics  template, you can  use Quickporter to  create  new  layouts with  MOV  files.
 
 ## Steps
+
 - The artist workflow is as follows:
 	- create and render MOV from After Effects  
 	- upload MOV to S3 bucket  
