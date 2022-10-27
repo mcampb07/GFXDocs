@@ -1,3 +1,10 @@
+---
+   - explain
+   - overview
+   - graphics
+   - versio
+   - creation station
+---
 <!--
 Title : 2082386875_versio_graphics_overview_explanation
 - Created : 2021-12-29 14:44
@@ -6,8 +13,11 @@ Title : 2082386875_versio_graphics_overview_explanation
 - Written against (version):
 - Sources :
 - Author Notes :
-- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+
+!!! info "Article Updated"
+    Thu 27 Oct 2022 13:15:42 BST
+
 
 # Overview of Versio Graphics
 A good starting point on this course is to take that 25000ft view of what the Versio Graphics deployment looks like.  
@@ -45,7 +55,10 @@ A good starting point on this course is to take that 25000ft view of what the Ve
 - Data Sourcerer
 	- Import data from other data sources to update real time tags
 
+You should end up with something similar to this drawing in your discusssions.
 
+
+![10-27-135324.png](attachments/2022-10-27-135324.png)
 
 
 
