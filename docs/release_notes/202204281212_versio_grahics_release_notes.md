@@ -1,3 +1,7 @@
+---
+tags:
+   - release notes
+---
 <!--
 Title : 202204281212_versio_grahics_release_notes
 - Created : 2022-04-15 11:10
@@ -8,8 +12,19 @@ Title : 202204281212_versio_grahics_release_notes
 - Author Notes :
 - Tags : 
 -->
+!!! info "Article Updated"
+    Thu 27 Oct 2022 15:01:45 BST
+
 # Versio Graphics Release Notes
 Page dedicated to the release notes for Versio Graphics.
+
+## Versio 4.6.2 Release - October 2022
+
+- NA
+
+## Versio 4.6.1 Release - June 2022
+
+- NA
 
 ## Versio 4.6 Release - November 2021
 ### Versio Graphics Enhancements
