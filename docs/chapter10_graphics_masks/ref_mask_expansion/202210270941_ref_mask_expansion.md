@@ -19,6 +19,9 @@ Title : ref_mask_expansion
     Thu 27 Oct 2022 09:43:01 BST
 # Reference - Mask Expansion
 
+!!! success
+    Released in Versio 4.6 GA, validated against versio-graphics 20.0.0.424, realtime-object-scripts 2.1.0.44
+
 The mask expands and contracts from its borders. 
 
 Parent case [CO-1279](https://imaginecommunications.atlassian.net/browse/CO-1279) - Support Mask path & Mask effect (feather, opacity, expansion) within RealTime layer where the layer could be jpg, MOV or precomp layer.

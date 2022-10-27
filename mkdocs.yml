@@ -81,7 +81,8 @@ nav:
  - Chapter 9 - Graphics XYZ Diemensions :
    - "About XYZ Diemensions" : pending.md
    - "Reference XYZ Diemensions" : chapter09_graphics_with_seperated_xyz_diemensions/ref_seperated_xyz_graphics/202210251546_ref_seperated_xyz_graphics.md
-#- Chapter 10 - Creation Clocks and Timers
+ - Chapter 10 - Graphics Masks :
+   - "Reference Mask Expansion" : chapter10_graphics_masks/ref_mask_expansion/202210270941_ref_mask_expansion.md
  - Chapter 11 - Data Sourcerer :
    - "About Data Sourcerer" : chapter11_datasourcer_install_config/exp_data_sourcerer/202207190825_exp_data_sourcerer.md
    - "Data Sourcer Install" : chapter11_datasourcer_install_config/tut_data_sourcerer_install/202207190834_tut_data_sourcerer_install.md
