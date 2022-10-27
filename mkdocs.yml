@@ -66,6 +66,7 @@ nav:
    - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
    - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/2114465112_creation_real_time_clocks_timers_howto.md
    - "Custom Variables" : chapter06_create_rto_based_graphics/tut_versio_graphics_variables/202207191158_tut_versio_graphics_variables.md
+   - "Real Time Vectors & Masks" : chapter06_create_rto_based_graphics/ref_realtime_vector_shapes_masks/202210270848_ref_realtime_vector_shapes_masks.md
    - "AEP RTO SCROLLS" : downloads/CH6_RTO_SCROLL.aep
  - Chapter 7 - Create DVEs :
    - "Versio DVEs" : chapter07_create_dves/2122905693_dve_explanation.md
@@ -75,17 +76,23 @@ nav:
    - "Learn Expressions" : chapter08_graphics_with_expressions/ref_expressions_after_effects_external_training/202207201155_ref_expressions_after_effects_external_training.md
    - "Example Expressions" : chapter08_graphics_with_expressions/202204282041_adobe_after_effects_expressions_reference.md
    - "Dynamic Width Review" : chapter08_graphics_with_expressions/tut_dynamic_text_width/202207201215_tut_dynamic_text_width.md
-   - "Expressions & Triggers" : chapter08_graphics_with_expressions/ref_expressions_and_triggers/202210251815_ref_expressions_and_triggers.md
+   - "Reference Expressions & Triggers" : chapter08_graphics_with_expressions/ref_expressions_and_triggers/202210251815_ref_expressions_and_triggers.md
    - "AEP DYNAMIC WIDTH" : downloads/ch8_expression_dynamic_width.aep
  - Chapter 9 - Graphics XYZ Diemensions :
+   - "About XYZ Diemensions" : pending.md
    - "Reference XYZ Diemensions" : chapter09_graphics_with_seperated_xyz_diemensions/ref_seperated_xyz_graphics/202210251546_ref_seperated_xyz_graphics.md
 #- Chapter 10 - Creation Clocks and Timers
  - Chapter 11 - Data Sourcerer :
    - "About Data Sourcerer" : chapter11_datasourcer_install_config/exp_data_sourcerer/202207190825_exp_data_sourcerer.md
    - "Data Sourcer Install" : chapter11_datasourcer_install_config/tut_data_sourcerer_install/202207190834_tut_data_sourcerer_install.md
    - "Data Sourcerer Management" : chapter11_datasourcer_install_config/how_data_sourcerer_management/202206071553_how_data_sourcerer_management.md
-#- Chapter 12 - Advanced Graphics
-#- Chapter 13 - Linux Graphics
+ - Chapter 12 - Nested Compositions :
+   - "About Nested Compositions" : pending.md
+   - "Tutorial Nested Compositions" : pending.md
+   - "Reference Nested Compositions" : chapter12_nested_compositions/ref_nested_compostions/202210270833_ref_nested_compostions.md
+
+
+#- Chapter 20 - Linux Graphics
  - Chapter 14 - Misc Items :
    - "Reference Mask Opacity" : chapter14_misc/ref_mask_opacity_percentage/202210251855_ref_mask_opacity_percentage.md
 
