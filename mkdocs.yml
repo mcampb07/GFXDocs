@@ -20,7 +20,15 @@ nav:
    - "AE Script RealTimeObject-2.1.0.47" : downloads/RealTimeObject-2.1.0.47.jsx
    - "AE Script RealTimeObject-2.1.0.48" : downloads/RealTimeObject-2.1.0.48.jsx
    - "Chapter 1 Files" : downloads/2086642523_basic_graphics_creation_tutorial/chapter1.zip
-   - "Chapter 5 Files" : downloads/2094000644_create_ctc_create_ctc_graphics_howto/CTC_BUG_PROMO_2201.zip
+   - "Chapter 5 Files CTC Bug Promo" : downloads/2094000644_create_ctc_create_ctc_graphics_howto/CTC_BUG_PROMO_2201.zipA
+   - "Chapter 6 Files Basic RTO" : pending.md
+   - "Chapter 6 Files Crawls" : pending.md
+   - "Chapter 6 Files Basic Pulls" : pending.md
+   - "Chapter 6 Files Clocks Timers" : pending.md
+   - "Chapter 6 Files Polls" : pending.md
+   - "Chapter 7 Files DVEs" : pending.md
+   - "Chapter 8 Files Basic Expressions" : pending.md
+   - "Chapter 10 Files Masks" : pending.md
  - Versio Graphics Release Notes:
    - "Release Notes" : release_notes/202204281212_versio_grahics_release_notes.md
  - Chapter 1 - What is Versio Graphics?:
