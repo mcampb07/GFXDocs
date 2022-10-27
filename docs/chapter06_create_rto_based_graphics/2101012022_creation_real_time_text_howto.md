@@ -60,13 +60,3 @@ What if you wanted to update the RT whilst on air? Add in a loop.
     See the recent update to the loop option in the Versio CSL User Interface [here](chapter06_create_rto_based_graphics/202204272022_realtime_pull_data_tutorial.md)
 
 
-## Active Textrues in Crawls?
-
-Sure you can add active textures to your crawl we treat them the same as text objects.  The image below is a series of imagine logos (active textures) in a crawl. 
-
-![10-25-100203.png](attachments/2022-10-25-100203.png)
-
-!!! bug
-    Active textures only display in crawls when looping infinitely. If you say loop N times you also get some active textures and does not display as intended. If you say play once, you get no active textures. Additionally, if we have a crawl with multiple data sourced image sets we noticed that it is not properly looping all these images together.
-
-### Active Textures Update

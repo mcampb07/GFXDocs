@@ -1,3 +1,10 @@
+---
+tags:
+   - data sourcerer
+   - install
+   - config
+---
+
 <!--
 Title : tut_data_sourcerer_install
 - Created : 2022-07-19
@@ -9,12 +16,14 @@ Title : tut_data_sourcerer_install
 - Tags : 
 -->
 
-
+!!! info "Article Updated"
+    Thu 27 Oct 2022 16:51:36 BST
 # Data Sourcerer Install Guide
 
 The Data Sourcerer will generally be installed on the Shared Services instance in your platform. 
 
-> Note if you have an HA environment you will have more than 1 shared services instances, thus you will need to install and configure the data sourcerer across all those instances. 
+!!! note 
+    if you have an HA environment you will have more than 1 shared services instances, thus you will need to install and configure the data sourcerer across all those instances. 
 
 ## Install on Shared Services 
 
@@ -40,9 +49,8 @@ Enter the following command in a Powershell window: choco install icw-datasource
 
 ![07-19_084728.png](attachments/22-07-19_084728.png)
 
-> Note: You can install Data Sourcerer on a different system if you wish, but be sure to install the Chocolatey framework first, and also set up a choco source on the system. For more information visit http://chocolatey.org
-
-> The basic requirement for a Data Sourcerer system is for .NET core to be installed, and the system must have enough storage available for SQLLite.
+!!! info
+    You can install Data Sourcerer on a different system if you wish, but be sure to install the Chocolatey framework first, and also set up a choco source on the system. For more information visit http://chocolatey.org The basic requirement for a Data Sourcerer system is for .NET core to be installed, and the system must have enough storage available for SQLLite.
 
 You have installed Data Sourcerer on the Shared Services instance. You should find the following now located in the Program Data Directory:
 
@@ -91,8 +99,8 @@ PSDrive      : HKLM
 PSProvider   : Microsoft.PowerShell.Core\Registry
 ```
 
-
-> Warning ⚠️ Using HA? Then use the HA VIP and make sure that the HAProxy is updated to have the Data Sourcerer elements added to the configuration file.
+!!! warning 
+    Using HA? Then use the HA VIP and make sure that the HAProxy is updated to have the Data Sourcerer elements added to the configuration file.
 
 What does this do? It updates the `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Inscriber\IconStation`
 

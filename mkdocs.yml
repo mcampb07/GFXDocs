@@ -68,7 +68,6 @@ nav:
    - "Real Time GetData" : chapter06_create_rto_based_graphics/2114450932_realtime_getdata_tutorial.md
    - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
    - "Real Time Pull" : chapter06_create_rto_based_graphics/202204272022_realtime_pull_data_tutorial.md
-   - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
    - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/2114465112_creation_real_time_clocks_timers_howto.md
    - "Custom Variables" : chapter06_create_rto_based_graphics/tut_versio_graphics_variables/202207191158_tut_versio_graphics_variables.md
    - "Real Time Vectors & Masks" : chapter06_create_rto_based_graphics/ref_realtime_vector_shapes_masks/202210270848_ref_realtime_vector_shapes_masks.md
