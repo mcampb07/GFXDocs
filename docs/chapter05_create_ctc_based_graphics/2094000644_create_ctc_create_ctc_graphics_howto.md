@@ -144,12 +144,8 @@ End
 Kill = this
 ```
 
-## Exercise
-Build a new CTC Bug and Promo. 
-
-Requirements:
-	- After Effects 
-	- CTC BUG PROMO AEP Version 2201 - [Download here](downloads/CH2_CTC_BUG_PROMO_2201.zip)
+!!! tldr
+    Exercise - Build a new CTC Bug and Promo. Requirements: After Effects & CTC BUG PROMO AEP Version 2201 - [Download here](downloads/CH2_CTC_BUG_PROMO_2201.zip)
 
 
 
