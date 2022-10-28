@@ -20,8 +20,8 @@ nav:
    - "AE Script RealTimeObject-2.1.0.47" : downloads/RealTimeObject-2.1.0.47.jsx
    - "AE Script RealTimeObject-2.1.0.48" : downloads/RealTimeObject-2.1.0.48.jsx
    - "Chapter 1 Files" : downloads/2086642523_basic_graphics_creation_tutorial/chapter1.zip
-   - "Chapter 5 Files CTC Bug Promo" : downloads/2094000644_create_ctc_create_ctc_graphics_howto/CTC_BUG_PROMO_2201.zipA
-   - "Chapter 6 Files Basic RTO" : pending.md
+   - "Chapter 5 Files CTC Bug Promo" : downloads/2094000644_create_ctc_create_ctc_graphics_howto/CTC_BUG_PROMO_2201.zip
+   - "Chapter 6 Files Basic Real Time" : downloads/2086642523_basic_graphics_creation_tutorial/chapter1.zip
    - "Chapter 6 Files Crawls" : pending.md
    - "Chapter 6 Files Basic Pulls" : pending.md
    - "Chapter 6 Files Clocks Timers" : pending.md
@@ -68,9 +68,9 @@ nav:
    - "Create CTC Graphics" : chapter05_create_ctc_based_graphics/2094000644_create_ctc_create_ctc_graphics_howto.md
    - "AEP CTC RTO - BUG PROMO" : downloads/CH2_CTC_BUG_PROMO_2201.zip
  - Chapter 6 - RTO Based Graphics :
-   - "What is RTO?" : chapter06_create_rto_based_graphics/2101008531_what_is_a_real_time_object_explanation.md
-   - "Understanding RTO" : chapter06_create_rto_based_graphics/2101068464_rt_graphic_understanding_tutorial.md
-   - "How to create RTO" : chapter06_create_rto_based_graphics/2101012022_creation_real_time_text_howto.md
+   - "What is Real Time?" : chapter06_create_rto_based_graphics/2101008531_what_is_a_real_time_object_explanation.md
+   - "Understanding Real Time" : chapter06_create_rto_based_graphics/2101068464_rt_graphic_understanding_tutorial.md
+   - "Tutorial Real Time Basic" : chapter06_create_rto_based_graphics/2101011551_basic_rto_in_action_tutorial/2101011551_basic_rto_in_action_tutorial.md
    - "RTO in action" : chapter06_create_rto_based_graphics/2101011551_rto_in_action_tutorial.md
    - "Real Time Scrolls Crawls" : chapter06_create_rto_based_graphics/2114433994_creation_real_time_scrolls_crawls_howto.md
    - "Real Time GetData" : chapter06_create_rto_based_graphics/2114450932_realtime_getdata_tutorial.md
