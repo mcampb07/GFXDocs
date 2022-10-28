@@ -19,42 +19,29 @@ Title : tut_realtime_clocks_timers
 -->
 
 !!! info "Article Updated"
-Wed  7 Sep 2022 12:38:32 BST
+    Wed  7 Sep 2022 12:38:32 BST
 
-# Article Title
+# Tutorial - Clocks - Timers - Counters
 
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+In this session tutorial we are going to put into practice what we just learnt on realtime clocks and timers.
 
----
+In this sesssion you will need the following:
 
-!!! note "Title"
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-!!! tldr
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+- [RealTime_Clocks_2210.aep](../../downloads/202210281506_tut_realtime_clocks_timers/RealTime_Clocks_2210.aep)
 
-!!! info
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+!!! tip 
+    Try not to use this example in the session, but rather build your own real time text pull and requery. You can use this example if you get stuck and use it for reference. But you need to start creating theses items, real time layers, comp markers for CTC on your own - LEARN BY DOING!
 
-!!! tip
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+## Session Objective
 
-!!! question
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-!!! warning
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-!!! fail
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-!!! example
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-!!! quote
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+- Build a new comp for each of the following: 
+   - time - hh:mm:ss.ms - or whatever format you decide
+   - date - mmmm dddd mm yyyy - or whatever format you decide
+   - date and time combo
+- Create new layouts on the Creation Station and create the following types:
+   - 24hr clock
+   - 12hr clock
+   - Count Down to 
+   - Count Up
 
 
