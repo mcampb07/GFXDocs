@@ -19,10 +19,10 @@ Title : ref_data_sourcerer_custom_sql_queries
     Fri 28 Oct 2022 18:30:39 BST
 
 # Advanced Data Sourcerer 
-Data Sourcerer can do more than aggregate and pull down data sources. 
+Data Sourcerer can do more than aggregate and pull down data sources. The following are some advanced methods of using data sourcerer.  
 
 ## Preview SQL Source
-A preview SQL source is a powerful tool that allows users to run custom SQL queries on an exising data source. Examples of this feature could be used to:
+A preview SQL source is a powerful tool that allows users to run custom SQL queries on an exising data sources. Examples of this feature could be used to:
 
 - Perform caclulations on data and create additional tables with new strings and values
 - Check values of multiple tables and create values based on importance/presence
@@ -53,9 +53,8 @@ try {
 "@ 
 
 ```
-The SourceName.ps1 file is a good way to convert to JSON and use a single "Create" file. Name your "SourceName.ps1" to match the source you are trying to create so you can manage muliple sources in this manner.
 
-4. Create a new `SourceName.ps` file. Name appropriately and changes "defs" to match the source you would like to create.
+4. Create a new `SourceName.ps1` file (Name appropriately based on your source). This will hold the variable values that the new source script will call. 
 5. Add the following syntax to the new file.
 
 ```ps
@@ -63,9 +62,9 @@ $NewSourceName = "NewSQLPreviewSourceName"
 $ParentSourceName = "OrginDataSource" 
 $Query = "SELECT *, YOUR QUERY FROM OrginDataSource;"
 ```
-- NewSourceName = Name of the new SQL Preview source you would like to create.
+- NewSourceName = Name of the new SQL Preview source you would like to create. This is the source name you will use when binding graphics to a data source.
 - ParentSourceName = Existing Data Sourcerer source you have already created.
-    - The new source will contain all the tables from the existing source, plus any new tables created by your query.
+- The new source will contain all the tables from the existing source, plus any new tables created by your query.
 
 !!! tip
     When creating data sources, avoid "dashes" and special characters in the name of the source.
