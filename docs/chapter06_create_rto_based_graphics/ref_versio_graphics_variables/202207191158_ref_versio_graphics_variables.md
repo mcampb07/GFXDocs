@@ -1,3 +1,10 @@
+---
+tags: 
+  - reference
+  - custom
+  - variable
+---
+
 <!--
 Title : tut_versio_graphics_variables
 - Created : 2022-07-19
@@ -10,7 +17,7 @@ Title : tut_versio_graphics_variables
 -->
 
 
-# Variables in Versio Graphics
+# Reference - Variables in Versio Graphics
 
 A variable is a dynamic storage location for data in the context of a graphics instance, though sometimes also within the context of only one layer. 
 
@@ -28,24 +35,27 @@ A variable is super easy to to create. In Versio Graphics, simply choose an exis
 
 On any Real Time Field in Versio Graphics select the “Data” icon to the right of the field
 
-> Note: this could be the default string when an MOV is exported from After Effects.
+
+!!! note
+    This could be the default string when an MOV is exported from After Effects.
 
 This will open your Data Sources dialog. In the Variables Tab, select a pre-existing variable. The Context (Now.Variable, Next.Variable) are to be used with Dynamic Branding supported by ADC and Versio Automation.
 
 ![07-19_120304.png](attachments/2022-07-19_120304.png)
 
-### Custom Variable
+### A Custom Variable
 
 Alternatively, users can just write in any custom variable they would like. Obviously, there will have to be communication with other systems to ensure this variable gets set. This can be done with our without context. 
 
 A variable is defined buy using double opening and closing curly braces. `{{Variable}}`
 
-> Note you can combine variables and strings together to create a dynamic string within static text.
-> Coming Up {{SHOW}}!
-> More {SHOW}} coming up next!
+!!! info
+    Note you can combine variables and strings together to create a dynamic string within static text.
+    Coming Up {{SHOW}}!
+    More {SHOW}} coming up next!
 
 
-#### Use Variables as a look up in a Data Source
+#### Using Variables as a look up in a Data Source
 
 Use Variables in conjunction with Data Sourcerer as a lookup in another table. Simply enter the variable as a condition in your data source to display a record in a column where another column equals the value of your variable.
 

@@ -82,7 +82,7 @@ nav:
    - "Tutorial Real Time Pull Active Textures" : chapter06_create_rto_based_graphics/tut_realtime_pull_reference_active_textures/202210281021_tut_realtime_pull_reference_active_textures.md
    - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/ref_realtime_clocks_timers_counters/202210281537_ref_realtime_clocks_timers_counters.md
    - "Tutorial Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/tut_realtime_clocks_timers/202210281506_tut_realtime_clocks_timers.md
-   - "Custom Variables" : chapter06_create_rto_based_graphics/tut_versio_graphics_variables/202207191158_tut_versio_graphics_variables.md
+   - "Versio Variables" : chapter06_create_rto_based_graphics/ref_versio_graphics_variables/202207191158_ref_versio_graphics_variables.md
    - "Real Time Vectors & Masks" : chapter06_create_rto_based_graphics/ref_realtime_vector_shapes_masks/202210270848_ref_realtime_vector_shapes_masks.md
    - "Tutorial Real Time Polls" : chapter06_create_rto_based_graphics/tut_realtime_pull_polls/202210281232_tut_realtime_pull_polls.md
  - Chapter 7 - Create DVEs :

@@ -100,7 +100,8 @@ The Leading Zeros check box determines whether or not the most significant forma
 Timers are configured by the `Type` "`Countdown to time`" or "`Count to/from time offset`".
 
 #### Countdown
-- The option Countdown to time can be used to output the difference between the current time and next occurrence of the specified time, or the (always decreasing) difference between the current time and a specified time at a specified date. For example, a timer configured in this way:
+
+The option Countdown to time can be used to output the difference between the current time and next occurrence of the specified time, or the (always decreasing) difference between the current time and a specified time at a specified date. For example, a timer configured in this way:
 ![](attachments/2022-10-28-161755.png)
 
 !!! note 
