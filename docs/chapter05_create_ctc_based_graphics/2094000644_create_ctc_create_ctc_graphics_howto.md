@@ -143,12 +143,6 @@ triggerexit = exitloop:exit
 End
 Kill = this
 ```
-
-!!! tldr
-    Exercise - Build a new CTC Bug and Promo. Requirements: After Effects & CTC BUG PROMO AEP Version 2201 - [Download here](downloads/2094000644_create_ctc_create_ctc_graphics_howto/CTC_BUG_PROMO_2201.zip)
-
-
-
 ### Steps
 
 #### Bug creation:

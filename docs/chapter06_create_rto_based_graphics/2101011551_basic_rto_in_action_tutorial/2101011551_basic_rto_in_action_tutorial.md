@@ -25,10 +25,10 @@ In this section, we are going to get hands on. You will need the following:
 !!! note
     Select the realtime object script that is required for your installation.
 
-- [RealTimeObjectScript 2.1.0.46](../downloads/RealTimeObject-2.1.0.46.jsx)
-- [RealTimeObjectScript 2.1.0.47](../downloads/RealTimeObject-2.1.0.47.jsx)
-- [RealTimeObjectScript 2.1.0.48](../downloadsRealTimeObject-2.1.0.48.jsx)
-- [Basic real time aep](../downloads/2101011551_basic_rto_in_action_tutorial/chapter6_basic_rto.zip)
+- [RealTimeObjectScript 2.1.0.46](../../downloads/RealTimeObject-2.1.0.46.jsx)
+- [RealTimeObjectScript 2.1.0.47](../../downloads/RealTimeObject-2.1.0.47.jsx)
+- [RealTimeObjectScript 2.1.0.48](../../downloadsRealTimeObject-2.1.0.48.jsx)
+- [Basic real time aep](../../downloads/2101011551_basic_rto_in_action_tutorial/chapter6_basic_rto.zip)
 
 Show case some of the real time operations. 
 
