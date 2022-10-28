@@ -25,8 +25,8 @@ nav:
    - "Chapter 6 Files Crawls" : downloads/202210280831_tut_crawl/RT_Crawl_Scroll_2210.aep
    - "Chapter 6 Files Pulls Requery" : downloads/202210280919_tut_realtime_pull_requery/Realtime_pull_requery_AEP.zip
    - "Chapter 6 Files Pull Active Texture" : downloads/downloads/202210281021_tut_realtime_pull_reference_active_textures/RealTime_Pull_Active_Texture_Ref_2210.zip
-   - "Chapter 6 Files Clocks Timers" : pending.md
-   - "Chapter 6 Files Polls" : pending.md
+   - "Chapter 6 Files Real Time Polls" : downloads/202210281232_tut_realtime_pull_polls/RealTime_Poll.aep
+   - "Chapter 6 Files Clocks Timers" : downloads/202210281506_tut_realtime_clocks_timers/RealTime_Clocks_2210.aep
    - "Chapter 7 Files DVEs" : pending.md
    - "Chapter 8 Files Basic Expressions" : pending.md
    - "Chapter 10 Files Masks" : pending.md
@@ -73,16 +73,18 @@ nav:
    - "Understanding Real Time" : chapter06_create_rto_based_graphics/2101068464_rt_graphic_understanding_tutorial.md
    - "Tutorial Real Time Basic" : chapter06_create_rto_based_graphics/2101011551_basic_rto_in_action_tutorial/2101011551_basic_rto_in_action_tutorial.md
    - "Real Time Scrolls Crawls" : chapter06_create_rto_based_graphics/2114433994_creation_real_time_scrolls_crawls_howto.md
+   - "Tutorial Frame Counter" : chapter06_create_rto_based_graphics/tut_frame_counter/202210281517_tut_frame_counter.md
    - "Tutorial Real Time Crawls" : chapter06_create_rto_based_graphics/tut_crawl/202210280831_tut_crawl.md
    - "Real Time GetData" : chapter06_create_rto_based_graphics/2114450932_realtime_getdata_tutorial.md
    - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
    - "Real Time Pull" : chapter06_create_rto_based_graphics/202204272022_realtime_pull_data_tutorial.md
    - "Tutorial Real Time Pull Requery" : chapter06_create_rto_based_graphics/tut_realtime_pull_requery/202210280919_tut_realtime_pull_requery.md
    - "Tutorial Real Time Pull Active Textures" : chapter06_create_rto_based_graphics/tut_realtime_pull_reference_active_textures/202210281021_tut_realtime_pull_reference_active_textures.md
-   - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/2114465112_creation_real_time_clocks_timers_howto.md
+   - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/ref_realtime_clocks_timers_counters/202210281537_ref_realtime_clocks_timers_counters.md
+   - "Tutorial Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/tut_realtime_clocks_timers/202210281506_tut_realtime_clocks_timers.md
    - "Custom Variables" : chapter06_create_rto_based_graphics/tut_versio_graphics_variables/202207191158_tut_versio_graphics_variables.md
    - "Real Time Vectors & Masks" : chapter06_create_rto_based_graphics/ref_realtime_vector_shapes_masks/202210270848_ref_realtime_vector_shapes_masks.md
-   - "AEP RTO SCROLLS" : downloads/CH6_RTO_SCROLL.aep
+   - "Tutorial Real Time Polls" : chapter06_create_rto_based_graphics/tut_realtime_pull_polls/202210281232_tut_realtime_pull_polls.md
  - Chapter 7 - Create DVEs :
    - "Versio DVEs" : chapter07_create_dves/2122905693_dve_explanation.md
    - "DVE Creation Tutorial" : chapter07_create_dves/2122915384_dve_creation_understanding_tutorial.md
@@ -92,7 +94,6 @@ nav:
    - "Example Expressions" : chapter08_graphics_with_expressions/202204282041_adobe_after_effects_expressions_reference.md
    - "Dynamic Width Review" : chapter08_graphics_with_expressions/tut_dynamic_text_width/202207201215_tut_dynamic_text_width.md
    - "Reference Expressions & Triggers" : chapter08_graphics_with_expressions/ref_expressions_and_triggers/202210251815_ref_expressions_and_triggers.md
-   - "AEP DYNAMIC WIDTH" : downloads/ch8_expression_dynamic_width.aep
  - Chapter 9 - Graphics XYZ Diemensions :
    - "About XYZ Diemensions" : pending.md
    - "Reference XYZ Diemensions" : chapter09_graphics_with_seperated_xyz_diemensions/ref_seperated_xyz_graphics/202210251546_ref_seperated_xyz_graphics.md
