@@ -72,7 +72,7 @@ nav:
    - "Understanding Real Time" : chapter06_create_rto_based_graphics/2101068464_rt_graphic_understanding_tutorial.md
    - "Tutorial Real Time Basic" : chapter06_create_rto_based_graphics/2101011551_basic_rto_in_action_tutorial/2101011551_basic_rto_in_action_tutorial.md
    - "Real Time Scrolls Crawls" : chapter06_create_rto_based_graphics/2114433994_creation_real_time_scrolls_crawls_howto.mdA
-   - "Tutorial Real Time Crawls" :chapter06_create_rto_based_graphics/tut_crawl/202210280831_tut_crawl.md
+   - "Tutorial Real Time Crawls" : chapter06_create_rto_based_graphics/tut_crawl/202210280831_tut_crawl.md
    - "Real Time GetData" : chapter06_create_rto_based_graphics/2114450932_realtime_getdata_tutorial.md
    - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
    - "Real Time Pull" : chapter06_create_rto_based_graphics/202204272022_realtime_pull_data_tutorial.md
