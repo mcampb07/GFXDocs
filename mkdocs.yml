@@ -108,6 +108,7 @@ nav:
    - "About Data Sourcerer" : chapter11_datasourcer_install_config/exp_data_sourcerer/202207190825_exp_data_sourcerer.md
    - "Data Sourcer Install" : chapter11_datasourcer_install_config/tut_data_sourcerer_install/202207190834_tut_data_sourcerer_install.md
    - "Data Sourcerer Management" : chapter11_datasourcer_install_config/how_data_sourcerer_management/202206071553_how_data_sourcerer_management.md
+   - "Advanced Data Sourcerer" : chapter11_datasourcer_install_config/adv_data_sourcerer/202210280952_ref_adv_data_sourcerer.md
  - Chapter 12 - Nested Compositions :
    - "About Nested Compositions" : pending.md
    - "Tutorial Nested Compositions" : pending.md
