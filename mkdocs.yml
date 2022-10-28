@@ -22,8 +22,8 @@ nav:
    - "Chapter 1 Files" : downloads/2086642523_basic_graphics_creation_tutorial/chapter1.zip
    - "Chapter 5 Files CTC Bug Promo" : downloads/2094000644_create_ctc_create_ctc_graphics_howto/CTC_BUG_PROMO_2201.zip
    - "Chapter 6 Files Basic Real Time" : downloads/2086642523_basic_graphics_creation_tutorial/chapter1.zip
-   - "Chapter 6 Files Crawls" : pending.md
-   - "Chapter 6 Files Basic Pulls" : pending.md
+   - "Chapter 6 Files Crawls" : downloads/202210280831_tut_crawl/RT_Crawl_Scroll_2210.aep
+   - "Chapter 6 Files Pulls Requery" : downloads/202210280919_tut_realtime_pull_requery/NewsDS_Lwr3rd_2210_Edit.aep
    - "Chapter 6 Files Clocks Timers" : pending.md
    - "Chapter 6 Files Polls" : pending.md
    - "Chapter 7 Files DVEs" : pending.md
@@ -76,6 +76,7 @@ nav:
    - "Real Time GetData" : chapter06_create_rto_based_graphics/2114450932_realtime_getdata_tutorial.md
    - "Real Time ReQuery" : chapter06_create_rto_based_graphics/2114457656_realtime_requery_tutorial.md
    - "Real Time Pull" : chapter06_create_rto_based_graphics/202204272022_realtime_pull_data_tutorial.md
+   - "Tutorial Real Time Pull Requery" : chapter06_create_rto_based_graphics/tut_realtime_pull_requery/202210280919_tut_realtime_pull_requery.md
    - "Real Time Clocks and Timers" : chapter06_create_rto_based_graphics/2114465112_creation_real_time_clocks_timers_howto.md
    - "Custom Variables" : chapter06_create_rto_based_graphics/tut_versio_graphics_variables/202207191158_tut_versio_graphics_variables.md
    - "Real Time Vectors & Masks" : chapter06_create_rto_based_graphics/ref_realtime_vector_shapes_masks/202210270848_ref_realtime_vector_shapes_masks.md
