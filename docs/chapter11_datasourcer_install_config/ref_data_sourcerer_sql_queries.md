@@ -1,5 +1,11 @@
+---
+tags:
+  - data sourcerer
+  - reference
+  - sql
+---
 <!--
-Title : adv_data_sourcerer
+Title : ref_data_sourcerer_custom_sql_queries
 - Created : 2022-10-29
 - Updated :
 - Author : Matt Campbell
@@ -9,11 +15,15 @@ Title : adv_data_sourcerer
 - Tags : 
 -->
 
-## Advanced Data Sourcerer 
+!!! info "Article Updated"
+    Fri 28 Oct 2022 18:30:39 BST
+
+# Advanced Data Sourcerer 
 Data Sourcerer can do more than aggregate and pull down data sources. 
 
-### Preview SQL Source
+## Preview SQL Source
 A preview SQL source is a powerful tool that allows users to run custom SQL queries on an exising data source. Examples of this feature could be used to:
+
 - Perform caclulations on data and create additional tables with new strings and values
 - Check values of multiple tables and create values based on importance/presence
 - Handle NULLs from XML Profider as blank data (current bug https://imaginecommunications.atlassian.net/browse/VPLAY-8072)
@@ -56,15 +66,24 @@ $Query = "SELECT *, YOUR QUERY FROM OrginDataSource;"
 - NewSourceName = Name of the new SQL Preview source you would like to create.
 - ParentSourceName = Existing Data Sourcerer source you have already created.
     - The new source will contain all the tables from the existing source, plus any new tables created by your query.
-    - !!! tip: When creating data sources, avoid "dashes" and special characters in the name of the source.
-- Query = This is where you can input your query to do something awesome.
- - !!! tip: Use SQLLite Queries and formatting
 
-#### Query Examples
+!!! tip
+    When creating data sources, avoid "dashes" and special characters in the name of the source.
+
+- Query = This is where you can input your query to do something awesome.
+
+!!! tip
+    Use SQLLite Queries and formatting
+
+### Query Examples
+
 - Insert empty strings if NULL
-    - SELECT *, ifnull(ExistingTableName1, '') as NewName1, ifnull(ExistingTableName2, '') as NewName2 from OrginDataSource;" 
+
+`SELECT *, ifnull(ExistingTableName1, '') as NewName1, ifnull(ExistingTableName2, '') as NewName2 from OrginDataSource;" `
+
 - Detect if there are values in tables and display the most important value from left to right. The user case is if there was a partciular value, they would display that value first. If missing, display the next value, else, display the final value. This would work if the values were all populated or empty.
-    - SELECT TableName,COALESCE(NULLIF(TableName1,''),NULLIF(TableName2,''),NULLIF(TableName3,'')) NewTableName FROM OrginDataSource"
+
+`SELECT TableName,COALESCE(NULLIF(TableName1,''),NULLIF(TableName2,''),NULLIF(TableName3,'')) NewTableName FROM OrginDataSource"`
 
 6. Run the Create .PS completed in step 3
 7. Run the start-pull command on the new source
