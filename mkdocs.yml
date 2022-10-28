@@ -66,7 +66,7 @@ nav:
    - "What is CTC?" : chapter05_create_ctc_based_graphics/2093968193_what_is_ctc_explanation.md
    - "CTC Cheat Sheet" : chapter05_create_ctc_based_graphics/2093970347_ctc_cheat_sheet_reference.md
    - "Create CTC Graphics" : chapter05_create_ctc_based_graphics/2094000644_create_ctc_create_ctc_graphics_howto.md
-   - "Tutorial CTC Basic" :chapter05_create_ctc_based_graphics/tut_create_ctc_bug_promo/202210280814_tut_create_ctc_bug_promo.md
+   - "Tutorial CTC Basic" : chapter05_create_ctc_based_graphics/tut_create_ctc_bug_promo/202210280814_tut_create_ctc_bug_promo.md
  - Chapter 6 - RTO Based Graphics :
    - "What is Real Time?" : chapter06_create_rto_based_graphics/2101008531_what_is_a_real_time_object_explanation.md
    - "Understanding Real Time" : chapter06_create_rto_based_graphics/2101068464_rt_graphic_understanding_tutorial.md
