@@ -24,7 +24,7 @@ Title : tut_realtime_pull_requery
 
 In this tutorial we are going to implement the real time pull and requery actions that we learnt from the previous session. In this session you will require the following:
 
-- [NewsDS_Lwr3rd_2210_Edit.aep](../../downloads/202210280919_tut_realtime_pull_requery/NewsDS_Lwr3rd_2210_Edit.aep)
+- [NewsDS_Lwr3rd_2210_Edit.aep](../../downloads/202210280919_tut_realtime_pull_requery/Realtime_pull_requery_AEP.zip)
 
 !!! tip 
     Try not to use this example in the session, but rather build your own real time text pull and requery. You can use this example if you get stuck and use it for reference. But you need to start creating theses items, real time layers, comp markers for CTC on your own - **LEARN BY DOING!**
