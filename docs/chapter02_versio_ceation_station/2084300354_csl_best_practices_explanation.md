@@ -22,7 +22,8 @@ The Versio Playout server hosts the graphical layouts on SSDs.
 ## Video Files 
 Usually  the  content  being  ingested  already  has  its  frame rate  set,  in  which  case no  change should  be necessary. 
 
-> Note that  the  broadcast  standards  for  each  region  should  also  be  considered.  Ex. PAL countries  would  expect  25  or 50,  and  NTSC  countries  29.97 or 59.94. 
+!!! note
+    The  broadcast  standards  for  each  region  should  also  be  considered.  Ex. PAL countries  would  expect  25  or 50,  and  NTSC  countries  29.97 or 59.94. 
 
 ### Field Order 
 We recommend the  following  field order  settings  when creating  interlaced  video  clips: 
