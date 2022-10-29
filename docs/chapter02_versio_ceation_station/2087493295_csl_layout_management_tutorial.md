@@ -1,3 +1,9 @@
+---
+tags:
+  - creation station
+  - layouts
+---
+
 <!--
 Title : 2087493295_csl_layout_management_tutorial
 
@@ -10,7 +16,9 @@ Title : 2087493295_csl_layout_management_tutorial
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
-
+!!! info "Article updated"
+    Sat 29 Oct 2022 18:29:55 BST
+    
 # CSL Layout Management Tutorial 
 A quick tutorial on how to perform certain tasks with layouts on the CSL. 
  
@@ -119,8 +127,8 @@ Drag the layout object up or down in the Objects list to set the z-order. The li
 
 ![](attachments/Pasted%20image%2020211230171345.png)
 
- ### Publish Layouts
- If you are using a CSL as part of a Versio Platform system you can follow these steps:
+### Publish Layouts
+If you are using a CSL as part of a Versio Platform system you can follow these steps:
  
 1.  Switch to the Layouts tab.
 2. Locate the layout that you want to publish in the list. Use the Search field at the top of the Layouts tab to filter the layout names by letter and number.
