@@ -1,3 +1,10 @@
+---
+tags:
+  - creation station 
+  - objects
+  - layouts
+---
+
 <!--
 Title : 2089386115_add_obects_to_layout_howto
 
@@ -8,8 +15,11 @@ Title : 2089386115_add_obects_to_layout_howto
 - Sources :
 	- Versio 4.6 System Operations
 - Author Notes :
-- Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+
+!!! info "Article Updated"
+    Sat 29 Oct 2022 18:33:17 BST
+
 
 # How to add objects to layouts
  All layout objects are imported as graphics assets from third-party software, such as Adobe After Effects or Adobe Photoshop.
@@ -26,12 +36,14 @@ Simply open a file explorer and drag and drop the asset onto the new layout work
 
  The object will appear in the workspace, and will also be added to the Objects list.
  
- >  Note: If your layout already contains an object with the same name, then you are prompted whether you want to replace the existing object or add a new copy of it. This will happen even if the objects are different versions of an asset, allowing you to update objects in a layout with new versions without needing to re-create the layout.
+!!! note
+   If your layout already contains an object with the same name, then you are prompted whether you want to replace the existing object or add a new copy of it. This will happen even if the objects are different versions of an asset, allowing you to update objects in a layout with new versions without needing to re-create the layout.
 
 ## Placement
 Use your mouse to position the object where you want it displayed in the workspace.![](attachments/2021-12-31%2012.34.11.gif)
 
->  Note: Audio objects are not positioned in the workspace. They only appear in the Objects list.
+!!! note
+    Audio objects are not positioned in the workspace. They only appear in the Objects list.
 
 For exact placement, select the object and use the Info tab's Properties > X-Coordinate and Y- Coordinate fields. Once you have this set you can also lock the position.
 
@@ -61,17 +73,21 @@ Replace the object in the workspace, you will be prompted if you want to replace
 
 ![](attachments/2022-01-07%2017.25.48.gif)
 
-> Note the macro, properties and other items you have already set will remain... Phew!
+!!! note
+    Note the macro, properties and other items you have already set will remain... Phew!
 
 
 ## Resize Object
 Select an object, navigate to the info tab and click on resize to review the options. 
 - off - no resize params applied 
 - crop - crop the item to the current object size
+
 ![](attachments/2021-12-31%2013.02.33.gif)
 
 - scale - scale the object and maintain aspect or not
+
 ![](attachments/2021-12-31%2013.00.54.gif)
+
 ## Audio Objects
 Audio objects do not appear in your workspace, but they are available in the Objects list. You can add them to macros like any other object, and you can also edit their properties.
 ![](attachments/2021-12-31%2013.09.07.gif)
