@@ -1,3 +1,9 @@
+---
+tags:
+  - creation station 
+  - branded ++
+---
+
 <!--
 Title : 2100987628_csl_branded++_explanation
 
@@ -9,6 +15,8 @@ Title : 2100987628_csl_branded++_explanation
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+!!! info "Article Updated"
+    Sat 29 Oct 2022 18:37:23 BST
 
 # Branded ++
 If the Versio system's playback mode is set to Branded++ you can assign individual layout objects to play on channel 1, channel 2, or both channels.
@@ -27,7 +35,8 @@ Use the Canvas Preview menu to only view the objects in the workspace that are s
 
 ![](attachments/Pasted%20image%2020220104112234.png)
 
-> Note: When you publish the layout to the Versio Platform system, the channel assignments are saved and published with the layout.
+!!! note
+    When you publish the layout to the Versio Platform system, the channel assignments are saved and published with the layout.
 
-
-> Note: The Canvas Preview menu selection does not affect playout.
+!!! note
+    The Canvas Preview menu selection does not affect playout.
