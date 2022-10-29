@@ -1,3 +1,9 @@
+---
+tags:
+  - creation station 
+  - realtime
+---
+
 <!--
 Title : 2093313703_csl_realtime_content_tutorial
 
@@ -10,6 +16,8 @@ Title : 2093313703_csl_realtime_content_tutorial
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+!!! info "Article Updated"
+    Sat 29 Oct 2022 18:44:31 BST
 
 # Real Time Content
  Objects created in After Effects can contain Real Time content. See the module in Chapter 6 for real time graphics. 
@@ -23,9 +31,11 @@ Title : 2093313703_csl_realtime_content_tutorial
 
 Use the fields to update the Real Time content. The next time the layout is output, the updated content displays.
 
-> Note: After editing a field, you must click outside of the Real Time Tags panel in order to finalize your changes.
+!!! note
+    After editing a field, you must click outside of the Real Time Tags panel in order to finalize your changes.
 
-> Note: If the layout is currently being output and it is not paused, the content will update on-air. Variables which change their values during playback, however, will not update automatically on-air.
+!!! warning
+    If the layout is currently being output and it is not paused, the content will update on-air. Variables which change their values during playback, however, will not update automatically on-air.
 
 ![](attachments/2022-01-03%2010.29.31.gif)
 
@@ -34,7 +44,8 @@ Use the fields to update the Real Time content. The next time the layout is outp
 
 If your Real Time content includes a network path to an image or clip file, edit the path to change the file that is used.
 
-> Note the path to the asset should be reachable from the CSL and also the Versio Playout Server. 
+!!! note
+    The path to the asset should be reachable from the CSL and also the Versio Playout Server. 
 
 1. Select the object that contains Real Time content in your layout.
 2. Switch to the Info tab and expand the Real Time Tags heading.
@@ -42,9 +53,10 @@ If your Real Time content includes a network path to an image or clip file, edit
 
  The next time the layout is output, the updated content displays.
 
- >   Note: You can use either MOV files or image files.
+!!! note
+    You can use either MOV files or image files.
 
- ![](attachments/Pasted%20image%2020220103104054.png)
+![](attachments/Pasted%20image%2020220103104054.png)
 
 ![](attachments/2022-01-03%2010.58.37.gif)
 
@@ -62,7 +74,8 @@ Dynamic variables consist of
 - A "variable" such as title, date, or time. This determines which piece of event metadata is used during playback
 - A "context" such as now, next, or later. This determines which event in the playlist is queried for its metadata during playback, in relation to the event that the layout is attached to.
 
->  Note: Within Versio Platform, each dynamic variable is identified by its context and its variable enclosed in two curly braces, such as "{{next.date}}".
+!!! info
+    Within Versio Platform, each dynamic variable is identified by its context and its variable enclosed in two curly braces, such as "{{next.date}}".
 
  
  - Your layout might contain a Real Time tag called "Coming Up Next," containing the dynamic variable "{{next.title}}".
@@ -76,7 +89,8 @@ If, in the above example, you replaced the "Pirates and Kings" clip with one cal
 - Select the object that contains Real Time content in your layout.
 - Switch to the Info tab and expand the Real Time Tags heading.
 
-> Note: You can type a dynamic variable into the tag if you wish (for example, {{next.date}}), or you can continue with the steps below to generate the variable with the Data Sources window.
+!!! info
+    You can type a dynamic variable into the tag if you wish (for example, {{next.date}}), or you can continue with the steps below to generate the variable with the Data Sources window.
     
 - Click on the Storage icon ( ) beside the tag you'd like to edit. The Data Sources window opens.
 - Ensure you are on the Variables tab.
@@ -92,7 +106,8 @@ In the Select Variable list, select the metadata that will be used to fill the v
 
 You can select the standard variables that come with Versio Platform, as well as any custom data you have defined. See Managing Custom Data (Admin) (on page 207) to learn how to manage custom data in Content Portal.
 
-> Note :  The AMPM variable will show "AM" or "PM" depending on the starting time of the event.
+!!! note
+    The AMPM variable will show "AM" or "PM" depending on the starting time of the event.
 
  - Click Apply. 
  
@@ -107,7 +122,9 @@ This requires you to manually enter and/or edit the Real Time tags, instead of o
 
 ## Connect to External Data Sources
  You can also set Real Time content to gather data from external data sources.
- >  Note: Before you can access external data sources within the Graphics module, you must set up and configure the Data Sourcerer application.
+
+!!! info
+    Before you can access external data sources within the Graphics module, you must set up and configure the Data Sourcerer application.
 
 - Select the object that contains Real Time content in your layout.
 - Switch to the Info tab and expand the Real Time Tags heading.
