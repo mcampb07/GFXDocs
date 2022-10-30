@@ -1,3 +1,10 @@
+---
+tags:
+  - dev
+  - how to
+---
+
+
 <!--
 Title : 2122916070_build_dve_howto
 
@@ -11,12 +18,16 @@ Title : 2122916070_build_dve_howto
 -->
 
 # How to build a DVE
+
 In After Effects  create a composition to match your output framerate. 
-> Note compositions can be cropped or full screen. Plus remember to trim composition timelines to work area. 
 
-> Note Scripts parse the entire timeline and not just the time ruler.
+!!! note
+    Compositions can be cropped or full screen. Plus remember to trim composition timelines to work area. 
 
- ## CTC 
+!!! info
+    Scripts parse the entire timeline and not just the time ruler.
+
+## CTC 
  You will have covered CTC - Triggers in a  previous chapter. We are going to be using some again in this project. 
 
  - Firetrigger - Ability to fire a trigger from within a MOV
@@ -27,6 +38,7 @@ In After Effects  create a composition to match your output framerate.
 	 - Change the DVE z-order (Source A, Source B, GFX)
 
 ## DVE Script
+
 In previous chapters we have covered the use of Scripts with Real Time objects.  Those scripts reviewed the composition and worked on those layers that had a label of a certain syntax, Realtime, Time, Scroll.
 
 The DVE script does not use a label, insteaad the layer is going to be called either:
@@ -37,11 +49,14 @@ You must use that to name the layers.
 ![](attachments/Pasted%20image%2020220108213258.png)
 
 ## Build - Single DVE
+
 Enough waffle - lets build.  In the comp add 2 new solids, give them differing colors, this will help later.  Name 1 sold `DVE A` and the other `DVE B`
 
-> I know we are building a single DVE, so why do we have 2 solids A & B?  the Versio Graphics engine on playout needs to understand that there are A & B, even though we are going to perform a single DVE.  
+!!! tip
+    I know we are building a single DVE, so why do we have 2 solids A & B?  the Versio Graphics engine on playout needs to understand that there are A & B, even though we are going to perform a single DVE.  
 
-> Note DVE A and DVE B are the names that are listed in the Zenium blueprint found on your Versio - hence the names we use here.
+!!! note
+    DVE A and DVE B are the names that are listed in the Zenium blueprint found on your Versio - hence the names we use here.
 
 In your composition make sure A is over B - that is default state on the Versio.
 
@@ -54,7 +69,8 @@ Next we want to move onto creating the animation.
 - Go forward so many frames in the timeline
 - Position the solid
 
-> Note you can play with - position, scale, roatation and opacity
+!!! note
+    You can play with - position, scale, roatation and opacity
 
 - Add a pause comp marker a few frames after the animation
 - After the pause comp start build your aniimation back out
@@ -77,7 +93,8 @@ But then I have to manage the Z-Order and that is always going to be complicated
 
 Instead we are going to use an image with a mask.  So we are going to place the graphic on top of the DVE. 
 
-> Note it is best practice to keep the graphics on top if you can, like bugs etc, it really does help. 
+!!! note
+    It is best practice to keep the graphics on top if you can, like bugs etc, it really does help. 
 
 So we are going to have this layering, graphics on top of the dve a and b. 
 ![](attachments/Pasted%20image%2020220110113552.png)
@@ -89,7 +106,8 @@ Make the rectangle the same size as your output, in this example it is 1920 * 10
 
 ![](attachments/Pasted%20image%2020220110114517.png)
 
-> Tip have snapping on
+!!! tip
+    have snapping on
 
 Then we want to take the keyframes from `dve a` and copy then to the new shape layer. 
 
@@ -119,14 +137,4 @@ Ok so we have the `dve a` and `dve b` plus the mask and image/mov of the promo /
 	- add new command - fire trigger whatever the trigger resume was on the unpause of the squeeze out.  
 
 Preview is not possible on the CSL. You will need a zenium based system to review the dve on out put. 
-
- 
-
-
-
-
-
-
-
-
 
