@@ -1,3 +1,11 @@
+--- 
+tags:
+  - realtime
+  - requery
+  - pull
+  - get data
+---
+
 <!--
 Title : 2114457656_realtime_requery_tutorial
 
@@ -9,6 +17,7 @@ Title : 2114457656_realtime_requery_tutorial
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+!!! info "Article Updated"
 
 # Real Time Requery
 I have moved the data update to frame 20 and added another update at frame 50. So we will display 2 records in the field before we loop.  
