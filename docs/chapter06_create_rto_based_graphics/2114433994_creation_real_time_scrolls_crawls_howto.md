@@ -59,7 +59,8 @@ When the scroll is played within Versio Platform, the scroll items will be space
 
 ![](attachments/Pasted%20image%2020220104154051.png)
 
-> Note: The above examples show a roll that moves from bottom to top and a crawl that moves from right to left. Rolls and crawls can move in the opposite directions if desired.
+!!! note
+    The above examples show a roll that moves from bottom to top and a crawl that moves from right to left. Rolls and crawls can move in the opposite directions if desired.
 
 ### Direction 
 Animate the leading rectangle to set the direction and speed of the scroll.
@@ -112,9 +113,11 @@ IconStaion is talking to Data Sourcerer to fetch all that external data. What is
 ![](attachments/Pasted%20image%2020220104182346.png)
 ![](attachments/Pasted%20image%2020220104182417.png)
 
-> Note a loop will just play out the same data that has already been captured from Data Sourcerer and displayed. If we want new data, then we will have to add in a `pull` into the comp as another xmp marker to pull new data from the data sourcerer. 
+!!! note
+    Note a loop will just play out the same data that has already been captured from Data Sourcerer and displayed. If we want new data, then we will have to add in a `pull` into the comp as another xmp marker to pull new data from the data sourcerer. 
 
-> Wireshark capture string - host 172.16.1.120  && port 6474 on the ethernet adapter used.
+!!! info
+    Wireshark capture string - host 172.16.1.120  && port 6474 on the ethernet adapter used.
 
 ### Multiple Crawls
 It is possible to have multiple crawls in the same composition.  Plus have them linked to differing data sources.  
