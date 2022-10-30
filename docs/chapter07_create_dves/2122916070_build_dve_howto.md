@@ -16,6 +16,8 @@ Title : 2122916070_build_dve_howto
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+!!! info "Article Updated"
+    Sun 30 Oct 2022 20:47:24 IST
 
 # How to build a DVE
 
