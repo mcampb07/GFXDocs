@@ -1,3 +1,9 @@
+---
+tags:
+  - expressions 
+  - width
+---
+
 <!--
 Title : tut_dynamic_text_width
 - Created : 2022-07-20
@@ -8,7 +14,8 @@ Title : tut_dynamic_text_width
 - Author Notes :
 - Tags : 
 -->
-
+!!! info "Article Updated"
+    Sun 30 Oct 2022 21:03:06 IST
 
 # After Effects Expresssion - Dynamic Width
 
@@ -36,8 +43,8 @@ So we have a huge number of Real Time Objects,  Masks, Shapes and Text layers. T
 
 ## Expression review
 
-> Tip - we can see all key frames in a comp by using the `u` key and we and all use a quick double tap of the `e` key to view all expressions in a comp, nice.
-
+!!! tip
+    we can see all key frames in a comp by using the `u` key and we and all use a quick double tap of the `e` key to view all expressions in a comp, nice.
 
 Null layer
 
