@@ -1,3 +1,11 @@
+---
+tags:
+  - realtime
+  - get data
+  - pull
+  - requery
+---
+
 <!--
 Title : 2114450932_realtime_getdata_tutorial
 
@@ -9,6 +17,8 @@ Title : 2114450932_realtime_getdata_tutorial
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+!!! info "Article Updated"
+    Sun 30 Oct 2022 19:12:23 IST
 
 # Real Time GetData 
 `getdata` is another xmp marker that we can use in the comp of AE project. So lets have an RT field grab another data source set on every loop. Before we do that lets see the non loop, non getdata example. 
