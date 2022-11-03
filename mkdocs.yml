@@ -89,7 +89,7 @@ nav:
    - "Versio DVEs" : chapter07_create_dves/2122905693_dve_explanation.md
    - "DVE Creation Tutorial" : chapter07_create_dves/2122915384_dve_creation_understanding_tutorial.md
    - "DVE Creation How To" : chapter07_create_dves/2122916070_build_dve_howto.md
-   - "DVE Creation Real Time Mask" chapter07_create_dves/tut_dve_inverted_track_matte_mask_realtime_png/202211012239_tut_dve_inverted_track_matte_mask_realtime_png.md
+   - "DVE Creation Real Time Mask" : chapter07_create_dves/tut_dve_inverted_track_matte_mask_realtime_png/202211012239_tut_dve_inverted_track_matte_mask_realtime_png.md
  - Chapter 8 - After Effects & Expressions :
    - "Learn Expressions" : chapter08_graphics_with_expressions/ref_expressions_after_effects_external_training/202207201155_ref_expressions_after_effects_external_training.md
    - "Example Expressions" : chapter08_graphics_with_expressions/202204282041_adobe_after_effects_expressions_reference.md
@@ -109,6 +109,7 @@ nav:
    - "About Data Sourcerer" : chapter11_datasourcer_install_config/exp_data_sourcerer/202207190825_exp_data_sourcerer.md
    - "Data Sourcer Install" : chapter11_datasourcer_install_config/tut_data_sourcerer_install/202207190834_tut_data_sourcerer_install.md
    - "Data Sourcerer Management" : chapter11_datasourcer_install_config/how_data_sourcerer_management/202206071553_how_data_sourcerer_management.md
+   - "Data Sourcerer SQL Reference" : chapter11_datasourcer_install_config/ref_sql_source_walkthrough/202211031401_ref_sql_source_walkthrough.md
    - "Advanced Data Sourcerer" : chapter11_datasourcer_install_config/ref_data_sourcerer_sql_queries.md
  - Chapter 12 - Nested Compositions :
    - "About Nested Compositions" : pending.md
