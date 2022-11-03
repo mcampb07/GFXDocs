@@ -89,6 +89,7 @@ nav:
    - "Versio DVEs" : chapter07_create_dves/2122905693_dve_explanation.md
    - "DVE Creation Tutorial" : chapter07_create_dves/2122915384_dve_creation_understanding_tutorial.md
    - "DVE Creation How To" : chapter07_create_dves/2122916070_build_dve_howto.md
+   - "DVE Creation Real Time Mask" chapter07_create_dves/tut_dve_inverted_track_matte_mask_realtime_png/202211012239_tut_dve_inverted_track_matte_mask_realtime_png.md
  - Chapter 8 - After Effects & Expressions :
    - "Learn Expressions" : chapter08_graphics_with_expressions/ref_expressions_after_effects_external_training/202207201155_ref_expressions_after_effects_external_training.md
    - "Example Expressions" : chapter08_graphics_with_expressions/202204282041_adobe_after_effects_expressions_reference.md
