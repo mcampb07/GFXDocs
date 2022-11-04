@@ -18,7 +18,7 @@ Title : ref_data_sourcerer_custom_sql_queries
 !!! info "Article Updated"
     Fri 28 Oct 2022 18:30:39 BST
 
-# Advanced Data Sourcerer 
+# Advanced SQL Data Sourcerer 
 Data Sourcerer can do more than aggregate and pull down data sources. The following are some advanced methods of using data sourcerer.  
 
 ## Preview SQL Source
