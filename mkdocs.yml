@@ -55,7 +55,8 @@ nav:
    - "CSL Layout Z-Order" : chapter02_versio_ceation_station/tut_layout_z-order/202207181848_tut_layout_z-order.md
    - "CSL Targets" : chapter02_versio_ceation_station/ref_creation_station_target_selection/202210271049_ref_creation_station_target_selection.md
    - "CSL Publish & Export " : chapter02_versio_ceation_station/ref_publish_layouts_direct_to_db_or_network_path/202210271112_ref_publish_layouts_direct_to_db_or_network_path.md
-#- Chapter 3 - Operations (NA) :
+ - Chapter 3 - Operations  :
+   - "ADC - ProgSalvo" : chapter03_automation_and_graphics/adc_automation/ref_prog_salvo/202211070722_ref_prog_salvo.md
  - Chapter 4 - After Effects :
    - "After Effects Set Up" : chapter04_getting_started_with_adobe_after_effects/2093924623_setup_after_effects_tutorial.md
    - "After Effects Trim Comps" : chapter04_getting_started_with_adobe_after_effects/202204281936_after_effect_trim_comps_tutorial.md
