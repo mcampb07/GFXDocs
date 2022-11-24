@@ -1,3 +1,9 @@
+---
+tags:
+  - expressions
+  - reference
+---
+
 <!--
 Title : ref_expressions_after_effects_external_training
 - Created : 2022-07-20
@@ -8,7 +14,8 @@ Title : ref_expressions_after_effects_external_training
 - Author Notes :
 - Tags : 
 -->
-
+!!! info "Article Updated"
+    Sun 30 Oct 2022 20:55:26 IST
 
 # After Effects External Training Materials for Expressions
 

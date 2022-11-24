@@ -1,3 +1,9 @@
+--- 
+tags:
+  - creation station 
+  - z-order
+---
+
 <!--
 Title : tut_layout_z-order
 - Created : 2022-07-18
@@ -9,6 +15,8 @@ Title : tut_layout_z-order
 - Tags : 
 -->
 
+!!! info "Article Updated"
+    Sat 29 Oct 2022 18:39:28 BST
 
 # Layout Z-Order
 
@@ -29,5 +37,6 @@ Anytime this layout is manually added to the scheudle it will inherit the prefer
 
 ![07-18_190032.png](attachments/2022-07-18_190032.png)
 
-> Note that if you schedule for the layout to be aired on layer 9, not the preferred layer it will air on layer 9. - Schedule wins!
+!!! note
+    Note that if you schedule for the layout to be aired on layer 9, not the preferred layer it will air on layer 9. - Schedule wins!
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - dve
+  - tutorial
+---
+
 <!--
 Title : 2122915384_dve_creation_understanding_tutorial
 
@@ -9,20 +15,23 @@ Title : 2122915384_dve_creation_understanding_tutorial
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+!!! info "Article Updated"
+    Sun 30 Oct 2022 20:35:33 IST
+
 # DVE Creation Understanding
 Before you get to the creation of how to build a DVE we need to go over some of the overall elements here, with Versio, IconStation etc... 
 
 ## Animations in Versio 
 - Animations are linear, controllable and can be variable durations
 - Animations can be one and done(fixed duration)
+
 ![](attachments/Pasted%20image%2020220108203458.png)
 
----
 
 - Animations support 3 and 4 point loops
+
 ![](attachments/Pasted%20image%2020220108203518.png)
 
----
 
 - DVE effect that squeezes in Pauses with static background
 - DVE effect that squeezes in and has a looping background
@@ -32,7 +41,7 @@ Before you get to the creation of how to build a DVE we need to go over some of 
 
 ![](attachments/Pasted%20image%2020220108203711.png)
 
----
+
 ## Z-Order
 - Within an MOV there is a semi-fixed hierarch
 	- TOP:     Real Time Graphics elements with their composition z-index

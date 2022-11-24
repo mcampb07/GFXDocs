@@ -1,3 +1,9 @@
+---
+tags:
+  - expressions
+  - reference
+---
+
 <!--
 Title : 202204282041_adobe_after_effects_expressions_reference
 - Created : 2022-04-15 11:10
@@ -8,20 +14,29 @@ Title : 202204282041_adobe_after_effects_expressions_reference
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+!!! info "Article Updated"
+    Sun 30 Oct 2022 20:57:16 IST
+
 # Adobe After Effects Scripts - Expressions
 
 ## Sample Scripts
 
-**TIPS**
+!!! tip 
+    For leading to be applied to text, run Imagine Script with two lines of text (not from an expression - use an actual break)
 
-- For leading to be applied to text, run Imagine Script with two lines of text (not from an expression - use an actual break)
-- All Adobe Extend Scripting may not be supported, there may be ways of doing things using JavaScript that will also work in After Effects
-- Tracks must be at frame 0 for real time object.
-- Expressions on nested nulls may not work
+!!! warning 
+    All Adobe Extend Scripting may not be supported, there may be ways of doing things using JavaScript that will also work in After Effects
 
-### WRAP TEXT BASED ON CHARACTER COUNT
+!!! warning
+    Tracks must be at frame 0 for real time object.
+
+!!! warning 
+    Expressions on nested nulls may not work
+
+### Wrap Text Based on Character Count
 
 Versio does not support paragraph text objects. To get around this, use a wrapping expression on the sourceText of a text object. Allows you to set the number of characters. This will insert a break after a whole word and attempts to avoid orphan words.
+
 ```json
 line = 22;
 
@@ -58,7 +73,7 @@ else{
 }
 ```
 
-### COUNT THE NUMBER OF LINES IN A TEXT OBJECT
+### Count the Number of Lines on a Text Object
 
 This is a great little expression to get a value for if statements if you need to move objects based on the number of lines of text.
 
@@ -82,7 +97,7 @@ Example: if there are 2 lines move the object up 100px:
 
 ```
 
-### SET A MINIMUM OR MAXIMUM VALUE
+### Set a Minimum and Maximum Value
 
 Let’s say you have and object that you want to scale but you want to set a minimum and maximum size. You have a variable that calculates the width but it could go higher than what you want and need to force some constraints.
 
@@ -96,7 +111,7 @@ Math.min(Math.max(YourValue, 0), 10);
 ```
 The above would have a minimum value of 0 and a max value of 10.
 
-### STRINGS TO INTERGER
+### Strings to Integer
 
 There may be times you want a real time text object to be used as variable for transformations or calculations. To do this, you will need to convert the string value to an INT. Example: you may want to expose X/Y coordinates to the operator to move a graphic.
 
@@ -105,7 +120,7 @@ parseint(Value)
 toString(Value)
 ```
 
-### FOLLOW
+### Follow
 
 There are many times where you want an object to follow another text object as a locator where it always appears on the Right. To do this, we need to get the length of the text object and add some space.
 
@@ -125,7 +140,7 @@ Example:
 
 ```
 
-### INSERT A BREAK ON A SPECIAL CHARACTER
+### Insert a Break on a Special Character
 
 There may be times when the customer is passing in a special character where they would like to insert a break or specific text.
 
@@ -133,7 +148,7 @@ There may be times when the customer is passing in a special character where the
 text.sourceText.replace(/: /gi, ":"+"\n")
 ```
 
-### SCALE TEXT BASED ON THE NUMBER OF LINES
+### Scale Text Based on the Number of Lines
 
 The designer may want to scale text based on the number of lines. If you are wrapping text based on a specific character count, the character count will remain the same but the text can get smaller. In this example, I would set the text to use a larger font size for smaller text.  I set the maximum line length to be 740 pixels. Short text will use a larger font. Once the size reaches 740 it will scale down to fit. In this case, if there are two lines detected it will use a fixed scale size.
 
@@ -155,7 +170,7 @@ layerWidth = thisLayer.sourceRectAtTime(0).width;
 
 ```
 
-### FIND THE LONGEST OBJECT
+### Find the Longest Object
 
 There are times when I need to change the scene based on the longest object between many.
 ```json
@@ -169,7 +184,7 @@ P1 = thisComp.layer("Page 1").sourceRectAtTime().width;
 	P4 = thisComp.layer("Page 4").sourceRectAtTime().width;
 	longest = Math.max(P1,P2,P3,P4);
 ```
-### LINEAR OR EASE ANIMATION
+### Linear or Ease Animation
 
 If you need to animate based on dynamic values you can use a linear or ease animation. When animating using expressions, it is over a fixed amount of time.
 

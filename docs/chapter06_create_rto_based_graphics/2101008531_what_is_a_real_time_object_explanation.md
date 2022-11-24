@@ -1,3 +1,9 @@
+---
+tags:
+  - realtime
+  - explain
+---
+
 <!--
 Title : 2101008531_what_is_an_rto_explanation
 
@@ -12,10 +18,14 @@ Title : 2101008531_what_is_an_rto_explanation
 - Author Notes :
 - Tags : [!versio_graphics_moc](../../!versio_graphics_moc.md)
 -->
+!!! info "Article Updated"
+    Sun 30 Oct 2022 19:01:44 IST
+
 # RealTime Objects
 Real Time (RT) enables you to update text and other content in your After Effects MOV files in Versio Platform. When you update the content in Versio Platform, the animation’s content updates before going to air.
 
-> Note: You can use RT content in combination with your CTC animations. For details about CTC animations, see Content Triggering Content
+!!! note
+    You can use RT content in combination with your CTC animations. For details about CTC animations, see Content Triggering Content
 
 ## RealTime Rules 
 

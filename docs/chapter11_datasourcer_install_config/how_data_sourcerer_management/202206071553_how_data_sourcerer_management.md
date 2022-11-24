@@ -217,7 +217,204 @@ Walkthrough the txt data collection
 - type - 5 = text
 - path - path to the file from data sourcerer
 
-### Initial Pull from Data Source
+
+### Adding a SQL Source
+
+We need to pull data from a SQL source. This is fairly common as an internal data holding with customers.  What follows are examole powershell scritps to add a SQL source to data sourcerer. 
+
+Add a `new` SQL source 
+
+```ps
+. "$PSScriptRoot\..\Common.ps1"
+. "$PSScriptRoot\Defs.ps1"
+
+try {
+
+    Invoke-RestMethod http://localhost:6474/api/sources `
+        -Method POST `
+        -ContentType "application/json" `
+        -Body `
+@"
+{
+    "name": "Sql",
+    "providerConfiguration": {
+        "type": "sql",
+        "Url": $($Url | ConvertTo-Json),
+   "QueryString" : $($Query | ConvertTo-Json)
+    },
+    "pollingIntervalMs": 10000
+}
+"@
+
+} catch [System.Net.WebException] {
+    Print-ResponseBody $_
+    throw
+}
+```
+#### Get SQL Schema
+
+```ps
+. "$PSScriptRoot\..\Common.ps1"
+
+try {
+
+    $schema = Invoke-RestMethod http://localhost:6474/api/schema/Sql
+
+    foreach ($column in $schema.columns) {
+        Write-Output "$($column.name): $(Get-TypeName $column.type)"
+    }
+
+} catch [System.Net.WebException] {
+    Print-ResponseBody $_
+    throw
+}
+```
+
+#### Definitions PS
+
+```ps
+$DB = "c:\ProgramData\Imagine Communications\Data Sourcerer\test.db"
+
+
+$Url = "sqlite://Data Source=$DB"
+
+#$Url = "sqlserver://Data Source=172.16.30.131;Initial Catalog=QVC;Integrated Security=False;User ID=sa;Password=ImagineDB1;Connect Timeout=1000"
+
+$Query = "SELECT name, price, customer, quantity FROM orders JOIN products ON orders.product_id = products.id;"
+```
+
+#### Delete SQL Source 
+
+```ps
+. "$PSScriptRoot\..\Common.ps1"
+
+try {
+
+    Invoke-RestMethod http://localhost:6474/api/sources/Sql `
+        -Method Delete
+
+} catch [System.Net.WebException] {
+    Print-ResponseBody $_
+    throw
+}
+```
+
+#### Preview SQL Source Data
+
+```ps
+. "$PSScriptRoot\..\Common.ps1"
+. "$PSScriptRoot\Defs.ps1"
+
+try {
+
+    $data = Invoke-RestMethod http://localhost:6474/api/preview/data `
+        -Method POST `
+        -ContentType "application/json" `
+        -Body `
+@"
+{
+    "limit": 5,
+    "providerConfiguration": {
+        "type": "sql",
+        "Url": $($Url | ConvertTo-Json),
+   "QueryString": $($Query | ConvertTo-Json)
+    }
+}
+"@
+
+    foreach ($row in $data) {
+        Write-Output "$($row -join " | ")"
+        Write-Output "---"
+    }
+
+} catch [System.Net.WebException] {
+    Print-ResponseBody $_
+    throw
+}
+```
+
+#### Preview SQL Schema Data 
+
+```ps
+. "$PSScriptRoot\..\Common.ps1"
+. "$PSScriptRoot\Defs.ps1"
+
+try {
+
+    $schema = Invoke-RestMethod http://localhost:6474/api/preview/schema `
+        -Method POST `
+        -ContentType "application/json" `
+        -Body `
+@"
+{
+    "type": "sql",
+    "Url": $($Url | ConvertTo-Json),
+    "QueryString" : $($Query | ConvertTo-Json)
+}
+"@
+
+    foreach ($column in $schema.columns) {
+        Write-Output "$($column.name): $(Get-TypeName $column.type)"
+    }
+
+} catch [System.Net.WebException] {
+    Print-ResponseBody $_
+    throw
+}
+```
+
+#### Query Existing SQL Source added to Data Sourcerer
+
+```ps 
+# The DataSourcerer Query API requires that the datasource is configured and pulling data.
+## See New-SqlSource.ps1 and Start-PullFromSqlSource.ps1 for examples
+
+. "$PSScriptRoot\..\Common.ps1"
+
+try {
+
+    $sql = 'SELECT * FROM "Sql";'
+    $data = Invoke-RestMethod "http://localhost:6474/api/data?q=$sql"
+    
+    foreach ($row in $data) {
+        Write-Output "$($row -join " | ")"
+        Write-Output "---"
+    }
+
+} catch [System.Net.WebException] {
+    Print-ResponseBody $_
+    throw
+}
+```
+
+#### Pull from SQL Source 
+
+The next heading details how to run a pull from a configured source. This entery is the same, just for SQL source 
+
+```ps 
+. "$PSScriptRoot\..\Common.ps1"
+
+try {
+
+    Invoke-RestMethod http://localhost:6474/api/sources/Sql/pull `
+        -Method POST
+
+} catch [System.Net.WebException] {
+    Print-ResponseBody $_
+    throw
+}
+```
+
+#### SQL Sourcer Parent - Sub SQL Data Sources
+
+This is a cleaver approach to pulling from a SQL source, then pulling additional children queries from the local data sourcerer source.
+
+![11-04_235358.png](attachments/2022-11-04_235358.png)
+
+
+
+### Initial Pull from a Data Source
+
 Once the `source` is added, we need to `pull` from that source. You must send a pull request to Data Sourcerer before Versio Platform can use your registered source.
 
 ```shell
@@ -232,6 +429,7 @@ When you run this script, `Data Sourcerer` retrieves the data from the source fi
 Where is this data stored on the core services?  Located on the Core Service instance that you are running the Data Sourcerer we will find the `datasource.db` and the `dataset.db` located at `C:\ProgramData\Imagine Communications\Data Sourcerer`
 
 ### Checking the Data pulled
+
 Either installed an application, like DB Browser for SQL lite - downloaded from https://sqlitebrowser.org/dl/
 ![](attachments/Pasted%20image%2020220608175107.png)
 
