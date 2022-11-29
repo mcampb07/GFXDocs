@@ -55,6 +55,7 @@ nav:
    - "CSL Layout Z-Order" : chapter02_versio_ceation_station/tut_layout_z-order/202207181848_tut_layout_z-order.md
    - "CSL Targets" : chapter02_versio_ceation_station/ref_creation_station_target_selection/202210271049_ref_creation_station_target_selection.md
    - "CSL Publish & Export " : chapter02_versio_ceation_station/ref_publish_layouts_direct_to_db_or_network_path/202210271112_ref_publish_layouts_direct_to_db_or_network_path.md
+   - "CSL 4.7 Install Reference " : chapter02_versio_ceation_station/ref_4.7_creation_station_install/202211291716_ref_4.7_creation_station_install.md
  - Chapter 3 - Operations  :
    - "ADC - ProgSalvo" : chapter03_automation_and_graphics/adc_automation/ref_prog_salvo/202211070722_ref_prog_salvo.md
  - Chapter 4 - After Effects :
